@@ -1,3 +1,5 @@
+package TP1;
+
 /* ya creada la clase, creamos nuestro main (donde se corre el codigo y llamamos a nuestros objetos y metodos */
 public class TP1 {
     public static void main(String[] args) {

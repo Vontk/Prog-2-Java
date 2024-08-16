@@ -1,3 +1,5 @@
+package TP1;
+
 public class TitleCase {
     public static String Title(String input) {
         if (input == null || input.isEmpty()) {
