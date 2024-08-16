@@ -24,9 +24,19 @@ public class Quadratic {
             result.add((-b - (float) Math.sqrt(discriminant))/(2*a));
         } else if (discriminant == 0) {
             result.add(-b/(2*a));
-        } else {
-            return " This polynomial has imaginary roots ";
         }
         return result;
     }
+    public String __str__() {
+        String template = "Y = %f * X^2 + %f * X + %f";
+        return String.format(template, a, b, c);
+    }
+    public Float value_at(float x) {
+        return a * (float) Math.pow(x, x) + b * x + c;
+    }
+    public String derivation() {
+        String template = "Y' = 2 * %f * X + %f";
+        return String.format(template, a, b);
+    }
+
 }

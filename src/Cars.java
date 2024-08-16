@@ -14,8 +14,8 @@ public class Cars {
         return TitleCase.Title(descriptive_name);
     }
     public String read_odometer() {
-        String format = "This car has %d kilometers on it";
-        return String.format(format, car_km);
+        String template = "This car has %d kilometers on it";
+        return String.format(template, car_km);
     }
     public void update_odometer(int new_km) {
         if (new_km > car_km){
