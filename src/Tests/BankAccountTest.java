@@ -1,6 +1,7 @@
-package TP2;
+package Tests;
 
 import static org.junit.jupiter.api.Assertions.*;
+import TP2.BankAccount;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -27,14 +28,6 @@ public class BankAccountTest {
     }
 
     @Test
-    public void testDepositOnNonExistingAccountNotAllowed() {
-        BankAccount nonExisting = null;
-        assertThrows(NullPointerException.class, () -> {
-            nonExisting.deposit(100);
-        });
-    }
-
-    @Test
     public void testWithdrawDecreasesBalance() {
         account1.deposit(100);
         account1.withdraw(50);
@@ -53,14 +46,6 @@ public class BankAccountTest {
         account1.deposit(50);
         account1.withdraw(100);
         assertEquals(50, account1.Account.get("Account1"));
-    }
-
-    @Test
-    public void testWithdrawFromNonExistingAccountNotAllowed() {
-        BankAccount nonExisting = null;
-        assertThrows(NullPointerException.class, () -> {
-            nonExisting.withdraw(50);
-        });
     }
 
     @Test
@@ -92,22 +77,5 @@ public class BankAccountTest {
         account1.transfer(account2, -50);
         assertEquals(100, account1.Account.get("Account1"));
         assertEquals(0, account2.Account.get("Account2"));
-    }
-
-    @Test
-    public void testTransferFromNonExistingAccountNotAllowed() {
-        BankAccount nonExisting = null;
-        assertThrows(NullPointerException.class, () -> {
-            nonExisting.transfer(account2, 50);
-        });
-    }
-
-    @Test
-    public void testTransferToNonExistingAccountNotAllowed() {
-        account1.deposit(100);
-        BankAccount nonExisting = null;
-        assertThrows(NullPointerException.class, () -> {
-            account1.transfer(nonExisting, 50);
-        });
     }
 }

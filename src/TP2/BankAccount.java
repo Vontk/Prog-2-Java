@@ -17,7 +17,7 @@ public class BankAccount {
         }
     }
     public void withdraw(float amount) {
-        if (amount > 0) {
+        if (amount > 0 && this.Account.get(accountName) > amount) {
             float newBalance = this.Account.get(accountName) - amount;
             Account.put(accountName, newBalance);
         }
