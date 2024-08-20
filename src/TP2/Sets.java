@@ -1,9 +1,6 @@
 package TP2;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Set;
-import java.util.Arrays;
+import java.util.*;
 
 public class Sets {
     public static void main(String[] args) {
@@ -15,7 +12,7 @@ public class Sets {
             "prosecco","aperol", "brandy", "mezcal", "triple sec", "coffee liqueur", "almond liqueur", "champagne",
             "orange curacao", "rum"));
 
-    String checkDrinks(String item, ArrayList<String> list) {
+    public static String checkDrinks(String item, List<String> list) {
         String reformat;
         for (int i = 0; i < list.size(); i++) {
             if (ALCOHOLS.contains(list.get(i))) {
