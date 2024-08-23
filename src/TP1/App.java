@@ -36,43 +36,43 @@ public class App {
     // 6. Reverse a String
     public String reverse(String input) {
         StringBuilder string = new StringBuilder();
-        int start = input.length() -1;
-        for (int i = 0; i < input.length(); i++) {
-            string.append(input.charAt(start));
-            start--;
+        for (int i = input.length() -1 ; i >= 0; i--) {
+            string.append(input.charAt(i));
         }
-        return "";
+        return string.toString();
     }
 
     // 7. Check Prime Number
     public boolean isPrime(int number) {
-        if(number >= 1){
+        if(number <= 1){
             return false;
         }
-        for (int i = number; i >= 0; i++){
+        for (int i = number - 1; i > 1; i--){
             if(number % i == 0){
                 return false;
             }
-            return true;
         }
+        return true;
     }
 
     // 8. Find the Smallest Element in an Array
     public int findMin(int[] array) {
+        int min = array[0];
         for (int i = 0; i < array.length; i++) {
-            for (int j = i + 1; j < array.length; j++) {
-                if(array[i] < array[j]){
-                    return
-                }
+            if(array[i] < min){
+                min = array[i];
             }
         }
-        return 0;
+        return min;
     }
 
     // 9. Sum of Elements in an Array
     public int arraySum(int[] array) {
-        // TODO: Implement this method
-        return 0;
+        int sum = 0;
+        for (int i = 0; i < array.length; i++) {
+            sum += array[i];
+        }
+        return sum;
     }
 
     // 10. Convert Celsius to Fahrenheit
