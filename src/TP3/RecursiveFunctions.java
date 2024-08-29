@@ -31,18 +31,15 @@ public class RecursiveFunctions {
         }
     }
     public static int recursiveIndexOfEmpty(List<String> list){
-        return recursiveIndexOfEmptyHelper(list, 1);
-    }
-    public static int recursivePutHelper(String target, List<String> list, int index) {
-        if (recursiveIndexOfEmpty(list) == -1) {
-            return -1;
-        } else {
-            list.set(recursiveIndexOfEmpty(list), target);
-            return recursiveIndexOfEmpty(list);
-        }
+        return recursiveIndexOfEmptyHelper(list, 0);
     }
     public static int recursivePut(String target, List<String> list) {
-        return recursivePutHelper(target, list, 0);
+        int index = recursiveIndexOfEmpty(list);
+        if (index == -1) {
+            return -1;
+        }
+        list.set(index, target);
+        return index;
     }
     public static int recursiveRemoveHelper(String target, List<String> list, int count) {
         if (recursiveIndexOf(list, target) != -1) {
@@ -82,11 +79,11 @@ public class RecursiveFunctions {
         if (exponent == 0) {
             return 1;
         }
-        if (exponent < 0) {
+        if (exponent > 0) {
             return base * recursivePow(base, exponent - 1);
         }
         else {
-            return base;
+            return 1;
         }
     }
     public static int recursiveFibonacci(int n) {

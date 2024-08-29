@@ -1,11 +1,14 @@
 package TP3;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static TP3.RecursiveFunctions.recursiveFibonacci;
+import static TP3.RecursiveFunctions.recursiveIndexOfEmpty;
 
 public class Run {
     public static void main(String[] args) {
-        System.out.println(recursiveFibonacci(1));
-        System.out.println(recursiveFibonacci(2));
-        System.out.println(recursiveFibonacci(3));
+        List<String> list1 = new ArrayList<>(List.of("a", "", "c"));
+        System.out.println(recursiveIndexOfEmpty(list1));
     }
 }
