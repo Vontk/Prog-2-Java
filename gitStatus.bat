@@ -1,11 +1,5 @@
 @echo off
 title Git Status
-
-cd "C:\path\to\your\repository"
-git add .
-git commit -m "Your commit message"
-
-:loop
+cd C:\Users\MPerezMenendez\Desktop\Prog\Prog-2-Java
 git status
 pause
-goto loop
