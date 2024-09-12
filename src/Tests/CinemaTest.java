@@ -1,5 +1,6 @@
 package Tests;
 
+import TP5.Cinema;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

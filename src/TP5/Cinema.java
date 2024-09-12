@@ -1,4 +1,4 @@
-package com.cinema;
+package TP5;
 
 import java.util.ArrayList;
 
