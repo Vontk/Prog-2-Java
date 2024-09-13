@@ -1,9 +1,9 @@
 package Tests;
 
 import TP5.Cinema;
+import TP5.Seat;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 public class CinemaTest {
