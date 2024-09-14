@@ -91,7 +91,7 @@ public class Cinema {
             seats[seat.getRow()][seat.getSeatNumber()+i].takeSeat();
         }
     }
-    
+
     public void releaseSeats(Seat seat, int amount) {
         for (int i = 0; i < amount; i++){
             seats[seat.getRow()][seat.getSeatNumber()+i].releaseSeat();
