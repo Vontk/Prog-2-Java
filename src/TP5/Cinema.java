@@ -6,6 +6,7 @@ public class Cinema {
         seats = new Seat[rows.length][];
         initSeats(rows);
     }
+
     private void initSeats(int[] rows) {
         for (int i = 0; i < rows.length; i++) {
             seats[i] = new Seat[rows[i]];
@@ -16,6 +17,7 @@ public class Cinema {
             }
         }
     }
+
     public int countAvailableSeats() {
         int count = 0;
         // recorre seats, un array de array de Seat, osea que cada elemento que recorra va a ser un array de Seat...
@@ -29,6 +31,7 @@ public class Cinema {
         }
         return count;
     }
+
     public Seat findFirstAvailableSeatInRow(int row) {
         if (row <= seats.length && row >= 0){
             for (Seat seat : seats[row]) {
@@ -50,6 +53,7 @@ public class Cinema {
         }
         return null;
     }
+
     public Seat getAvailableSeatsInRow(int row, int amount) {
         int consecutiveFreeSeats = 0;
         Seat firstFreeSeat = null;
@@ -72,6 +76,7 @@ public class Cinema {
         }
         return null; // no se encontró la secuencia
     }
+
     public Seat getAvailableSeats(int amount) {
         for (int i = 0; i < seats.length; i++){
             if (getAvailableSeatsInRow(i, amount) != null){
@@ -80,11 +85,13 @@ public class Cinema {
         }
         return null;
     }
+
     public void takeSeats(Seat seat, int amount) {
         for (int i = 0; i < amount; i++){
             seats[seat.getRow()][seat.getSeatNumber()+i].takeSeat();
         }
     }
+    
     public void releaseSeats(Seat seat, int amount) {
         for (int i = 0; i < amount; i++){
             seats[seat.getRow()][seat.getSeatNumber()+i].releaseSeat();
