@@ -27,11 +27,22 @@ public class Aerolinea {
         }
         pasajeros.add(new Pasajero(numero, dni));
     }
-    void addVuelo(String trayecto,String horario, int capacidad){
+    public void addVuelo(String trayecto,String horario, int capacidad){
+        Vuelo new_vuelo = new Vuelo(trayecto, horario, capacidad);
         for (int i = 0; i < vuelos.size(); i++){
             Vuelo vuelo = vuelos.get(i);
-            if vuelo.getTrayecto().equals(trayecto) &&
+            if (vuelo.equals(new_vuelo)){
+                new_vuelo = null;
+                return;
+            }
         }
+        vuelos.add(new_vuelo);
+    }
+    public void addReserva(Vuelo vuelo, Pasajero pasajero){
+        if (vuelo.getCapacidad() == vuelo.getCapacidadDisponible()){
+            return;
+        }
+        reservas.add(new Reserva(vuelo, pasajero));
     }
 
 }
