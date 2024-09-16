@@ -5,12 +5,12 @@ public class Vuelo {
     private String horario;
     private final int capacidad;
     private int capacidadDisponible;
-    private final Aerolinea aerolinea;
 
     public Vuelo(String trayecto, String horario, int capacidad) {
         this.trayecto = trayecto;
         this.horario = horario;
         this.capacidad = capacidad;
+        this.capacidadDisponible = capacidad;
     }
 
     public String getTrayecto(){
@@ -28,6 +28,10 @@ public class Vuelo {
         return capacidadDisponible;
     }
 
+    public void setCapacidadDisponible(int capacidadDisponible) {
+        this.capacidadDisponible = capacidadDisponible;
+    }
+
     public String toString(){
         return String.format("%s %s %s", trayecto, horario, capacidadDisponible);
     }
@@ -42,5 +46,4 @@ public class Vuelo {
         }
         return false;
     }
-
 }

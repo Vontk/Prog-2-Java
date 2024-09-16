@@ -7,4 +7,8 @@ public class Reserva {
         this.vuelo = vuelo;
         this.pasajero = pasajero;
     }
+
+    public Vuelo getVuelo() {
+        return vuelo;
+    }
 }

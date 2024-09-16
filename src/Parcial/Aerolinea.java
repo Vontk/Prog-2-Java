@@ -42,7 +42,17 @@ public class Aerolinea {
         if (vuelo.getCapacidad() == vuelo.getCapacidadDisponible()){
             return;
         }
+        vuelo.setCapacidadDisponible(vuelo.getCapacidadDisponible() -1);
         reservas.add(new Reserva(vuelo, pasajero));
     }
+    public void cancelReserva(Reserva reserva){
+        if reservas.contains(reserva){
+            reservas.remove(reserva);
+            Vuelo vuelo;
+            reserva.getVuelo() = vuelo;
+            .setCapacidadDisponible(ge);
+            return;
+        }
 
+    }
 }
