@@ -9,6 +9,24 @@ public class Aerolinea {
     private ArrayList<Reserva> reservas;
 
     public Aerolinea(){
+        ArrayList<Vuelo> vuelos = new ArrayList<>();
+        ArrayList<Pasajero> pasajeros = new ArrayList<>();
+        ArrayList<Reserva> reservas = new ArrayList<>();
+        this.vuelos = vuelos;
+        this.pasajeros = pasajeros;
+        this.reservas = reservas;
+    }
+
+    public ArrayList<Vuelo> getVuelos() {
+        return vuelos;
+    }
+
+    public ArrayList<Pasajero> getPasajeros() {
+        return pasajeros;
+    }
+
+    public ArrayList<Reserva> getReservas() {
+        return reservas;
     }
 
     public void listarVuelos(String trayecto){
@@ -39,20 +57,17 @@ public class Aerolinea {
         vuelos.add(new_vuelo);
     }
     public void addReserva(Vuelo vuelo, Pasajero pasajero){
-        if (vuelo.getCapacidad() == vuelo.getCapacidadDisponible()){
+        if (vuelo.getCapacidadDisponible() <= 0 ){
             return;
         }
         vuelo.setCapacidadDisponible(vuelo.getCapacidadDisponible() -1);
         reservas.add(new Reserva(vuelo, pasajero));
     }
     public void cancelReserva(Reserva reserva){
-        if reservas.contains(reserva){
+        if (reservas.contains(reserva)){
             reservas.remove(reserva);
-            Vuelo vuelo;
-            reserva.getVuelo() = vuelo;
-            .setCapacidadDisponible(ge);
-            return;
+            Vuelo vuelo = reserva.getVuelo();
+            vuelo.setCapacidadDisponible(vuelo.getCapacidadDisponible() +1);
         }
-
     }
 }

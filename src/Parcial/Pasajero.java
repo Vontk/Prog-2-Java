@@ -2,14 +2,17 @@ package Parcial;
 
 public class Pasajero {
 
-    private final String numero;
     private final int dni;
+    private final String numero;
 
     public Pasajero(String numero, int dni){
-        this.numero = numero;
         this.dni = dni;
+        this.numero = numero;
     }
     public int getDni() {
         return dni;
+    }
+    public String getNumero() {
+        return numero;
     }
 }
