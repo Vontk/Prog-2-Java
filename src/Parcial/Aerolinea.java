@@ -4,6 +4,12 @@ import java.util.ArrayList;
 
 public class Aerolinea {
 
+    private String defecto;
+
+    {
+        defecto = "valor por defect";
+    }
+
     private ArrayList<Vuelo> vuelos;
     private ArrayList<Pasajero> pasajeros;
     private ArrayList<Reserva> reservas;
@@ -15,6 +21,9 @@ public class Aerolinea {
         this.vuelos = vuelos;
         this.pasajeros = pasajeros;
         this.reservas = reservas;
+    }
+    public String getDefecto(){
+        return defecto;
     }
 
     public ArrayList<Vuelo> getVuelos() {

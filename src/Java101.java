@@ -3,6 +3,8 @@ public class Java101 {
         int number = 1;
         short number2 = 32767;
         char character = 'y';
+        Double peep = 0.234;
+        peep.wait();
 
 
     }

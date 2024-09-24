@@ -1,31 +1,30 @@
 public class EjemploClase {
-    // Variable final, su valor no puede cambiar una vez asignado
     private final int constante;
-
-    // Variable por defecto, se inicializa con un valor predeterminado
-    private String porDefecto = "Valor por defecto";
-
-    // Variable que se define en el constructor
+    private String porDefecto;
     private int enConstructor;
 
-    // Constructor de la clase
     public EjemploClase(int constante, int enConstructor) {
+        this.porDefecto = "Valor por defecto";
         this.constante = constante;
         enConstructor = constante + enConstructor;
         this.enConstructor = enConstructor;
     }
 
-    // Métod para mostrar los valores de las variables
-    public void mostrarValores() {
-        System.out.println("Constante: " + constante);
-        System.out.println("Por defecto: " + porDefecto);
-        System.out.println("En constructor: " + enConstructor);
+    public boolean equals(Object obj) {
+        if (this == obj) {return true;}
+        if (obj == null || this.getClass() != obj.getClass()) return false;
+        EjemploClase that = (EjemploClase) obj;
+        return constante == that.constante &&
+                enConstructor == that.enConstructor &&
+                porDefecto.equals(that.porDefecto);
     }
 
     public static void main(String[] args) {
-        // Crear una instancia de la clase
-        EjemploClase ejemplo = new EjemploClase(10, 20);
-        // Mostrar los valores de las variables
-        ejemplo.mostrarValores();
+        EjemploClase ejemplo1 = new EjemploClase(10, 20);
+        EjemploClase ejemplo2 = new EjemploClase(10, 20);
+        EjemploClase ejemplo3 = new EjemploClase(15, 25);
+
+        System.out.println("ejemplo1.equals(ejemplo2): " + ejemplo1.equals(ejemplo2)); // true
+        System.out.println("ejemplo1.equals(ejemplo3): " + ejemplo1.equals(ejemplo3)); // false
     }
 }
