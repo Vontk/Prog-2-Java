@@ -12,11 +12,12 @@ import java.util.List;
 class Student {
     HashSet<String> courses;
     String name;
-    ArrayList<Evaluation> evaluations;
+    HashSet<Evaluation> evaluations;
 
     public Student(String name) {
         this.courses = new HashSet<>();
         this.name = name;
+        this.evaluations = new HashSet<>();
     }
 
     String getName() {
@@ -25,6 +26,10 @@ class Student {
 
     void addCourse(String course) {
         courses.add(course);
+    }
+    
+    void addEvaluation(Evaluation evaluation) {
+    evaluations.add(evaluation)
     }
 
     private int courseAmount() {
