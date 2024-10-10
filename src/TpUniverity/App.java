@@ -12,6 +12,7 @@ import java.util.List;
 class Student {
     HashSet<String> courses;
     String name;
+    ArrayList<Evaluation> evaluations;
 
     public Student(String name) {
         this.courses = new HashSet<>();
@@ -43,6 +44,35 @@ class Student {
     @Override
     public int hashCode() {
         return name.hashCode();
+    }
+}
+class Evaluation {
+    ArrayList<Integer> grades;
+    String evaluationName;
+    public Evaluation(String evaluationName){
+        this.grades = new ArrayList<>();
+        this.evaluationName = evaluationName;
+    }
+    void addGrade(int grade){
+        grades.add(grade);
+    }
+    int getAverage(){
+        int sum = 0;
+        for (Integer num : grades){
+            sum += num;
+        }
+        return sum / grades.size();
+    }
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+        Evaluation evaluation = (Evaluation) obj;
+        return evaluationName.equals(evaluation.evaluationName);
+    }
+    @Override
+    public int hashCode() {
+        return evaluationName.hashCode();
     }
 }
     public class App {
