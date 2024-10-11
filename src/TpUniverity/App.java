@@ -8,7 +8,6 @@ import java.util.HashSet;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.List;
-import com.university.App;
 
 class Student {
     HashSet<String> courses;
