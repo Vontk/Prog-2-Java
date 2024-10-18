@@ -1,7 +1,16 @@
 package FlappyBird;
 
+// audio imorts
+
+import javax.sound.sampled.*;
+import java.io.File;
+import java.io.IOException;
+
+// graphics, utils, etc
+
 import java.awt.*;
 import java.awt.event.*;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Random;
 import javax.swing.*;
@@ -16,6 +25,7 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
     Image topPipeImg;
     Image bottomPipeImg;
     Image twinTowersImg;
+    Image winImage;
 
     int birdX = boardWidth/7;
     int birdY = boardHeight/2;
@@ -36,6 +46,7 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
     int score_2 = 0;
     boolean twinTowersPlaced = false;
     int pipesPlaced = 0;
+    boolean gameWin = false;
 
     //pipes
 
@@ -104,6 +115,7 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
         topPipeImg = new ImageIcon(getClass().getResource("./top-pipe.png")).getImage();
         bottomPipeImg = new ImageIcon(getClass().getResource("./bottom-pipe.png")).getImage();
         twinTowersImg = new ImageIcon(getClass().getResource("./twin-tower.png")).getImage();
+        winImage = new ImageIcon(getClass().getResource("./win.png")).getImage();
 
         //bird
         bird = new Bird(birdImg);
@@ -140,7 +152,7 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
     }
 
     public void placeTwinTowers(){
-        TwinTowers twinTowers = new TwinTowers(twinTowersImg);
+        this.twinTowers = new TwinTowers(twinTowersImg);
     }
 
     public void paintComponent(Graphics g) {
@@ -170,6 +182,9 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
         if (twinTowersPlaced){
            g.drawImage(twinTowers.img, twinTowers.x, twinTowers.y, twinWidth, twinHeight, null);
         }
+        if (gameWin){
+            g.drawImage(winImage, 0, 0, boardWidth, boardHeight, this);
+        }
     }
 
     public void move() {
@@ -186,13 +201,24 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
             if (!pipe.passed && pipe.x + pipe.width < bird.x){
                 pipe.passed = true;
                 score += 0.5;
+                playSound("pipe_passed.wav");
             }
+            // crash into pipe game over
             if (collision(bird, pipe)){
+                playSound("explosion.wav");
                 gameOver = true;
             }
         }
+        // win (crash into twin towers)
         if (twinTowersPlaced){
-            twinTowers.x += velocityX;
+            if (winCollision(bird, twinTowers)){
+                playSound("win.wav");
+                gameWin = true;
+            }
+        }
+
+        if (twinTowersPlaced){
+            twinTowers.x += velocityX/4;
         }
         // falloff gameOver
         if (bird.y >= boardHeight - birdHeight) {
@@ -214,6 +240,13 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
                bird.y + bird.height > pipe.y; //la esquina inferior izquierda pasa la esquina superior izq de pipe
     }
 
+    public boolean winCollision(Bird bd, TwinTowers tt){
+        return bd.x < tt.x + tt.width &&
+                bd.x + bd.width > tt.x &&
+                bd.y < tt.y + tt.height &&
+                bd.y + bd.height > tt.y;
+    }
+
     @Override
     public void actionPerformed(ActionEvent e) {
         move();
@@ -222,11 +255,16 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
             placePipeTimer.stop();
             gameLoop.stop();
         }
+        if (gameWin) {
+            placePipeTimer.stop();
+            gameLoop.stop();
+        }
     }
     @Override // cada vez que se aprieta una tecla, se ejecuta la funcion.
     public void keyPressed(KeyEvent e) {
         if (e.getKeyCode() == KeyEvent.VK_SPACE) {
             velocityY = -12;
+            playSound("flap.wav");
         }
         if (gameOver){
             // reset variables
@@ -239,9 +277,58 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
             pipesPlaced = 0;
             gameLoop.start();
             placePipeTimer.start();
+            twinTowersPlaced = false;
+            gameWin = false;
+        }
+        if (gameWin){
+            // reset variables
+            bird.y = birdY;
+            velocityY = 0;
+            pipes.clear();
+            score = 0;
+            gameOver = false;
+            twinTowersPlaced = false;
+            pipesPlaced = 0;
+            gameLoop.start();
+            placePipeTimer.start();
+            twinTowersPlaced = false;
+            gameWin = false;
         }
 
     }
+
+    // metodo que reproduce un audio
+
+    public void playSound(String soundFileName) {
+        try {
+            InputStream audioSrc = getClass().getResourceAsStream("./" + soundFileName);
+            if (audioSrc == null) {
+                System.out.println("Sound file not found: " + soundFileName);
+                return;
+            }
+
+            AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(audioSrc);
+            AudioFormat baseFormat = audioInputStream.getFormat();
+            AudioFormat decodedFormat = new AudioFormat(
+                    AudioFormat.Encoding.PCM_SIGNED,
+                    baseFormat.getSampleRate(),
+                    16,
+                    baseFormat.getChannels(),
+                    baseFormat.getChannels() * 2,
+                    baseFormat.getSampleRate(),
+                    false
+            );
+
+            AudioInputStream decodedAudioStream = AudioSystem.getAudioInputStream(decodedFormat, audioInputStream);
+            Clip clip = AudioSystem.getClip();
+            clip.open(decodedAudioStream);
+            clip.start();
+        } catch (UnsupportedAudioFileException | IOException | LineUnavailableException e) {
+            System.out.println("Error playing sound: " + e.getMessage());
+        }
+    }
+
+
 
     // metodos de keyListener no usados (tienen que estar implementados si o si)
 

@@ -1,0 +1,5293 @@
+Subject_Name,Evaluation_Name,Student_Name,Grade
+Art,TP Final,Alice Blue,4.0
+Art,TP Final,Alice Brown,4.4
+Art,TP Final,Alice Gray,4.0
+Art,TP Final,Alice Teal,2.6
+Art,TP Final,Alice Violet,3.7
+Art,TP Final,Bob Black,5.1
+Art,TP Final,Charlie Black,3.3
+Art,TP Final,Charlie Davis,5.3
+Art,TP Final,Charlie Indigo,3.7
+Art,TP Final,Charlie Pink,3.4
+Art,TP Final,Charlie Red,4.7
+Art,TP Final,Dana Gray,2.7
+Art,TP Final,Dana White,5.7
+Art,TP Final,Frank Davis,5.7
+Art,TP Final,Frank Magenta,3.3
+Art,TP Final,Grace Blue,5.6
+Art,TP Final,Grace Indigo,6.0
+Art,TP Final,Grace Purple,4.1
+Art,TP Final,Grace Red,4.1
+Art,TP Final,Hank Brown,4.6
+Art,TP Final,Hank Orange,4.9
+Art,TP Final,Hank Purple,3.4
+Art,TP Final,Ivy Davis,4.3
+Art,TP Final,Ivy Green,2.1
+Art,TP Final,Ivy Johnson,5.9
+Art,TP Final,Ivy Yellow,5.0
+Art,TP Final,Jack Brown,4.4
+Art,TP Final,Jack Teal,4.7
+Art,TP Final,Jack Violet,6.0
+Art,TP Final,Kelly Purple,3.9
+Art,TP Final,Liam Black,6.1
+Art,TP Final,Liam Davis,5.3
+Art,TP Final,Liam Orange,5.1
+Art,TP Final,Liam Teal,6.3
+Art,TP Final,Liam Yellow,3.9
+Art,TP Final,Mona Black,5.6
+Art,TP Final,Mona Gray,3.7
+Art,TP Final,Mona Magenta,4.6
+Art,TP Final,Nick Johnson,3.4
+Art,TP Final,Nick White,5.7
+Art,TP Final,Olivia Blue,5.7
+Art,TP Final,Olivia Brown,4.9
+Art,TP Final,Olivia Gray,3.0
+Art,TP Final,Olivia Green,3.4
+Art,TP Final,Olivia Indigo,3.3
+Art,TP Final,Olivia Purple,5.3
+Art,TP Final,Olivia White,5.3
+Art,TP Final,Paul Davis,5.9
+Art,TP Final,Paul Gray,6.6
+Art,TP Final,Paul Magenta,5.7
+Art,TP Final,Paul Teal,6.1
+Art,TP Final,Paul White,4.7
+Art,TP Final,Quincy Magenta,6.3
+Art,TP Final,Quincy Red,4.6
+Art,TP Final,Rita Black,4.7
+Art,TP Final,Rita Gray,6.1
+Art,TP Final,Rita Magenta,5.9
+Art,TP Final,Rita Orange,4.3
+Art,TP Final,Rita White,5.6
+Art,TP Final,Sam Azure,6.4
+Art,TP Final,Sam Davis,5.6
+Art,TP Final,Sam Magenta,5.0
+Art,TP Final,Sam Orange,4.0
+Art,TP1,Alice Johnson,6.0
+Art,TP1,Bob Red,4.2
+Art,TP1,Charlie Magenta,6.2
+Art,TP1,Charlie Pink,4.4
+Art,TP1,Charlie Red,5.1
+Art,TP1,Frank Beige,4.2
+Art,TP1,Frank Brown,5.0
+Art,TP1,Frank Gray,4.9
+Art,TP1,Frank Green,5.3
+Art,TP1,Frank Orange,4.6
+Art,TP1,Hank Purple,4.8
+Art,TP1,Hank Teal,4.7
+Art,TP1,Jack Gray,5.7
+Art,TP1,Jack Yellow,4.3
+Art,TP1,Mona Beige,4.8
+Art,TP1,Olivia Magenta,4.6
+Art,TP1,Paul Indigo,5.0
+Art,TP1,Paul Pink,4.2
+Art,TP1,Paul Yellow,4.9
+Art,TP1,Rita Purple,4.9
+Art,TP1,Sam Red,3.6
+Art,TP10,Alice Black,5.0
+Art,TP10,Alice Blue,5.3
+Art,TP10,Alice Cyan,5.3
+Art,TP10,Alice Indigo,4.0
+Art,TP10,Alice Johnson,6.3
+Art,TP10,Alice Magenta,6.3
+Art,TP10,Alice Orange,3.7
+Art,TP10,Alice Red,5.3
+Art,TP10,Alice Teal,3.7
+Art,TP10,Alice Violet,5.7
+Art,TP10,Bob Black,4.7
+Art,TP10,Bob Green,3.0
+Art,TP10,Bob Magenta,4.7
+Art,TP10,Bob White,3.7
+Art,TP10,Charlie Beige,2.7
+Art,TP10,Charlie Black,4.7
+Art,TP10,Charlie Brown,6.7
+Art,TP10,Charlie Cyan,5.0
+Art,TP10,Charlie Davis,6.3
+Art,TP10,Charlie Green,4.3
+Art,TP10,Charlie Magenta,3.0
+Art,TP10,Charlie White,7.3
+Art,TP10,Charlie Yellow,6.7
+Art,TP10,Dana Cyan,4.7
+Art,TP10,Dana Davis,3.0
+Art,TP10,Dana Johnson,6.0
+Art,TP10,Dana Pink,5.7
+Art,TP10,Dana Purple,5.3
+Art,TP10,Dana Yellow,2.0
+Art,TP10,Eve Gray,6.7
+Art,TP10,Eve Johnson,5.3
+Art,TP10,Eve Pink,2.3
+Art,TP10,Eve Red,7.3
+Art,TP10,Eve Violet,6.3
+Art,TP10,Eve White,4.0
+Art,TP10,Frank Beige,6.7
+Art,TP10,Frank Green,5.0
+Art,TP10,Frank Indigo,5.7
+Art,TP10,Frank White,6.7
+Art,TP10,Grace Azure,6.3
+Art,TP10,Grace Beige,5.7
+Art,TP10,Grace Blue,4.3
+Art,TP10,Grace Orange,5.3
+Art,TP10,Grace Purple,8.0
+Art,TP10,Grace Violet,6.7
+Art,TP10,Hank Azure,4.3
+Art,TP10,Hank Teal,2.0
+Art,TP10,Hank Yellow,5.3
+Art,TP10,Ivy Beige,5.7
+Art,TP10,Ivy Black,4.3
+Art,TP10,Ivy Brown,5.7
+Art,TP10,Ivy Cyan,5.7
+Art,TP10,Ivy Davis,4.0
+Art,TP10,Ivy Gray,4.0
+Art,TP10,Ivy Magenta,4.0
+Art,TP10,Ivy Orange,2.7
+Art,TP10,Ivy Violet,3.7
+Art,TP10,Jack Azure,1.7
+Art,TP10,Jack Green,4.7
+Art,TP10,Jack Indigo,7.0
+Art,TP10,Jack Magenta,2.0
+Art,TP10,Jack Orange,4.7
+Art,TP10,Jack Pink,7.0
+Art,TP10,Jack Violet,7.0
+Art,TP10,Jack White,2.7
+Art,TP10,Kelly Azure,4.0
+Art,TP10,Kelly Beige,5.3
+Art,TP10,Kelly Blue,5.0
+Art,TP10,Kelly Green,4.7
+Art,TP10,Kelly Magenta,8.7
+Art,TP10,Kelly Yellow,8.3
+Art,TP10,Liam Black,8.0
+Art,TP10,Liam Blue,1.7
+Art,TP10,Liam Indigo,2.3
+Art,TP10,Liam Johnson,3.3
+Art,TP10,Liam Orange,7.3
+Art,TP10,Mona Black,4.7
+Art,TP10,Mona Brown,5.0
+Art,TP10,Mona Davis,5.7
+Art,TP10,Mona Gray,5.0
+Art,TP10,Mona Green,4.0
+Art,TP10,Mona Orange,7.0
+Art,TP10,Nick Brown,3.7
+Art,TP10,Nick Gray,5.0
+Art,TP10,Nick Indigo,5.3
+Art,TP10,Nick Johnson,0.3
+Art,TP10,Olivia Cyan,7.3
+Art,TP10,Olivia Violet,6.7
+Art,TP10,Paul Black,8.7
+Art,TP10,Paul Brown,6.7
+Art,TP10,Paul Indigo,2.3
+Art,TP10,Paul Pink,5.3
+Art,TP10,Paul Purple,3.3
+Art,TP10,Paul Teal,3.7
+Art,TP10,Quincy Black,4.3
+Art,TP10,Quincy Blue,4.7
+Art,TP10,Quincy Cyan,5.7
+Art,TP10,Quincy Davis,1.7
+Art,TP10,Quincy Johnson,3.0
+Art,TP10,Quincy Orange,6.7
+Art,TP10,Quincy Pink,5.0
+Art,TP10,Quincy White,5.3
+Art,TP10,Rita Blue,3.0
+Art,TP10,Rita Brown,4.3
+Art,TP10,Rita Johnson,6.3
+Art,TP10,Rita Orange,7.7
+Art,TP10,Rita White,2.3
+Art,TP10,Rita Yellow,4.0
+Art,TP10,Sam Davis,4.0
+Art,TP10,Sam Indigo,4.7
+Art,TP10,Sam Magenta,3.0
+Art,TP10,Sam Red,3.0
+Art,TP10,Sam White,4.0
+Art,TP2,Alice Magenta,5.3
+Art,TP2,Bob Cyan,4.7
+Art,TP2,Bob Red,4.9
+Art,TP2,Charlie Purple,6.0
+Art,TP2,Frank Magenta,5.6
+Art,TP2,Hank Purple,4.2
+Art,TP2,Jack Johnson,5.3
+Art,TP2,Liam Indigo,5.3
+Art,TP2,Liam Teal,4.9
+Art,TP2,Nick Davis,5.1
+Art,TP2,Quincy Davis,3.7
+Art,TP2,Sam Brown,5.2
+Art,TP3,Alice Orange,5.3
+Art,TP3,Charlie Azure,4.5
+Art,TP3,Dana Azure,5.7
+Art,TP3,Ivy Yellow,5.3
+Art,TP3,Jack Brown,5.1
+Art,TP3,Jack Teal,5.6
+Art,TP3,Liam Beige,4.3
+Art,TP3,Mona Davis,5.6
+Art,TP3,Nick Magenta,5.0
+Art,TP3,Paul Pink,4.5
+Art,TP3,Quincy Magenta,5.2
+Art,TP3,Rita Green,4.7
+Art,TP3,Rita Johnson,5.9
+Art,TP3,Rita White,4.7
+Art,TP4,Alice Davis,3.9
+Art,TP4,Bob Beige,4.4
+Art,TP4,Bob Davis,5.6
+Art,TP4,Eve Green,3.8
+Art,TP4,Eve Orange,3.4
+Art,TP4,Eve Violet,4.9
+Art,TP4,Frank Black,3.9
+Art,TP4,Grace Davis,5.9
+Art,TP4,Grace Green,2.9
+Art,TP4,Grace Johnson,2.6
+Art,TP4,Grace Red,5.5
+Art,TP4,Hank Indigo,5.4
+Art,TP4,Ivy Beige,2.3
+Art,TP4,Ivy Cyan,5.4
+Art,TP4,Jack Green,4.4
+Art,TP4,Kelly Black,4.1
+Art,TP4,Kelly Brown,4.9
+Art,TP4,Kelly Orange,5.8
+Art,TP4,Kelly Purple,5.5
+Art,TP4,Liam Blue,6.6
+Art,TP4,Liam White,5.4
+Art,TP4,Mona Black,7.0
+Art,TP4,Mona Gray,3.9
+Art,TP4,Nick Blue,3.6
+Art,TP4,Nick White,6.0
+Art,TP4,Olivia Brown,2.8
+Art,TP4,Olivia Orange,4.1
+Art,TP4,Paul Orange,5.0
+Art,TP4,Paul Violet,4.5
+Art,TP4,Paul White,4.4
+Art,TP4,Rita Beige,5.0
+Art,TP4,Rita Teal,4.1
+Art,TP4,Rita Violet,4.9
+Art,TP4,Sam Beige,7.0
+Art,TP4,Sam White,4.9
+Art,TP5,Alice Cyan,4.3
+Art,TP5,Alice Magenta,2.0
+Art,TP5,Alice Yellow,6.0
+Art,TP5,Bob Azure,2.7
+Art,TP5,Bob Blue,4.7
+Art,TP5,Bob Davis,6.0
+Art,TP5,Bob Green,7.0
+Art,TP5,Bob Red,4.7
+Art,TP5,Bob Violet,7.3
+Art,TP5,Bob White,7.0
+Art,TP5,Bob Yellow,7.7
+Art,TP5,Charlie Black,6.0
+Art,TP5,Charlie Indigo,6.7
+Art,TP5,Charlie Johnson,4.3
+Art,TP5,Charlie Orange,6.0
+Art,TP5,Charlie Violet,5.7
+Art,TP5,Dana Blue,3.3
+Art,TP5,Dana Davis,4.3
+Art,TP5,Dana Indigo,7.0
+Art,TP5,Dana Johnson,5.0
+Art,TP5,Dana Magenta,3.0
+Art,TP5,Dana Pink,4.7
+Art,TP5,Dana Purple,3.0
+Art,TP5,Dana White,6.3
+Art,TP5,Eve Azure,5.0
+Art,TP5,Eve Blue,4.7
+Art,TP5,Eve Cyan,6.3
+Art,TP5,Eve Davis,3.3
+Art,TP5,Eve Green,8.7
+Art,TP5,Eve Indigo,4.7
+Art,TP5,Eve Orange,2.3
+Art,TP5,Eve Red,4.0
+Art,TP5,Eve White,5.0
+Art,TP5,Frank Cyan,5.0
+Art,TP5,Frank Davis,2.7
+Art,TP5,Frank Orange,2.3
+Art,TP5,Frank Red,3.0
+Art,TP5,Frank Violet,8.0
+Art,TP5,Frank Yellow,6.7
+Art,TP5,Grace Azure,3.3
+Art,TP5,Grace Beige,3.0
+Art,TP5,Grace Black,2.7
+Art,TP5,Grace Cyan,5.0
+Art,TP5,Grace Davis,7.7
+Art,TP5,Grace Green,4.3
+Art,TP5,Grace Pink,9.3
+Art,TP5,Grace Purple,6.0
+Art,TP5,Grace Teal,5.0
+Art,TP5,Hank Black,8.0
+Art,TP5,Hank Blue,5.3
+Art,TP5,Hank Gray,4.3
+Art,TP5,Hank Violet,6.7
+Art,TP5,Ivy Beige,7.0
+Art,TP5,Ivy Blue,6.3
+Art,TP5,Ivy Magenta,5.7
+Art,TP5,Ivy Violet,7.7
+Art,TP5,Ivy Yellow,3.3
+Art,TP5,Jack Blue,1.7
+Art,TP5,Jack Davis,6.7
+Art,TP5,Jack Green,2.3
+Art,TP5,Jack Johnson,4.3
+Art,TP5,Jack Magenta,5.7
+Art,TP5,Jack Orange,5.7
+Art,TP5,Jack Red,4.0
+Art,TP5,Jack Teal,4.0
+Art,TP5,Jack White,7.0
+Art,TP5,Kelly Brown,3.3
+Art,TP5,Kelly Gray,5.7
+Art,TP5,Kelly Pink,4.0
+Art,TP5,Liam Beige,6.3
+Art,TP5,Liam Black,6.3
+Art,TP5,Liam Brown,5.3
+Art,TP5,Liam Pink,4.3
+Art,TP5,Liam Teal,5.7
+Art,TP5,Liam White,4.7
+Art,TP5,Liam Yellow,3.3
+Art,TP5,Mona Azure,6.3
+Art,TP5,Mona Beige,5.0
+Art,TP5,Mona Blue,7.7
+Art,TP5,Mona Brown,2.7
+Art,TP5,Mona Johnson,6.3
+Art,TP5,Mona Red,5.7
+Art,TP5,Mona White,4.3
+Art,TP5,Nick Beige,3.7
+Art,TP5,Nick Black,5.0
+Art,TP5,Nick Purple,4.3
+Art,TP5,Nick Teal,7.0
+Art,TP5,Olivia Beige,4.0
+Art,TP5,Olivia Black,6.0
+Art,TP5,Olivia Blue,5.3
+Art,TP5,Olivia Brown,3.7
+Art,TP5,Olivia Davis,5.0
+Art,TP5,Olivia Magenta,3.0
+Art,TP5,Olivia Yellow,3.0
+Art,TP5,Paul Black,6.0
+Art,TP5,Paul Blue,7.0
+Art,TP5,Paul Davis,1.3
+Art,TP5,Paul Green,4.7
+Art,TP5,Paul Johnson,4.3
+Art,TP5,Paul Violet,4.7
+Art,TP5,Paul White,7.0
+Art,TP5,Quincy Beige,6.7
+Art,TP5,Quincy Green,4.0
+Art,TP5,Quincy Johnson,6.7
+Art,TP5,Quincy Red,7.3
+Art,TP5,Quincy Yellow,4.3
+Art,TP5,Rita Azure,5.7
+Art,TP5,Rita Beige,2.3
+Art,TP5,Rita Green,2.7
+Art,TP5,Rita Johnson,5.3
+Art,TP5,Rita Magenta,1.7
+Art,TP5,Rita Red,4.3
+Art,TP5,Sam Black,2.7
+Art,TP5,Sam Blue,7.7
+Art,TP5,Sam Davis,6.7
+Art,TP5,Sam Green,9.0
+Art,TP5,Sam Indigo,7.3
+Art,TP5,Sam Orange,5.3
+Art,TP6,Alice Brown,6.0
+Art,TP6,Alice Green,7.3
+Art,TP6,Alice Johnson,4.0
+Art,TP6,Alice Purple,5.7
+Art,TP6,Alice Violet,5.3
+Art,TP6,Alice Yellow,5.0
+Art,TP6,Bob Azure,6.3
+Art,TP6,Bob Blue,4.0
+Art,TP6,Bob Teal,3.7
+Art,TP6,Bob Violet,5.7
+Art,TP6,Charlie Black,4.3
+Art,TP6,Charlie Brown,8.3
+Art,TP6,Charlie Gray,5.3
+Art,TP6,Charlie Green,5.7
+Art,TP6,Charlie Magenta,6.3
+Art,TP6,Charlie Pink,3.0
+Art,TP6,Charlie White,4.3
+Art,TP6,Dana Azure,5.3
+Art,TP6,Dana Beige,6.7
+Art,TP6,Dana Blue,4.3
+Art,TP6,Dana Brown,4.3
+Art,TP6,Dana Cyan,4.0
+Art,TP6,Dana Indigo,7.0
+Art,TP6,Dana Pink,5.0
+Art,TP6,Dana Purple,7.7
+Art,TP6,Dana Violet,5.3
+Art,TP6,Dana White,5.7
+Art,TP6,Eve Brown,4.7
+Art,TP6,Eve Indigo,6.3
+Art,TP6,Eve Johnson,7.3
+Art,TP6,Eve Orange,6.3
+Art,TP6,Eve Purple,3.0
+Art,TP6,Eve Red,3.7
+Art,TP6,Frank Azure,8.3
+Art,TP6,Frank Black,3.3
+Art,TP6,Frank Blue,7.0
+Art,TP6,Frank Brown,3.7
+Art,TP6,Frank Davis,4.7
+Art,TP6,Frank Green,3.7
+Art,TP6,Frank Johnson,5.3
+Art,TP6,Frank Pink,2.3
+Art,TP6,Frank White,4.0
+Art,TP6,Frank Yellow,5.7
+Art,TP6,Grace Black,5.7
+Art,TP6,Grace Cyan,5.3
+Art,TP6,Grace Green,7.3
+Art,TP6,Grace Indigo,7.3
+Art,TP6,Grace Orange,4.3
+Art,TP6,Grace Pink,5.0
+Art,TP6,Grace Purple,3.3
+Art,TP6,Hank Brown,2.3
+Art,TP6,Hank Davis,5.0
+Art,TP6,Hank Green,5.7
+Art,TP6,Hank Pink,5.7
+Art,TP6,Ivy Indigo,5.7
+Art,TP6,Ivy Teal,7.7
+Art,TP6,Jack Beige,3.7
+Art,TP6,Jack Blue,5.3
+Art,TP6,Jack Brown,6.7
+Art,TP6,Jack Cyan,5.3
+Art,TP6,Jack Davis,3.3
+Art,TP6,Jack Magenta,4.0
+Art,TP6,Jack Purple,7.3
+Art,TP6,Jack Violet,3.7
+Art,TP6,Kelly Azure,4.7
+Art,TP6,Kelly Brown,4.3
+Art,TP6,Kelly Cyan,5.3
+Art,TP6,Kelly Indigo,4.3
+Art,TP6,Kelly Magenta,3.7
+Art,TP6,Kelly Orange,5.0
+Art,TP6,Kelly Teal,4.7
+Art,TP6,Kelly White,6.3
+Art,TP6,Liam Azure,6.0
+Art,TP6,Liam Blue,3.3
+Art,TP6,Liam Gray,5.3
+Art,TP6,Liam Green,5.3
+Art,TP6,Liam Indigo,4.3
+Art,TP6,Liam Johnson,4.7
+Art,TP6,Liam Orange,6.3
+Art,TP6,Liam Teal,6.7
+Art,TP6,Liam Violet,4.7
+Art,TP6,Mona Beige,3.3
+Art,TP6,Mona Indigo,6.7
+Art,TP6,Mona Purple,2.7
+Art,TP6,Nick Azure,4.7
+Art,TP6,Nick Blue,6.0
+Art,TP6,Nick Magenta,3.7
+Art,TP6,Nick Yellow,5.0
+Art,TP6,Olivia Azure,5.3
+Art,TP6,Olivia Black,6.0
+Art,TP6,Olivia Brown,4.0
+Art,TP6,Olivia Davis,3.7
+Art,TP6,Olivia Gray,3.7
+Art,TP6,Olivia Indigo,4.0
+Art,TP6,Olivia Magenta,7.0
+Art,TP6,Olivia Orange,3.7
+Art,TP6,Olivia Purple,7.0
+Art,TP6,Olivia Red,2.0
+Art,TP6,Olivia Violet,7.0
+Art,TP6,Olivia Yellow,4.7
+Art,TP6,Paul Azure,5.0
+Art,TP6,Paul Blue,8.3
+Art,TP6,Paul Johnson,6.0
+Art,TP6,Paul Magenta,5.3
+Art,TP6,Paul Pink,5.7
+Art,TP6,Paul White,6.7
+Art,TP6,Paul Yellow,3.3
+Art,TP6,Quincy Black,7.7
+Art,TP6,Quincy Brown,1.3
+Art,TP6,Quincy Davis,5.7
+Art,TP6,Quincy Gray,2.0
+Art,TP6,Quincy Indigo,4.3
+Art,TP6,Quincy Magenta,4.3
+Art,TP6,Quincy Orange,5.7
+Art,TP6,Quincy Pink,6.3
+Art,TP6,Quincy Violet,4.0
+Art,TP6,Rita Red,4.7
+Art,TP6,Sam Azure,1.7
+Art,TP6,Sam Beige,6.7
+Art,TP6,Sam Johnson,3.3
+Art,TP6,Sam Magenta,2.0
+Art,TP6,Sam Orange,6.3
+Art,TP6,Sam Pink,3.7
+Art,TP6,Sam Red,4.7
+Art,TP7,Alice Azure,5.3
+Art,TP7,Alice Black,7.3
+Art,TP7,Alice Blue,5.7
+Art,TP7,Alice Cyan,2.7
+Art,TP7,Alice Gray,5.7
+Art,TP7,Alice Pink,5.0
+Art,TP7,Alice Red,4.0
+Art,TP7,Bob Beige,5.7
+Art,TP7,Bob Indigo,5.7
+Art,TP7,Bob Johnson,4.0
+Art,TP7,Bob Orange,4.0
+Art,TP7,Bob Pink,3.3
+Art,TP7,Bob Teal,1.3
+Art,TP7,Bob Violet,4.0
+Art,TP7,Bob White,6.0
+Art,TP7,Charlie Black,6.3
+Art,TP7,Charlie Gray,5.0
+Art,TP7,Charlie Pink,2.3
+Art,TP7,Charlie White,3.0
+Art,TP7,Dana Beige,5.0
+Art,TP7,Dana Brown,6.0
+Art,TP7,Dana Davis,3.3
+Art,TP7,Dana Gray,3.7
+Art,TP7,Dana Purple,6.7
+Art,TP7,Dana Red,4.3
+Art,TP7,Eve Beige,5.0
+Art,TP7,Eve Cyan,2.7
+Art,TP7,Eve Davis,6.3
+Art,TP7,Eve Johnson,5.3
+Art,TP7,Eve Magenta,6.7
+Art,TP7,Eve Yellow,8.7
+Art,TP7,Frank Beige,3.7
+Art,TP7,Frank Brown,7.0
+Art,TP7,Frank Cyan,6.7
+Art,TP7,Frank Gray,5.0
+Art,TP7,Frank Johnson,7.3
+Art,TP7,Frank Magenta,4.3
+Art,TP7,Frank Pink,0.7
+Art,TP7,Frank Purple,6.0
+Art,TP7,Frank Teal,4.3
+Art,TP7,Frank White,3.3
+Art,TP7,Grace Azure,7.7
+Art,TP7,Grace Brown,8.7
+Art,TP7,Grace Cyan,6.0
+Art,TP7,Grace Green,4.3
+Art,TP7,Grace Indigo,5.0
+Art,TP7,Grace Johnson,6.7
+Art,TP7,Grace Magenta,5.7
+Art,TP7,Grace Pink,4.7
+Art,TP7,Grace Violet,3.7
+Art,TP7,Grace White,6.0
+Art,TP7,Grace Yellow,5.0
+Art,TP7,Hank Black,2.3
+Art,TP7,Hank Davis,3.3
+Art,TP7,Hank Purple,4.7
+Art,TP7,Hank Violet,7.3
+Art,TP7,Hank White,5.3
+Art,TP7,Ivy Azure,5.3
+Art,TP7,Ivy Brown,6.0
+Art,TP7,Ivy Magenta,5.0
+Art,TP7,Ivy Pink,7.0
+Art,TP7,Jack Black,2.7
+Art,TP7,Jack Brown,4.0
+Art,TP7,Jack Purple,4.7
+Art,TP7,Kelly Black,4.7
+Art,TP7,Kelly Blue,2.7
+Art,TP7,Kelly Cyan,5.3
+Art,TP7,Kelly Pink,5.7
+Art,TP7,Kelly Teal,5.0
+Art,TP7,Kelly Violet,5.7
+Art,TP7,Kelly Yellow,3.0
+Art,TP7,Liam Azure,6.0
+Art,TP7,Liam Blue,4.3
+Art,TP7,Liam Brown,8.0
+Art,TP7,Liam Cyan,7.3
+Art,TP7,Liam Indigo,2.7
+Art,TP7,Liam Orange,7.7
+Art,TP7,Liam Teal,5.3
+Art,TP7,Mona Black,2.0
+Art,TP7,Mona Cyan,4.7
+Art,TP7,Mona Purple,2.7
+Art,TP7,Nick Blue,5.3
+Art,TP7,Nick Brown,6.7
+Art,TP7,Nick Davis,5.3
+Art,TP7,Nick Indigo,7.3
+Art,TP7,Nick Johnson,5.0
+Art,TP7,Nick Teal,5.7
+Art,TP7,Nick Violet,5.7
+Art,TP7,Nick White,4.0
+Art,TP7,Nick Yellow,4.7
+Art,TP7,Olivia Azure,7.0
+Art,TP7,Olivia Beige,7.0
+Art,TP7,Olivia Gray,7.3
+Art,TP7,Olivia Green,3.0
+Art,TP7,Olivia Magenta,2.7
+Art,TP7,Olivia Red,4.0
+Art,TP7,Olivia Violet,3.3
+Art,TP7,Paul Beige,3.0
+Art,TP7,Paul Black,2.0
+Art,TP7,Paul Blue,2.7
+Art,TP7,Paul Orange,6.0
+Art,TP7,Paul Pink,3.3
+Art,TP7,Paul Purple,5.7
+Art,TP7,Paul Teal,5.0
+Art,TP7,Quincy Black,0.3
+Art,TP7,Quincy Blue,3.7
+Art,TP7,Quincy Cyan,6.0
+Art,TP7,Quincy Green,4.7
+Art,TP7,Quincy Johnson,1.3
+Art,TP7,Quincy Purple,4.0
+Art,TP7,Quincy White,2.0
+Art,TP7,Quincy Yellow,5.0
+Art,TP7,Rita Beige,7.0
+Art,TP7,Rita Black,3.3
+Art,TP7,Rita Brown,5.3
+Art,TP7,Rita Gray,5.0
+Art,TP7,Rita Magenta,6.7
+Art,TP7,Rita Purple,7.0
+Art,TP7,Sam Azure,4.0
+Art,TP7,Sam Brown,3.7
+Art,TP7,Sam Gray,4.7
+Art,TP7,Sam Indigo,3.7
+Art,TP7,Sam Orange,6.0
+Art,TP7,Sam Pink,4.3
+Art,TP7,Sam Red,3.7
+Art,TP7,Sam Violet,5.0
+Art,TP8,Alice Blue,4.3
+Art,TP8,Alice Brown,3.3
+Art,TP8,Alice Cyan,5.0
+Art,TP8,Alice Orange,5.7
+Art,TP8,Alice Pink,7.0
+Art,TP8,Alice Teal,6.0
+Art,TP8,Alice White,5.3
+Art,TP8,Alice Yellow,6.0
+Art,TP8,Bob Beige,4.3
+Art,TP8,Bob Brown,3.0
+Art,TP8,Bob Cyan,5.0
+Art,TP8,Bob Johnson,3.3
+Art,TP8,Bob Magenta,7.0
+Art,TP8,Bob Pink,7.0
+Art,TP8,Bob Teal,6.3
+Art,TP8,Bob Violet,5.7
+Art,TP8,Charlie Beige,1.7
+Art,TP8,Charlie Cyan,6.0
+Art,TP8,Charlie Johnson,4.0
+Art,TP8,Charlie Orange,5.0
+Art,TP8,Charlie Teal,2.7
+Art,TP8,Charlie Violet,4.3
+Art,TP8,Dana Green,5.3
+Art,TP8,Dana Indigo,5.0
+Art,TP8,Dana Pink,4.7
+Art,TP8,Dana White,3.3
+Art,TP8,Eve Blue,7.0
+Art,TP8,Eve Brown,9.0
+Art,TP8,Eve Magenta,4.7
+Art,TP8,Eve Pink,3.0
+Art,TP8,Eve Red,5.3
+Art,TP8,Eve Teal,6.0
+Art,TP8,Frank Azure,2.3
+Art,TP8,Frank Beige,4.3
+Art,TP8,Frank Blue,3.3
+Art,TP8,Frank Brown,2.3
+Art,TP8,Frank Green,1.0
+Art,TP8,Frank Magenta,2.7
+Art,TP8,Frank Violet,6.3
+Art,TP8,Frank White,3.3
+Art,TP8,Grace Beige,4.7
+Art,TP8,Grace Johnson,7.7
+Art,TP8,Grace Orange,7.7
+Art,TP8,Grace White,4.0
+Art,TP8,Grace Yellow,4.7
+Art,TP8,Hank Azure,2.3
+Art,TP8,Hank Beige,6.3
+Art,TP8,Hank Blue,8.3
+Art,TP8,Hank Brown,3.7
+Art,TP8,Hank Indigo,5.7
+Art,TP8,Hank Magenta,7.3
+Art,TP8,Hank White,3.7
+Art,TP8,Ivy Blue,4.3
+Art,TP8,Ivy Green,4.3
+Art,TP8,Ivy Indigo,5.3
+Art,TP8,Ivy Magenta,7.3
+Art,TP8,Ivy Pink,5.0
+Art,TP8,Ivy Red,5.3
+Art,TP8,Ivy Teal,4.3
+Art,TP8,Ivy White,7.7
+Art,TP8,Ivy Yellow,4.3
+Art,TP8,Jack Beige,3.0
+Art,TP8,Jack Brown,4.0
+Art,TP8,Jack Gray,6.7
+Art,TP8,Jack Indigo,3.7
+Art,TP8,Jack Johnson,8.0
+Art,TP8,Jack Orange,8.3
+Art,TP8,Jack Purple,4.3
+Art,TP8,Jack White,4.7
+Art,TP8,Jack Yellow,4.7
+Art,TP8,Kelly Blue,5.0
+Art,TP8,Kelly Brown,9.3
+Art,TP8,Kelly Gray,4.0
+Art,TP8,Kelly Johnson,4.3
+Art,TP8,Kelly Red,6.3
+Art,TP8,Liam Brown,4.0
+Art,TP8,Liam Green,4.0
+Art,TP8,Liam Indigo,7.0
+Art,TP8,Liam Johnson,4.0
+Art,TP8,Liam Magenta,7.0
+Art,TP8,Liam Pink,4.7
+Art,TP8,Liam Purple,6.0
+Art,TP8,Mona Azure,8.0
+Art,TP8,Mona Black,3.3
+Art,TP8,Mona Brown,7.7
+Art,TP8,Mona Cyan,7.0
+Art,TP8,Mona Gray,4.0
+Art,TP8,Mona Green,6.7
+Art,TP8,Mona Orange,3.3
+Art,TP8,Mona Pink,2.7
+Art,TP8,Mona Purple,5.0
+Art,TP8,Mona Red,6.3
+Art,TP8,Mona Violet,4.0
+Art,TP8,Nick Blue,8.0
+Art,TP8,Nick Gray,2.3
+Art,TP8,Nick Magenta,3.7
+Art,TP8,Nick Orange,2.0
+Art,TP8,Nick Violet,6.7
+Art,TP8,Nick White,3.3
+Art,TP8,Olivia Blue,2.3
+Art,TP8,Olivia Green,3.3
+Art,TP8,Olivia Orange,4.7
+Art,TP8,Olivia Purple,7.0
+Art,TP8,Olivia Teal,7.3
+Art,TP8,Olivia Violet,7.0
+Art,TP8,Olivia White,5.0
+Art,TP8,Paul Azure,5.0
+Art,TP8,Paul Beige,1.3
+Art,TP8,Paul Blue,5.3
+Art,TP8,Paul Brown,2.0
+Art,TP8,Paul Cyan,3.3
+Art,TP8,Paul Orange,5.0
+Art,TP8,Paul Teal,8.3
+Art,TP8,Paul Violet,6.7
+Art,TP8,Paul White,4.0
+Art,TP8,Quincy Beige,5.3
+Art,TP8,Quincy Black,3.7
+Art,TP8,Quincy Blue,4.3
+Art,TP8,Quincy Brown,4.7
+Art,TP8,Quincy Green,8.0
+Art,TP8,Quincy Indigo,6.3
+Art,TP8,Quincy Johnson,3.3
+Art,TP8,Quincy Orange,5.3
+Art,TP8,Quincy White,4.7
+Art,TP8,Rita Beige,4.3
+Art,TP8,Rita Blue,5.0
+Art,TP8,Rita Cyan,5.3
+Art,TP8,Rita Gray,5.0
+Art,TP8,Rita Green,7.0
+Art,TP8,Rita Johnson,6.0
+Art,TP8,Rita Magenta,4.3
+Art,TP8,Rita White,5.7
+Art,TP8,Sam Cyan,4.3
+Art,TP8,Sam Gray,4.7
+Art,TP8,Sam Green,4.3
+Art,TP8,Sam Indigo,3.7
+Art,TP8,Sam Magenta,7.3
+Art,TP8,Sam Pink,4.0
+Art,TP9,Alice Black,2.3
+Art,TP9,Alice Blue,4.7
+Art,TP9,Alice Johnson,5.7
+Art,TP9,Alice Magenta,6.7
+Art,TP9,Alice Pink,3.0
+Art,TP9,Alice Purple,4.3
+Art,TP9,Alice Red,6.3
+Art,TP9,Alice Violet,8.7
+Art,TP9,Alice White,2.3
+Art,TP9,Bob Brown,6.0
+Art,TP9,Bob Cyan,5.0
+Art,TP9,Bob Johnson,3.3
+Art,TP9,Bob Magenta,5.7
+Art,TP9,Bob Orange,0.7
+Art,TP9,Bob Violet,5.7
+Art,TP9,Charlie Beige,6.0
+Art,TP9,Charlie Davis,4.3
+Art,TP9,Charlie Teal,2.7
+Art,TP9,Charlie White,7.0
+Art,TP9,Charlie Yellow,5.3
+Art,TP9,Dana Blue,7.3
+Art,TP9,Dana Brown,3.3
+Art,TP9,Dana Cyan,5.0
+Art,TP9,Dana Davis,6.0
+Art,TP9,Dana Indigo,7.7
+Art,TP9,Dana Johnson,5.0
+Art,TP9,Dana Magenta,7.3
+Art,TP9,Dana Teal,6.7
+Art,TP9,Dana Violet,5.0
+Art,TP9,Dana White,2.3
+Art,TP9,Eve Blue,3.3
+Art,TP9,Eve Brown,5.7
+Art,TP9,Eve Johnson,2.3
+Art,TP9,Eve Orange,7.7
+Art,TP9,Eve Violet,7.3
+Art,TP9,Frank Black,6.7
+Art,TP9,Frank Blue,2.3
+Art,TP9,Frank Brown,6.7
+Art,TP9,Frank Davis,7.3
+Art,TP9,Frank Indigo,4.0
+Art,TP9,Frank Johnson,4.7
+Art,TP9,Frank Pink,4.7
+Art,TP9,Frank Red,6.7
+Art,TP9,Frank White,2.7
+Art,TP9,Frank Yellow,5.0
+Art,TP9,Grace Cyan,4.7
+Art,TP9,Grace Davis,1.7
+Art,TP9,Grace Gray,4.3
+Art,TP9,Grace Orange,7.3
+Art,TP9,Grace Violet,6.7
+Art,TP9,Hank Beige,3.0
+Art,TP9,Hank Davis,8.7
+Art,TP9,Hank Gray,7.7
+Art,TP9,Hank Green,3.7
+Art,TP9,Hank Indigo,6.7
+Art,TP9,Hank Johnson,4.7
+Art,TP9,Hank Red,3.7
+Art,TP9,Hank Violet,1.3
+Art,TP9,Hank White,4.3
+Art,TP9,Ivy Azure,8.0
+Art,TP9,Ivy Gray,1.0
+Art,TP9,Ivy Magenta,3.3
+Art,TP9,Ivy Orange,2.3
+Art,TP9,Ivy Yellow,4.3
+Art,TP9,Jack Azure,6.0
+Art,TP9,Jack Beige,3.0
+Art,TP9,Jack Blue,3.0
+Art,TP9,Jack Cyan,5.0
+Art,TP9,Jack Davis,5.0
+Art,TP9,Jack Indigo,5.7
+Art,TP9,Jack Magenta,4.3
+Art,TP9,Jack Purple,5.0
+Art,TP9,Jack Teal,5.7
+Art,TP9,Kelly Azure,5.0
+Art,TP9,Kelly Beige,7.3
+Art,TP9,Kelly Blue,4.3
+Art,TP9,Kelly Green,6.7
+Art,TP9,Kelly Magenta,6.7
+Art,TP9,Kelly Purple,7.3
+Art,TP9,Kelly Red,6.0
+Art,TP9,Kelly Teal,3.0
+Art,TP9,Kelly Violet,4.0
+Art,TP9,Liam Gray,6.7
+Art,TP9,Liam Orange,7.0
+Art,TP9,Liam Red,5.0
+Art,TP9,Liam White,3.0
+Art,TP9,Liam Yellow,5.0
+Art,TP9,Mona Azure,6.3
+Art,TP9,Mona Black,4.0
+Art,TP9,Mona Blue,2.3
+Art,TP9,Mona Cyan,4.7
+Art,TP9,Mona Green,7.3
+Art,TP9,Mona Johnson,6.0
+Art,TP9,Mona Red,3.0
+Art,TP9,Nick Black,3.0
+Art,TP9,Nick Brown,7.7
+Art,TP9,Nick Cyan,3.7
+Art,TP9,Nick Davis,5.7
+Art,TP9,Nick Johnson,4.0
+Art,TP9,Nick Purple,6.3
+Art,TP9,Nick Violet,5.0
+Art,TP9,Olivia Beige,7.0
+Art,TP9,Olivia Black,7.0
+Art,TP9,Olivia Brown,4.3
+Art,TP9,Olivia Gray,4.7
+Art,TP9,Olivia Yellow,0.7
+Art,TP9,Paul Azure,3.7
+Art,TP9,Paul Blue,2.3
+Art,TP9,Paul Gray,6.7
+Art,TP9,Paul Green,3.3
+Art,TP9,Paul Magenta,6.0
+Art,TP9,Paul Orange,8.3
+Art,TP9,Paul Pink,8.3
+Art,TP9,Paul Red,2.0
+Art,TP9,Quincy Black,4.7
+Art,TP9,Quincy Davis,3.3
+Art,TP9,Quincy Green,7.0
+Art,TP9,Quincy Indigo,5.0
+Art,TP9,Quincy Johnson,3.0
+Art,TP9,Quincy Magenta,5.3
+Art,TP9,Quincy Orange,2.3
+Art,TP9,Quincy Pink,5.7
+Art,TP9,Quincy Teal,7.7
+Art,TP9,Rita Azure,7.3
+Art,TP9,Rita Black,5.3
+Art,TP9,Rita Cyan,4.7
+Art,TP9,Rita Yellow,5.0
+Art,TP9,Sam Azure,4.0
+Art,TP9,Sam Blue,4.3
+Art,TP9,Sam Gray,5.0
+Art,TP9,Sam Green,4.3
+Art,TP9,Sam Indigo,5.0
+Art,TP9,Sam Magenta,4.0
+Art,TP9,Sam Orange,7.0
+Art,TP9,Sam Purple,6.7
+Biology,Examen Final,Alice Azure,5.0
+Biology,Examen Final,Alice Black,5.0
+Biology,Examen Final,Alice Johnson,4.5
+Biology,Examen Final,Alice Teal,4.3
+Biology,Examen Final,Bob Gray,5.4
+Biology,Examen Final,Bob Green,4.7
+Biology,Examen Final,Bob Yellow,4.6
+Biology,Examen Final,Charlie Azure,5.2
+Biology,Examen Final,Charlie Black,4.9
+Biology,Examen Final,Charlie Johnson,5.4
+Biology,Examen Final,Charlie Teal,5.0
+Biology,Examen Final,Dana Azure,5.0
+Biology,Examen Final,Dana Black,4.7
+Biology,Examen Final,Dana Magenta,4.6
+Biology,Examen Final,Dana Red,5.4
+Biology,Examen Final,Dana Yellow,4.6
+Biology,Examen Final,Eve Green,4.5
+Biology,Examen Final,Eve Indigo,4.4
+Biology,Examen Final,Eve Orange,5.0
+Biology,Examen Final,Frank Johnson,5.0
+Biology,Examen Final,Grace Magenta,5.5
+Biology,Examen Final,Grace Red,4.6
+Biology,Examen Final,Hank Cyan,5.4
+Biology,Examen Final,Hank White,4.4
+Biology,Examen Final,Ivy Cyan,5.1
+Biology,Examen Final,Ivy Davis,5.3
+Biology,Examen Final,Jack Azure,5.2
+Biology,Examen Final,Jack Davis,4.5
+Biology,Examen Final,Jack Pink,5.0
+Biology,Examen Final,Kelly Black,4.8
+Biology,Examen Final,Kelly Indigo,5.1
+Biology,Examen Final,Kelly Pink,5.1
+Biology,Examen Final,Kelly Yellow,5.4
+Biology,Examen Final,Liam Brown,5.1
+Biology,Examen Final,Mona Pink,4.9
+Biology,Examen Final,Nick Black,4.9
+Biology,Examen Final,Olivia Beige,5.0
+Biology,Examen Final,Olivia Yellow,5.4
+Biology,Examen Final,Paul Beige,4.7
+Biology,Examen Final,Paul Magenta,5.2
+Biology,Examen Final,Paul Orange,4.9
+Biology,Examen Final,Quincy Brown,5.4
+Biology,Examen Final,Quincy Cyan,4.7
+Biology,Examen Final,Quincy Gray,4.4
+Biology,Examen Final,Quincy Magenta,4.4
+Biology,Examen Final,Quincy Pink,5.3
+Biology,Examen Final,Quincy Yellow,5.5
+Biology,Examen Final,Rita Gray,4.6
+Biology,Examen Final,Rita Johnson,5.8
+Biology,Examen Final,Sam Beige,5.3
+Biology,Examen Final,Sam Purple,4.5
+Biology,Primer Parcial,Alice Brown,5.3
+Biology,Primer Parcial,Alice Magenta,5.2
+Biology,Primer Parcial,Alice Orange,5.2
+Biology,Primer Parcial,Alice Yellow,4.9
+Biology,Primer Parcial,Bob Magenta,5.4
+Biology,Primer Parcial,Dana Cyan,5.0
+Biology,Primer Parcial,Dana Orange,4.5
+Biology,Primer Parcial,Dana Yellow,4.7
+Biology,Primer Parcial,Eve Johnson,4.8
+Biology,Primer Parcial,Frank Cyan,4.8
+Biology,Primer Parcial,Grace Gray,5.3
+Biology,Primer Parcial,Hank Davis,5.7
+Biology,Primer Parcial,Hank Johnson,5.5
+Biology,Primer Parcial,Ivy Davis,5.1
+Biology,Primer Parcial,Kelly Johnson,4.7
+Biology,Primer Parcial,Kelly Orange,4.6
+Biology,Primer Parcial,Kelly White,5.1
+Biology,Primer Parcial,Liam Brown,4.6
+Biology,Primer Parcial,Mona Cyan,4.5
+Biology,Primer Parcial,Mona Teal,5.0
+Biology,Primer Parcial,Nick Blue,4.9
+Biology,Primer Parcial,Nick Green,4.7
+Biology,Primer Parcial,Olivia Pink,5.2
+Biology,Primer Parcial,Olivia Purple,4.8
+Biology,Primer Parcial,Paul Brown,4.8
+Biology,Primer Parcial,Paul Magenta,4.8
+Biology,Primer Parcial,Quincy Azure,5.2
+Biology,Primer Parcial,Quincy Cyan,4.7
+Biology,Primer Parcial,Quincy Johnson,5.1
+Biology,Primer Parcial,Rita Beige,5.2
+Biology,Primer Parcial,Rita Davis,5.1
+Biology,Primer Parcial,Rita Gray,5.3
+Biology,Primer Parcial,Sam Teal,5.4
+Biology,Segundo Parcial,Alice Blue,4.5
+Biology,Segundo Parcial,Bob Green,4.8
+Biology,Segundo Parcial,Charlie Brown,5.5
+Biology,Segundo Parcial,Charlie Davis,4.9
+Biology,Segundo Parcial,Charlie Pink,5.0
+Biology,Segundo Parcial,Dana Black,4.8
+Biology,Segundo Parcial,Eve Magenta,5.5
+Biology,Segundo Parcial,Frank Indigo,4.9
+Biology,Segundo Parcial,Grace Indigo,5.0
+Biology,Segundo Parcial,Grace Orange,5.3
+Biology,Segundo Parcial,Hank Red,5.0
+Biology,Segundo Parcial,Ivy Indigo,4.8
+Biology,Segundo Parcial,Ivy Red,5.0
+Biology,Segundo Parcial,Jack Blue,5.1
+Biology,Segundo Parcial,Kelly Beige,5.4
+Biology,Segundo Parcial,Kelly Black,4.7
+Biology,Segundo Parcial,Kelly Davis,5.0
+Biology,Segundo Parcial,Kelly Red,4.9
+Biology,Segundo Parcial,Nick Brown,4.9
+Biology,Segundo Parcial,Nick Gray,5.3
+Biology,Segundo Parcial,Nick Pink,4.9
+Biology,Segundo Parcial,Nick Teal,5.2
+Biology,Segundo Parcial,Olivia Beige,4.8
+Biology,Segundo Parcial,Olivia Gray,5.0
+Biology,Segundo Parcial,Olivia Pink,4.7
+Biology,Segundo Parcial,Olivia Violet,4.6
+Biology,Segundo Parcial,Olivia Yellow,4.6
+Biology,Segundo Parcial,Paul Black,5.4
+Biology,Segundo Parcial,Paul Johnson,4.6
+Biology,Segundo Parcial,Paul Orange,5.3
+Biology,Segundo Parcial,Paul Violet,5.5
+Biology,Segundo Parcial,Quincy Green,5.3
+Biology,Segundo Parcial,Quincy Orange,4.7
+Biology,Segundo Parcial,Rita Cyan,5.1
+Biology,Segundo Parcial,Rita Green,5.3
+Biology,Segundo Parcial,Rita Teal,4.9
+Biology,Segundo Parcial,Sam Blue,5.0
+Biology,Segundo Parcial,Sam Red,5.0
+Chemistry,Examen Final,Bob Beige,5.4
+Chemistry,Examen Final,Bob Davis,5.2
+Chemistry,Examen Final,Bob Magenta,5.0
+Chemistry,Examen Final,Bob Pink,5.3
+Chemistry,Examen Final,Charlie Beige,4.8
+Chemistry,Examen Final,Charlie Brown,5.0
+Chemistry,Examen Final,Charlie Green,4.7
+Chemistry,Examen Final,Charlie Red,5.4
+Chemistry,Examen Final,Charlie White,5.0
+Chemistry,Examen Final,Dana Blue,5.0
+Chemistry,Examen Final,Eve Beige,4.7
+Chemistry,Examen Final,Eve White,5.1
+Chemistry,Examen Final,Frank Davis,5.0
+Chemistry,Examen Final,Grace Beige,4.9
+Chemistry,Examen Final,Grace Blue,5.4
+Chemistry,Examen Final,Grace Davis,5.3
+Chemistry,Examen Final,Grace Green,5.0
+Chemistry,Examen Final,Grace Orange,5.1
+Chemistry,Examen Final,Grace White,4.7
+Chemistry,Examen Final,Hank Azure,5.2
+Chemistry,Examen Final,Hank Brown,4.8
+Chemistry,Examen Final,Hank Davis,5.1
+Chemistry,Examen Final,Hank Gray,4.8
+Chemistry,Examen Final,Ivy Gray,5.1
+Chemistry,Examen Final,Ivy Indigo,4.9
+Chemistry,Examen Final,Ivy Pink,4.9
+Chemistry,Examen Final,Ivy White,4.7
+Chemistry,Examen Final,Jack Cyan,5.0
+Chemistry,Examen Final,Kelly Azure,5.2
+Chemistry,Examen Final,Kelly Teal,4.6
+Chemistry,Examen Final,Kelly White,4.4
+Chemistry,Examen Final,Liam Gray,4.8
+Chemistry,Examen Final,Liam Green,5.3
+Chemistry,Examen Final,Liam Orange,4.7
+Chemistry,Examen Final,Liam Pink,4.8
+Chemistry,Examen Final,Mona Brown,5.3
+Chemistry,Examen Final,Nick Brown,5.1
+Chemistry,Examen Final,Olivia Purple,4.9
+Chemistry,Examen Final,Paul Davis,5.1
+Chemistry,Examen Final,Paul Indigo,5.1
+Chemistry,Examen Final,Paul White,5.2
+Chemistry,Examen Final,Paul Yellow,4.7
+Chemistry,Examen Final,Quincy Beige,4.8
+Chemistry,Examen Final,Quincy Orange,4.5
+Chemistry,Examen Final,Quincy Teal,5.2
+Chemistry,Examen Final,Rita Blue,5.0
+Chemistry,Primer Parcial,Alice Black,5.1
+Chemistry,Primer Parcial,Alice Blue,5.2
+Chemistry,Primer Parcial,Bob Orange,4.5
+Chemistry,Primer Parcial,Charlie Black,5.1
+Chemistry,Primer Parcial,Charlie Pink,5.2
+Chemistry,Primer Parcial,Charlie Yellow,5.1
+Chemistry,Primer Parcial,Eve Violet,4.7
+Chemistry,Primer Parcial,Eve White,5.1
+Chemistry,Primer Parcial,Frank Red,5.0
+Chemistry,Primer Parcial,Hank Azure,5.2
+Chemistry,Primer Parcial,Hank Magenta,5.4
+Chemistry,Primer Parcial,Hank Orange,5.2
+Chemistry,Primer Parcial,Ivy White,4.7
+Chemistry,Primer Parcial,Ivy Yellow,5.0
+Chemistry,Primer Parcial,Jack Gray,5.1
+Chemistry,Primer Parcial,Kelly Teal,5.0
+Chemistry,Primer Parcial,Liam Johnson,5.1
+Chemistry,Primer Parcial,Liam Teal,5.0
+Chemistry,Primer Parcial,Liam White,4.9
+Chemistry,Primer Parcial,Mona Yellow,5.2
+Chemistry,Primer Parcial,Nick Johnson,4.9
+Chemistry,Primer Parcial,Paul Azure,5.1
+Chemistry,Primer Parcial,Paul Orange,4.9
+Chemistry,Primer Parcial,Paul Red,4.9
+Chemistry,Primer Parcial,Paul Violet,4.6
+Chemistry,Primer Parcial,Paul Yellow,4.9
+Chemistry,Primer Parcial,Quincy Violet,4.9
+Chemistry,Primer Parcial,Quincy Yellow,5.0
+Chemistry,Primer Parcial,Rita Magenta,5.9
+Chemistry,Primer Parcial,Rita Pink,4.9
+Chemistry,Primer Parcial,Sam Pink,4.9
+Chemistry,Primer Parcial,Sam Red,4.7
+Chemistry,Primer Parcial,Sam Violet,4.6
+Chemistry,Segundo Parcial,Alice Green,4.8
+Chemistry,Segundo Parcial,Alice Johnson,4.9
+Chemistry,Segundo Parcial,Alice Purple,4.4
+Chemistry,Segundo Parcial,Alice White,4.8
+Chemistry,Segundo Parcial,Bob Blue,5.3
+Chemistry,Segundo Parcial,Bob Orange,4.8
+Chemistry,Segundo Parcial,Charlie Beige,4.8
+Chemistry,Segundo Parcial,Charlie Cyan,5.2
+Chemistry,Segundo Parcial,Charlie Orange,5.4
+Chemistry,Segundo Parcial,Charlie Red,5.1
+Chemistry,Segundo Parcial,Dana Beige,4.9
+Chemistry,Segundo Parcial,Dana Johnson,5.3
+Chemistry,Segundo Parcial,Eve Johnson,5.3
+Chemistry,Segundo Parcial,Eve Violet,5.5
+Chemistry,Segundo Parcial,Frank Red,4.8
+Chemistry,Segundo Parcial,Grace White,5.5
+Chemistry,Segundo Parcial,Hank Green,4.9
+Chemistry,Segundo Parcial,Hank Johnson,5.0
+Chemistry,Segundo Parcial,Hank Magenta,5.4
+Chemistry,Segundo Parcial,Ivy Azure,4.8
+Chemistry,Segundo Parcial,Ivy Blue,5.3
+Chemistry,Segundo Parcial,Ivy Brown,4.9
+Chemistry,Segundo Parcial,Ivy Johnson,5.6
+Chemistry,Segundo Parcial,Jack Purple,4.9
+Chemistry,Segundo Parcial,Jack Yellow,4.9
+Chemistry,Segundo Parcial,Liam Blue,4.8
+Chemistry,Segundo Parcial,Liam Brown,5.3
+Chemistry,Segundo Parcial,Mona Azure,4.8
+Chemistry,Segundo Parcial,Mona Beige,5.0
+Chemistry,Segundo Parcial,Mona Gray,4.9
+Chemistry,Segundo Parcial,Nick Blue,5.3
+Chemistry,Segundo Parcial,Nick Cyan,5.3
+Chemistry,Segundo Parcial,Nick Davis,5.7
+Chemistry,Segundo Parcial,Nick Johnson,5.2
+Chemistry,Segundo Parcial,Olivia Johnson,5.0
+Chemistry,Segundo Parcial,Olivia Magenta,5.1
+Chemistry,Segundo Parcial,Olivia Purple,5.2
+Chemistry,Segundo Parcial,Paul Pink,5.3
+Chemistry,Segundo Parcial,Rita Azure,5.2
+Chemistry,Segundo Parcial,Rita Black,5.3
+Chemistry,Segundo Parcial,Rita Blue,4.8
+Chemistry,Segundo Parcial,Sam Black,5.1
+Chemistry,Segundo Parcial,Sam Orange,5.2
+Chemistry,Segundo Parcial,Sam Purple,4.9
+Chemistry,TP1,Alice Red,5.1
+Chemistry,TP1,Bob Beige,6.4
+Chemistry,TP1,Bob Brown,5.0
+Chemistry,TP1,Charlie Azure,4.2
+Chemistry,TP1,Charlie Beige,4.1
+Chemistry,TP1,Charlie Teal,5.3
+Chemistry,TP1,Charlie Violet,4.6
+Chemistry,TP1,Dana Azure,5.8
+Chemistry,TP1,Dana Davis,4.5
+Chemistry,TP1,Dana Red,4.3
+Chemistry,TP1,Eve Azure,5.2
+Chemistry,TP1,Eve Magenta,4.3
+Chemistry,TP1,Eve Pink,4.0
+Chemistry,TP1,Eve Red,4.5
+Chemistry,TP1,Eve Yellow,3.9
+Chemistry,TP1,Frank Cyan,4.4
+Chemistry,TP1,Frank Pink,4.4
+Chemistry,TP1,Grace Brown,4.2
+Chemistry,TP1,Grace Pink,5.8
+Chemistry,TP1,Hank Johnson,3.9
+Chemistry,TP1,Hank Pink,4.7
+Chemistry,TP1,Hank White,4.2
+Chemistry,TP1,Ivy Green,4.9
+Chemistry,TP1,Ivy Johnson,5.4
+Chemistry,TP1,Ivy Teal,6.2
+Chemistry,TP1,Jack Black,5.3
+Chemistry,TP1,Jack Brown,4.9
+Chemistry,TP1,Jack Cyan,4.4
+Chemistry,TP1,Jack Johnson,4.5
+Chemistry,TP1,Jack Magenta,4.7
+Chemistry,TP1,Jack Purple,4.6
+Chemistry,TP1,Kelly Blue,5.3
+Chemistry,TP1,Kelly Brown,4.7
+Chemistry,TP1,Kelly Pink,5.5
+Chemistry,TP1,Kelly Red,5.0
+Chemistry,TP1,Kelly White,4.7
+Chemistry,TP1,Liam Davis,5.2
+Chemistry,TP1,Liam Orange,5.9
+Chemistry,TP1,Liam Teal,5.2
+Chemistry,TP1,Liam White,5.4
+Chemistry,TP1,Mona Black,4.4
+Chemistry,TP1,Mona Purple,3.9
+Chemistry,TP1,Mona Teal,6.1
+Chemistry,TP1,Mona Violet,5.5
+Chemistry,TP1,Nick Blue,4.9
+Chemistry,TP1,Nick Cyan,5.5
+Chemistry,TP1,Nick Red,5.6
+Chemistry,TP1,Olivia Beige,5.1
+Chemistry,TP1,Olivia Red,5.1
+Chemistry,TP1,Paul Gray,4.9
+Chemistry,TP1,Paul Johnson,4.1
+Chemistry,TP1,Quincy Gray,5.1
+Chemistry,TP1,Quincy Orange,3.9
+Chemistry,TP1,Rita Azure,5.0
+Chemistry,TP1,Rita Beige,6.1
+Chemistry,TP1,Rita Green,4.7
+Chemistry,TP1,Sam Beige,4.6
+Chemistry,TP1,Sam Davis,4.1
+Chemistry,TP1,Sam Orange,5.3
+Chemistry,TP1,Sam Purple,5.4
+Chemistry,TP2,Alice Azure,5.9
+Chemistry,TP2,Alice Green,4.5
+Chemistry,TP2,Alice Red,5.3
+Chemistry,TP2,Bob Indigo,5.5
+Chemistry,TP2,Charlie Yellow,5.4
+Chemistry,TP2,Dana Green,5.8
+Chemistry,TP2,Dana Orange,4.2
+Chemistry,TP2,Dana Purple,4.4
+Chemistry,TP2,Dana Violet,5.1
+Chemistry,TP2,Eve Brown,4.2
+Chemistry,TP2,Eve Cyan,4.5
+Chemistry,TP2,Eve Indigo,5.8
+Chemistry,TP2,Eve Magenta,5.0
+Chemistry,TP2,Eve Violet,6.2
+Chemistry,TP2,Frank Brown,3.5
+Chemistry,TP2,Frank Gray,5.2
+Chemistry,TP2,Frank Teal,5.2
+Chemistry,TP2,Grace Brown,5.2
+Chemistry,TP2,Grace Yellow,5.2
+Chemistry,TP2,Hank Davis,5.1
+Chemistry,TP2,Hank Gray,4.1
+Chemistry,TP2,Hank Pink,6.2
+Chemistry,TP2,Ivy Brown,5.0
+Chemistry,TP2,Jack Brown,5.4
+Chemistry,TP2,Jack Red,4.4
+Chemistry,TP2,Jack Yellow,4.9
+Chemistry,TP2,Kelly Orange,3.4
+Chemistry,TP2,Kelly Purple,5.8
+Chemistry,TP2,Liam Azure,5.9
+Chemistry,TP2,Liam Purple,4.6
+Chemistry,TP2,Mona Green,5.0
+Chemistry,TP2,Mona Violet,5.5
+Chemistry,TP2,Mona Yellow,4.1
+Chemistry,TP2,Nick Blue,5.9
+Chemistry,TP2,Nick Green,5.0
+Chemistry,TP2,Nick Yellow,4.8
+Chemistry,TP2,Olivia Yellow,5.2
+Chemistry,TP2,Paul Blue,4.1
+Chemistry,TP2,Paul Johnson,5.3
+Chemistry,TP2,Quincy Pink,4.9
+Chemistry,TP2,Rita Beige,3.7
+Chemistry,TP2,Rita Green,4.3
+Chemistry,TP2,Rita Indigo,4.1
+Chemistry,TP2,Rita Violet,4.8
+Chemistry,TP2,Rita White,6.3
+Chemistry,TP2,Sam Indigo,4.9
+Chemistry,TP2,Sam Red,5.0
+Computer Science,TP Final,Alice Azure,5.0
+Computer Science,TP Final,Alice Black,4.9
+Computer Science,TP Final,Alice Cyan,5.9
+Computer Science,TP Final,Alice Green,4.6
+Computer Science,TP Final,Alice Johnson,3.6
+Computer Science,TP Final,Alice Magenta,5.0
+Computer Science,TP Final,Alice Orange,4.7
+Computer Science,TP Final,Alice Pink,4.4
+Computer Science,TP Final,Alice Purple,5.3
+Computer Science,TP Final,Alice Red,4.3
+Computer Science,TP Final,Alice White,4.6
+Computer Science,TP Final,Alice Yellow,6.7
+Computer Science,TP Final,Bob Azure,4.9
+Computer Science,TP Final,Bob Beige,4.9
+Computer Science,TP Final,Bob Brown,6.3
+Computer Science,TP Final,Bob Gray,5.7
+Computer Science,TP Final,Bob Indigo,5.9
+Computer Science,TP Final,Bob Magenta,4.0
+Computer Science,TP Final,Bob Pink,2.7
+Computer Science,TP Final,Bob Purple,4.1
+Computer Science,TP Final,Bob Red,5.7
+Computer Science,TP Final,Bob Teal,5.1
+Computer Science,TP Final,Bob Violet,4.7
+Computer Science,TP Final,Bob White,5.0
+Computer Science,TP Final,Bob Yellow,6.9
+Computer Science,TP Final,Charlie Azure,5.1
+Computer Science,TP Final,Charlie Beige,7.0
+Computer Science,TP Final,Charlie Brown,5.0
+Computer Science,TP Final,Charlie Cyan,5.0
+Computer Science,TP Final,Charlie Gray,4.9
+Computer Science,TP Final,Charlie Johnson,2.9
+Computer Science,TP Final,Charlie Magenta,2.6
+Computer Science,TP Final,Charlie Orange,4.4
+Computer Science,TP Final,Charlie Purple,5.0
+Computer Science,TP Final,Charlie Teal,4.0
+Computer Science,TP Final,Charlie Violet,7.0
+Computer Science,TP Final,Charlie White,6.0
+Computer Science,TP Final,Charlie Yellow,5.6
+Computer Science,TP Final,Dana Azure,4.3
+Computer Science,TP Final,Dana Beige,4.6
+Computer Science,TP Final,Dana Black,4.7
+Computer Science,TP Final,Dana Blue,4.0
+Computer Science,TP Final,Dana Brown,2.6
+Computer Science,TP Final,Dana Cyan,2.7
+Computer Science,TP Final,Dana Davis,7.3
+Computer Science,TP Final,Dana Green,5.3
+Computer Science,TP Final,Dana Indigo,6.0
+Computer Science,TP Final,Dana Magenta,6.7
+Computer Science,TP Final,Dana Orange,3.4
+Computer Science,TP Final,Dana Pink,7.0
+Computer Science,TP Final,Dana Red,4.9
+Computer Science,TP Final,Dana Teal,5.9
+Computer Science,TP Final,Dana Violet,5.7
+Computer Science,TP Final,Dana Yellow,4.1
+Computer Science,TP Final,Eve Azure,5.3
+Computer Science,TP Final,Eve Beige,5.3
+Computer Science,TP Final,Eve Black,4.1
+Computer Science,TP Final,Eve Blue,5.7
+Computer Science,TP Final,Eve Brown,2.9
+Computer Science,TP Final,Eve Cyan,5.1
+Computer Science,TP Final,Eve Gray,4.3
+Computer Science,TP Final,Eve Green,4.0
+Computer Science,TP Final,Eve Indigo,5.0
+Computer Science,TP Final,Eve Johnson,5.0
+Computer Science,TP Final,Eve Magenta,5.4
+Computer Science,TP Final,Eve Orange,5.9
+Computer Science,TP Final,Eve Pink,3.6
+Computer Science,TP Final,Eve Purple,4.0
+Computer Science,TP Final,Eve Red,7.1
+Computer Science,TP Final,Eve Teal,4.6
+Computer Science,TP Final,Eve Violet,4.1
+Computer Science,TP Final,Eve White,5.1
+Computer Science,TP Final,Eve Yellow,4.1
+Computer Science,TP Final,Frank Azure,4.1
+Computer Science,TP Final,Frank Beige,5.0
+Computer Science,TP Final,Frank Black,4.4
+Computer Science,TP Final,Frank Blue,3.6
+Computer Science,TP Final,Frank Brown,6.1
+Computer Science,TP Final,Frank Cyan,5.1
+Computer Science,TP Final,Frank Green,5.7
+Computer Science,TP Final,Frank Indigo,4.9
+Computer Science,TP Final,Frank Johnson,5.3
+Computer Science,TP Final,Frank Pink,4.7
+Computer Science,TP Final,Frank Purple,3.7
+Computer Science,TP Final,Frank Red,7.6
+Computer Science,TP Final,Frank Teal,4.7
+Computer Science,TP Final,Frank Violet,4.9
+Computer Science,TP Final,Grace Azure,4.9
+Computer Science,TP Final,Grace Beige,3.9
+Computer Science,TP Final,Grace Black,7.3
+Computer Science,TP Final,Grace Brown,5.6
+Computer Science,TP Final,Grace Davis,5.3
+Computer Science,TP Final,Grace Gray,4.7
+Computer Science,TP Final,Grace Green,2.4
+Computer Science,TP Final,Grace Johnson,5.0
+Computer Science,TP Final,Grace Magenta,4.9
+Computer Science,TP Final,Grace Orange,6.4
+Computer Science,TP Final,Grace Teal,5.1
+Computer Science,TP Final,Grace Violet,5.1
+Computer Science,TP Final,Grace White,5.4
+Computer Science,TP Final,Grace Yellow,4.6
+Computer Science,TP Final,Hank Azure,5.9
+Computer Science,TP Final,Hank Beige,6.0
+Computer Science,TP Final,Hank Black,5.1
+Computer Science,TP Final,Hank Gray,3.4
+Computer Science,TP Final,Hank Green,4.0
+Computer Science,TP Final,Hank Johnson,4.9
+Computer Science,TP Final,Hank Pink,6.4
+Computer Science,TP Final,Hank Red,4.0
+Computer Science,TP Final,Hank Teal,4.1
+Computer Science,TP Final,Hank Violet,4.6
+Computer Science,TP Final,Hank White,4.9
+Computer Science,TP Final,Hank Yellow,3.3
+Computer Science,TP Final,Ivy Azure,7.0
+Computer Science,TP Final,Ivy Beige,5.1
+Computer Science,TP Final,Ivy Black,2.3
+Computer Science,TP Final,Ivy Blue,3.9
+Computer Science,TP Final,Ivy Brown,4.7
+Computer Science,TP Final,Ivy Cyan,4.4
+Computer Science,TP Final,Ivy Gray,4.6
+Computer Science,TP Final,Ivy Indigo,4.9
+Computer Science,TP Final,Ivy Magenta,5.1
+Computer Science,TP Final,Ivy Orange,2.9
+Computer Science,TP Final,Ivy Pink,5.6
+Computer Science,TP Final,Ivy Red,4.6
+Computer Science,TP Final,Ivy Teal,5.4
+Computer Science,TP Final,Ivy Violet,4.9
+Computer Science,TP Final,Ivy White,3.6
+Computer Science,TP Final,Jack Beige,3.3
+Computer Science,TP Final,Jack Cyan,6.1
+Computer Science,TP Final,Jack Davis,6.1
+Computer Science,TP Final,Jack Green,4.6
+Computer Science,TP Final,Jack Indigo,6.9
+Computer Science,TP Final,Jack Johnson,4.0
+Computer Science,TP Final,Jack Magenta,4.1
+Computer Science,TP Final,Jack Orange,4.1
+Computer Science,TP Final,Jack Pink,6.0
+Computer Science,TP Final,Jack White,5.1
+Computer Science,TP Final,Jack Yellow,6.1
+Computer Science,TP Final,Kelly Azure,5.6
+Computer Science,TP Final,Kelly Beige,5.0
+Computer Science,TP Final,Kelly Black,5.7
+Computer Science,TP Final,Kelly Blue,6.4
+Computer Science,TP Final,Kelly Brown,5.3
+Computer Science,TP Final,Kelly Cyan,5.6
+Computer Science,TP Final,Kelly Davis,5.6
+Computer Science,TP Final,Kelly Gray,5.7
+Computer Science,TP Final,Kelly Green,5.1
+Computer Science,TP Final,Kelly Indigo,4.6
+Computer Science,TP Final,Kelly Johnson,5.3
+Computer Science,TP Final,Kelly Magenta,5.0
+Computer Science,TP Final,Kelly Orange,3.0
+Computer Science,TP Final,Kelly Red,6.3
+Computer Science,TP Final,Kelly Teal,5.6
+Computer Science,TP Final,Kelly Violet,4.4
+Computer Science,TP Final,Kelly Yellow,4.1
+Computer Science,TP Final,Liam Azure,7.6
+Computer Science,TP Final,Liam Beige,6.9
+Computer Science,TP Final,Liam Blue,6.1
+Computer Science,TP Final,Liam Brown,4.9
+Computer Science,TP Final,Liam Cyan,5.6
+Computer Science,TP Final,Liam Green,6.4
+Computer Science,TP Final,Liam Johnson,5.9
+Computer Science,TP Final,Liam Magenta,4.4
+Computer Science,TP Final,Liam Purple,5.4
+Computer Science,TP Final,Liam Red,3.7
+Computer Science,TP Final,Liam Violet,6.3
+Computer Science,TP Final,Liam White,3.0
+Computer Science,TP Final,Mona Azure,3.7
+Computer Science,TP Final,Mona Beige,3.7
+Computer Science,TP Final,Mona Blue,6.7
+Computer Science,TP Final,Mona Brown,4.3
+Computer Science,TP Final,Mona Cyan,5.9
+Computer Science,TP Final,Mona Davis,4.3
+Computer Science,TP Final,Mona Green,5.1
+Computer Science,TP Final,Mona Indigo,4.3
+Computer Science,TP Final,Mona Johnson,3.1
+Computer Science,TP Final,Mona Orange,5.7
+Computer Science,TP Final,Mona Pink,3.6
+Computer Science,TP Final,Mona Purple,4.9
+Computer Science,TP Final,Mona Red,3.0
+Computer Science,TP Final,Mona Teal,4.3
+Computer Science,TP Final,Mona White,5.7
+Computer Science,TP Final,Mona Yellow,4.4
+Computer Science,TP Final,Nick Beige,6.7
+Computer Science,TP Final,Nick Black,4.6
+Computer Science,TP Final,Nick Blue,4.4
+Computer Science,TP Final,Nick Brown,6.0
+Computer Science,TP Final,Nick Cyan,5.1
+Computer Science,TP Final,Nick Davis,4.4
+Computer Science,TP Final,Nick Gray,6.7
+Computer Science,TP Final,Nick Indigo,4.9
+Computer Science,TP Final,Nick Orange,5.3
+Computer Science,TP Final,Nick Pink,5.9
+Computer Science,TP Final,Nick Purple,5.3
+Computer Science,TP Final,Nick Teal,3.4
+Computer Science,TP Final,Nick Yellow,2.3
+Computer Science,TP Final,Olivia Beige,4.1
+Computer Science,TP Final,Olivia Davis,4.9
+Computer Science,TP Final,Olivia Johnson,5.7
+Computer Science,TP Final,Olivia Magenta,5.4
+Computer Science,TP Final,Olivia Orange,5.0
+Computer Science,TP Final,Olivia Pink,4.3
+Computer Science,TP Final,Olivia Red,3.7
+Computer Science,TP Final,Olivia Teal,4.9
+Computer Science,TP Final,Olivia Violet,4.7
+Computer Science,TP Final,Olivia Yellow,4.1
+Computer Science,TP Final,Paul Azure,3.9
+Computer Science,TP Final,Paul Beige,4.3
+Computer Science,TP Final,Paul Black,6.4
+Computer Science,TP Final,Paul Blue,4.9
+Computer Science,TP Final,Paul Green,5.7
+Computer Science,TP Final,Paul Indigo,5.1
+Computer Science,TP Final,Paul Johnson,6.9
+Computer Science,TP Final,Paul Orange,5.4
+Computer Science,TP Final,Paul Pink,6.7
+Computer Science,TP Final,Paul Purple,4.0
+Computer Science,TP Final,Paul Red,5.4
+Computer Science,TP Final,Paul Violet,3.3
+Computer Science,TP Final,Paul Yellow,5.4
+Computer Science,TP Final,Quincy Beige,4.7
+Computer Science,TP Final,Quincy Blue,4.3
+Computer Science,TP Final,Quincy Brown,5.4
+Computer Science,TP Final,Quincy Davis,6.0
+Computer Science,TP Final,Quincy Green,4.6
+Computer Science,TP Final,Quincy Indigo,6.7
+Computer Science,TP Final,Quincy Johnson,5.0
+Computer Science,TP Final,Quincy Orange,7.0
+Computer Science,TP Final,Quincy Pink,6.0
+Computer Science,TP Final,Quincy Purple,4.7
+Computer Science,TP Final,Quincy Violet,6.0
+Computer Science,TP Final,Quincy Yellow,4.6
+Computer Science,TP Final,Rita Azure,3.9
+Computer Science,TP Final,Rita Beige,6.4
+Computer Science,TP Final,Rita Brown,4.7
+Computer Science,TP Final,Rita Cyan,7.0
+Computer Science,TP Final,Rita Davis,5.9
+Computer Science,TP Final,Rita Green,4.7
+Computer Science,TP Final,Rita Indigo,5.1
+Computer Science,TP Final,Rita Johnson,2.1
+Computer Science,TP Final,Rita Pink,5.7
+Computer Science,TP Final,Rita Purple,6.3
+Computer Science,TP Final,Rita Teal,5.4
+Computer Science,TP Final,Sam Beige,3.3
+Computer Science,TP Final,Sam Black,5.4
+Computer Science,TP Final,Sam Blue,3.0
+Computer Science,TP Final,Sam Cyan,6.0
+Computer Science,TP Final,Sam Gray,6.3
+Computer Science,TP Final,Sam Green,5.6
+Computer Science,TP Final,Sam Indigo,7.0
+Computer Science,TP Final,Sam Johnson,5.7
+Computer Science,TP Final,Sam Pink,5.0
+Computer Science,TP Final,Sam Purple,4.4
+Computer Science,TP Final,Sam Red,5.9
+Computer Science,TP Final,Sam Teal,5.7
+Computer Science,TP Final,Sam Violet,4.9
+Computer Science,TP Final,Sam White,3.6
+Computer Science,TP1,Alice Green,5.5
+Computer Science,TP1,Alice Teal,5.8
+Computer Science,TP1,Bob Blue,4.7
+Computer Science,TP1,Bob Johnson,4.0
+Computer Science,TP1,Bob Purple,5.1
+Computer Science,TP1,Bob Teal,5.3
+Computer Science,TP1,Bob Yellow,5.0
+Computer Science,TP1,Dana Beige,5.2
+Computer Science,TP1,Dana Purple,5.0
+Computer Science,TP1,Eve Violet,5.5
+Computer Science,TP1,Frank Johnson,5.0
+Computer Science,TP1,Hank Brown,4.8
+Computer Science,TP1,Hank Cyan,4.1
+Computer Science,TP1,Hank Orange,4.7
+Computer Science,TP1,Hank Red,6.7
+Computer Science,TP1,Kelly Black,5.6
+Computer Science,TP1,Kelly Green,6.3
+Computer Science,TP1,Kelly Indigo,4.6
+Computer Science,TP1,Kelly Teal,5.3
+Computer Science,TP1,Liam Yellow,4.3
+Computer Science,TP1,Mona Azure,5.0
+Computer Science,TP1,Mona Green,5.4
+Computer Science,TP1,Nick Azure,5.4
+Computer Science,TP1,Olivia Indigo,5.1
+Computer Science,TP1,Paul Beige,5.1
+Computer Science,TP1,Quincy Davis,4.0
+Computer Science,TP10,Alice Azure,3.7
+Computer Science,TP10,Alice Brown,4.3
+Computer Science,TP10,Alice Pink,3.0
+Computer Science,TP10,Alice Purple,2.7
+Computer Science,TP10,Alice White,6.0
+Computer Science,TP10,Bob Azure,5.3
+Computer Science,TP10,Bob Beige,6.7
+Computer Science,TP10,Bob Blue,8.3
+Computer Science,TP10,Bob Brown,3.7
+Computer Science,TP10,Bob Gray,6.7
+Computer Science,TP10,Bob Indigo,7.7
+Computer Science,TP10,Bob Orange,6.7
+Computer Science,TP10,Bob Pink,5.7
+Computer Science,TP10,Bob Violet,5.3
+Computer Science,TP10,Charlie Azure,6.0
+Computer Science,TP10,Charlie Indigo,3.0
+Computer Science,TP10,Charlie Pink,5.7
+Computer Science,TP10,Charlie Red,3.3
+Computer Science,TP10,Dana Beige,5.3
+Computer Science,TP10,Dana Black,5.0
+Computer Science,TP10,Dana Brown,6.0
+Computer Science,TP10,Dana Gray,8.3
+Computer Science,TP10,Dana Indigo,4.0
+Computer Science,TP10,Dana Red,5.0
+Computer Science,TP10,Eve Brown,5.7
+Computer Science,TP10,Eve Davis,8.7
+Computer Science,TP10,Eve Indigo,4.3
+Computer Science,TP10,Eve Orange,7.3
+Computer Science,TP10,Eve Yellow,6.0
+Computer Science,TP10,Frank Azure,6.3
+Computer Science,TP10,Frank Blue,4.3
+Computer Science,TP10,Frank Cyan,4.7
+Computer Science,TP10,Frank Davis,4.3
+Computer Science,TP10,Frank Gray,3.3
+Computer Science,TP10,Frank Johnson,6.3
+Computer Science,TP10,Frank Orange,6.3
+Computer Science,TP10,Frank Pink,4.3
+Computer Science,TP10,Frank Purple,5.3
+Computer Science,TP10,Frank Red,3.7
+Computer Science,TP10,Frank Teal,5.7
+Computer Science,TP10,Frank Yellow,3.3
+Computer Science,TP10,Grace Black,5.3
+Computer Science,TP10,Grace Green,4.3
+Computer Science,TP10,Grace Magenta,3.7
+Computer Science,TP10,Grace Red,5.3
+Computer Science,TP10,Grace Teal,4.0
+Computer Science,TP10,Grace White,7.0
+Computer Science,TP10,Grace Yellow,6.3
+Computer Science,TP10,Hank Beige,4.7
+Computer Science,TP10,Hank Black,5.0
+Computer Science,TP10,Hank Blue,6.3
+Computer Science,TP10,Hank Brown,8.3
+Computer Science,TP10,Hank Cyan,5.7
+Computer Science,TP10,Hank Green,8.7
+Computer Science,TP10,Hank Orange,2.0
+Computer Science,TP10,Hank Pink,8.7
+Computer Science,TP10,Hank Violet,2.3
+Computer Science,TP10,Ivy Azure,5.0
+Computer Science,TP10,Ivy Green,8.3
+Computer Science,TP10,Ivy Johnson,2.7
+Computer Science,TP10,Ivy Pink,3.3
+Computer Science,TP10,Ivy Purple,1.7
+Computer Science,TP10,Ivy Teal,5.7
+Computer Science,TP10,Ivy White,2.0
+Computer Science,TP10,Jack Beige,5.3
+Computer Science,TP10,Jack Cyan,2.0
+Computer Science,TP10,Jack Davis,3.3
+Computer Science,TP10,Jack Purple,2.3
+Computer Science,TP10,Jack Red,3.7
+Computer Science,TP10,Jack Teal,9.3
+Computer Science,TP10,Kelly Brown,4.0
+Computer Science,TP10,Kelly Gray,7.0
+Computer Science,TP10,Kelly Indigo,3.3
+Computer Science,TP10,Kelly Teal,4.3
+Computer Science,TP10,Kelly White,5.3
+Computer Science,TP10,Liam Azure,5.3
+Computer Science,TP10,Liam Beige,5.0
+Computer Science,TP10,Liam Cyan,4.3
+Computer Science,TP10,Liam Gray,4.0
+Computer Science,TP10,Liam Green,6.0
+Computer Science,TP10,Liam Purple,5.7
+Computer Science,TP10,Liam Yellow,6.7
+Computer Science,TP10,Mona Beige,5.3
+Computer Science,TP10,Mona Cyan,6.0
+Computer Science,TP10,Mona Johnson,5.7
+Computer Science,TP10,Mona Teal,6.7
+Computer Science,TP10,Mona Violet,4.3
+Computer Science,TP10,Mona White,5.0
+Computer Science,TP10,Nick Blue,4.7
+Computer Science,TP10,Nick Green,3.0
+Computer Science,TP10,Nick Magenta,7.7
+Computer Science,TP10,Nick Orange,3.3
+Computer Science,TP10,Nick Purple,4.0
+Computer Science,TP10,Nick Red,5.0
+Computer Science,TP10,Nick Teal,7.3
+Computer Science,TP10,Nick White,4.3
+Computer Science,TP10,Olivia Beige,6.7
+Computer Science,TP10,Olivia Brown,8.7
+Computer Science,TP10,Olivia Davis,3.7
+Computer Science,TP10,Olivia Gray,7.3
+Computer Science,TP10,Olivia Green,1.7
+Computer Science,TP10,Olivia Indigo,7.0
+Computer Science,TP10,Olivia Johnson,4.7
+Computer Science,TP10,Olivia Magenta,5.0
+Computer Science,TP10,Olivia Pink,4.0
+Computer Science,TP10,Olivia Purple,4.0
+Computer Science,TP10,Olivia Red,8.0
+Computer Science,TP10,Olivia Yellow,6.3
+Computer Science,TP10,Paul Azure,7.7
+Computer Science,TP10,Paul Blue,5.3
+Computer Science,TP10,Paul Cyan,4.7
+Computer Science,TP10,Paul Green,2.7
+Computer Science,TP10,Paul Johnson,6.7
+Computer Science,TP10,Paul White,8.0
+Computer Science,TP10,Quincy Brown,4.3
+Computer Science,TP10,Quincy Green,6.0
+Computer Science,TP10,Quincy Indigo,2.0
+Computer Science,TP10,Quincy Purple,5.7
+Computer Science,TP10,Quincy Red,4.7
+Computer Science,TP10,Quincy Yellow,5.0
+Computer Science,TP10,Rita Beige,4.7
+Computer Science,TP10,Rita Gray,3.0
+Computer Science,TP10,Rita Magenta,8.0
+Computer Science,TP10,Rita Pink,4.0
+Computer Science,TP10,Rita Purple,6.3
+Computer Science,TP10,Rita Violet,5.0
+Computer Science,TP10,Sam Azure,4.7
+Computer Science,TP10,Sam Black,4.3
+Computer Science,TP10,Sam Blue,3.7
+Computer Science,TP10,Sam Cyan,3.0
+Computer Science,TP10,Sam Gray,7.0
+Computer Science,TP10,Sam Pink,2.7
+Computer Science,TP2,Bob Magenta,5.4
+Computer Science,TP2,Bob Orange,5.3
+Computer Science,TP2,Charlie Blue,4.1
+Computer Science,TP2,Charlie Brown,5.4
+Computer Science,TP2,Dana Johnson,4.5
+Computer Science,TP2,Dana Pink,5.2
+Computer Science,TP2,Frank Azure,4.1
+Computer Science,TP2,Frank Purple,4.1
+Computer Science,TP2,Frank Red,6.0
+Computer Science,TP2,Ivy Blue,4.2
+Computer Science,TP2,Jack Black,5.3
+Computer Science,TP2,Jack Teal,4.5
+Computer Science,TP2,Paul Gray,4.4
+Computer Science,TP2,Quincy Blue,5.0
+Computer Science,TP2,Sam Davis,6.0
+Computer Science,TP3,Alice Green,4.5
+Computer Science,TP3,Charlie Beige,5.3
+Computer Science,TP3,Eve Davis,5.1
+Computer Science,TP3,Eve Green,4.1
+Computer Science,TP3,Hank Gray,4.9
+Computer Science,TP3,Hank White,5.5
+Computer Science,TP3,Ivy Azure,5.9
+Computer Science,TP3,Jack Green,5.4
+Computer Science,TP3,Jack White,4.6
+Computer Science,TP3,Kelly Blue,4.1
+Computer Science,TP3,Liam Indigo,5.8
+Computer Science,TP3,Liam Purple,5.1
+Computer Science,TP3,Nick White,4.9
+Computer Science,TP3,Olivia Azure,4.5
+Computer Science,TP3,Olivia Purple,5.2
+Computer Science,TP3,Olivia Violet,4.5
+Computer Science,TP3,Rita Purple,3.6
+Computer Science,TP3,Rita Teal,4.8
+Computer Science,TP4,Alice Indigo,5.9
+Computer Science,TP4,Alice Orange,5.5
+Computer Science,TP4,Alice Pink,6.1
+Computer Science,TP4,Alice Purple,2.9
+Computer Science,TP4,Charlie Brown,5.8
+Computer Science,TP4,Charlie White,5.5
+Computer Science,TP4,Dana White,4.6
+Computer Science,TP4,Eve Black,6.5
+Computer Science,TP4,Frank Azure,4.3
+Computer Science,TP4,Grace Black,5.0
+Computer Science,TP4,Ivy Davis,6.1
+Computer Science,TP4,Ivy Gray,5.6
+Computer Science,TP4,Ivy Johnson,5.6
+Computer Science,TP4,Ivy Pink,4.1
+Computer Science,TP4,Jack Orange,6.5
+Computer Science,TP4,Jack Violet,2.9
+Computer Science,TP4,Kelly Beige,4.8
+Computer Science,TP4,Kelly Cyan,5.6
+Computer Science,TP4,Liam Beige,4.5
+Computer Science,TP4,Liam Johnson,5.5
+Computer Science,TP4,Mona Cyan,4.5
+Computer Science,TP4,Mona Teal,7.0
+Computer Science,TP4,Nick Brown,5.8
+Computer Science,TP4,Nick Davis,4.1
+Computer Science,TP4,Olivia Green,5.0
+Computer Science,TP4,Olivia Indigo,4.8
+Computer Science,TP4,Olivia Magenta,6.1
+Computer Science,TP4,Olivia White,3.6
+Computer Science,TP4,Paul Blue,4.6
+Computer Science,TP4,Paul Cyan,4.6
+Computer Science,TP4,Paul Davis,5.3
+Computer Science,TP4,Paul Johnson,5.3
+Computer Science,TP4,Quincy Davis,5.6
+Computer Science,TP4,Rita Gray,4.0
+Computer Science,TP4,Rita Purple,4.9
+Computer Science,TP4,Sam Blue,6.1
+Computer Science,TP4,Sam Cyan,5.9
+Computer Science,TP4,Sam Davis,5.1
+Computer Science,TP4,Sam Johnson,5.1
+Computer Science,TP4,Sam Pink,4.3
+Computer Science,TP5,Alice Azure,5.0
+Computer Science,TP5,Alice Black,6.3
+Computer Science,TP5,Alice Brown,2.3
+Computer Science,TP5,Alice Davis,3.7
+Computer Science,TP5,Alice Green,4.0
+Computer Science,TP5,Alice Indigo,4.0
+Computer Science,TP5,Alice Johnson,6.0
+Computer Science,TP5,Alice Orange,7.0
+Computer Science,TP5,Alice Pink,3.7
+Computer Science,TP5,Alice Red,1.3
+Computer Science,TP5,Alice Teal,2.3
+Computer Science,TP5,Bob Beige,6.7
+Computer Science,TP5,Bob Brown,3.7
+Computer Science,TP5,Bob Cyan,5.3
+Computer Science,TP5,Bob Johnson,5.0
+Computer Science,TP5,Bob Magenta,6.0
+Computer Science,TP5,Bob Orange,5.3
+Computer Science,TP5,Bob Pink,4.0
+Computer Science,TP5,Bob Purple,4.3
+Computer Science,TP5,Bob Teal,6.3
+Computer Science,TP5,Charlie Azure,5.3
+Computer Science,TP5,Charlie Beige,5.3
+Computer Science,TP5,Charlie Brown,6.3
+Computer Science,TP5,Charlie Cyan,2.0
+Computer Science,TP5,Charlie Davis,3.0
+Computer Science,TP5,Charlie Red,4.3
+Computer Science,TP5,Charlie Teal,2.0
+Computer Science,TP5,Charlie White,3.0
+Computer Science,TP5,Dana Black,5.7
+Computer Science,TP5,Dana Cyan,3.7
+Computer Science,TP5,Dana Green,6.3
+Computer Science,TP5,Dana Red,6.0
+Computer Science,TP5,Dana Teal,6.3
+Computer Science,TP5,Eve Beige,3.3
+Computer Science,TP5,Eve Black,4.3
+Computer Science,TP5,Eve Brown,3.3
+Computer Science,TP5,Eve Gray,5.0
+Computer Science,TP5,Eve Purple,6.0
+Computer Science,TP5,Frank Azure,4.7
+Computer Science,TP5,Frank Brown,4.3
+Computer Science,TP5,Frank Green,5.0
+Computer Science,TP5,Grace Gray,4.0
+Computer Science,TP5,Grace Indigo,5.0
+Computer Science,TP5,Grace Johnson,5.0
+Computer Science,TP5,Grace White,6.0
+Computer Science,TP5,Hank Beige,6.7
+Computer Science,TP5,Hank Brown,5.7
+Computer Science,TP5,Hank Cyan,5.7
+Computer Science,TP5,Hank Green,5.3
+Computer Science,TP5,Hank Indigo,5.0
+Computer Science,TP5,Hank Magenta,5.0
+Computer Science,TP5,Hank Purple,4.7
+Computer Science,TP5,Hank Red,5.7
+Computer Science,TP5,Hank White,5.7
+Computer Science,TP5,Ivy Cyan,8.0
+Computer Science,TP5,Ivy Davis,4.7
+Computer Science,TP5,Ivy Johnson,7.7
+Computer Science,TP5,Ivy Orange,4.7
+Computer Science,TP5,Ivy Purple,4.7
+Computer Science,TP5,Ivy Red,5.3
+Computer Science,TP5,Ivy Teal,2.3
+Computer Science,TP5,Ivy White,2.0
+Computer Science,TP5,Jack Azure,4.0
+Computer Science,TP5,Jack Beige,5.0
+Computer Science,TP5,Jack Cyan,4.7
+Computer Science,TP5,Jack Indigo,2.0
+Computer Science,TP5,Jack Pink,5.7
+Computer Science,TP5,Jack Purple,5.3
+Computer Science,TP5,Kelly Beige,1.3
+Computer Science,TP5,Kelly Blue,6.7
+Computer Science,TP5,Kelly Cyan,4.7
+Computer Science,TP5,Kelly Davis,4.7
+Computer Science,TP5,Kelly Green,2.3
+Computer Science,TP5,Kelly Magenta,5.3
+Computer Science,TP5,Kelly Orange,5.3
+Computer Science,TP5,Kelly White,3.7
+Computer Science,TP5,Liam Azure,7.0
+Computer Science,TP5,Liam Magenta,3.7
+Computer Science,TP5,Liam Red,4.3
+Computer Science,TP5,Mona Davis,4.7
+Computer Science,TP5,Mona Gray,4.7
+Computer Science,TP5,Mona Magenta,5.3
+Computer Science,TP5,Mona Orange,5.3
+Computer Science,TP5,Mona Teal,3.0
+Computer Science,TP5,Mona Violet,3.0
+Computer Science,TP5,Nick Azure,5.0
+Computer Science,TP5,Nick Blue,5.0
+Computer Science,TP5,Nick Brown,2.0
+Computer Science,TP5,Nick Cyan,5.3
+Computer Science,TP5,Nick Davis,2.3
+Computer Science,TP5,Nick Gray,6.7
+Computer Science,TP5,Nick Indigo,5.7
+Computer Science,TP5,Nick Orange,2.3
+Computer Science,TP5,Nick Red,2.7
+Computer Science,TP5,Nick Violet,3.3
+Computer Science,TP5,Nick White,4.7
+Computer Science,TP5,Nick Yellow,4.3
+Computer Science,TP5,Olivia Azure,6.3
+Computer Science,TP5,Olivia Gray,2.0
+Computer Science,TP5,Olivia Johnson,6.3
+Computer Science,TP5,Olivia Purple,3.7
+Computer Science,TP5,Olivia Violet,4.7
+Computer Science,TP5,Paul Azure,2.7
+Computer Science,TP5,Paul Brown,6.7
+Computer Science,TP5,Paul Magenta,9.3
+Computer Science,TP5,Paul Orange,7.3
+Computer Science,TP5,Paul Pink,6.0
+Computer Science,TP5,Paul Teal,6.7
+Computer Science,TP5,Quincy Azure,3.0
+Computer Science,TP5,Quincy Brown,8.0
+Computer Science,TP5,Quincy Gray,2.0
+Computer Science,TP5,Quincy Orange,3.7
+Computer Science,TP5,Quincy Pink,8.3
+Computer Science,TP5,Quincy Purple,4.7
+Computer Science,TP5,Quincy Teal,4.7
+Computer Science,TP5,Quincy Violet,7.7
+Computer Science,TP5,Quincy White,6.7
+Computer Science,TP5,Rita Black,4.0
+Computer Science,TP5,Rita Blue,5.3
+Computer Science,TP5,Rita Cyan,7.0
+Computer Science,TP5,Rita Gray,5.3
+Computer Science,TP5,Rita Teal,8.0
+Computer Science,TP5,Rita White,2.0
+Computer Science,TP5,Sam Azure,7.0
+Computer Science,TP5,Sam Beige,6.0
+Computer Science,TP5,Sam Brown,3.3
+Computer Science,TP5,Sam Cyan,4.0
+Computer Science,TP5,Sam Johnson,5.3
+Computer Science,TP5,Sam Magenta,6.0
+Computer Science,TP5,Sam Pink,3.7
+Computer Science,TP5,Sam Red,5.3
+Computer Science,TP6,Alice Black,6.7
+Computer Science,TP6,Alice Cyan,7.0
+Computer Science,TP6,Alice Davis,1.0
+Computer Science,TP6,Alice Indigo,3.3
+Computer Science,TP6,Alice Orange,5.0
+Computer Science,TP6,Bob Brown,4.3
+Computer Science,TP6,Bob Davis,7.3
+Computer Science,TP6,Bob Green,7.3
+Computer Science,TP6,Bob Johnson,4.7
+Computer Science,TP6,Bob Magenta,5.0
+Computer Science,TP6,Bob Orange,5.3
+Computer Science,TP6,Charlie Azure,5.0
+Computer Science,TP6,Charlie Beige,4.7
+Computer Science,TP6,Charlie Blue,6.3
+Computer Science,TP6,Charlie Davis,7.3
+Computer Science,TP6,Charlie Indigo,8.3
+Computer Science,TP6,Charlie Red,5.3
+Computer Science,TP6,Charlie Teal,3.0
+Computer Science,TP6,Charlie Violet,5.3
+Computer Science,TP6,Charlie Yellow,3.0
+Computer Science,TP6,Dana Black,5.3
+Computer Science,TP6,Dana Green,6.0
+Computer Science,TP6,Dana Johnson,3.3
+Computer Science,TP6,Dana Teal,8.7
+Computer Science,TP6,Dana Yellow,4.0
+Computer Science,TP6,Eve Azure,6.3
+Computer Science,TP6,Eve Beige,7.7
+Computer Science,TP6,Eve Gray,1.7
+Computer Science,TP6,Eve Teal,6.3
+Computer Science,TP6,Eve Violet,3.3
+Computer Science,TP6,Frank Gray,3.3
+Computer Science,TP6,Frank Indigo,7.0
+Computer Science,TP6,Frank Magenta,4.0
+Computer Science,TP6,Frank Orange,5.7
+Computer Science,TP6,Frank Purple,6.7
+Computer Science,TP6,Grace Azure,1.0
+Computer Science,TP6,Grace Beige,2.7
+Computer Science,TP6,Grace Brown,5.7
+Computer Science,TP6,Grace Davis,6.3
+Computer Science,TP6,Grace Gray,6.3
+Computer Science,TP6,Grace Magenta,4.0
+Computer Science,TP6,Grace Teal,5.3
+Computer Science,TP6,Grace White,4.3
+Computer Science,TP6,Hank Azure,5.3
+Computer Science,TP6,Hank Beige,5.7
+Computer Science,TP6,Hank Indigo,5.3
+Computer Science,TP6,Hank Magenta,5.0
+Computer Science,TP6,Hank Orange,3.0
+Computer Science,TP6,Hank Teal,4.7
+Computer Science,TP6,Hank White,5.7
+Computer Science,TP6,Hank Yellow,3.0
+Computer Science,TP6,Ivy Azure,4.0
+Computer Science,TP6,Ivy Beige,7.0
+Computer Science,TP6,Ivy Black,4.7
+Computer Science,TP6,Ivy Blue,4.3
+Computer Science,TP6,Ivy Brown,1.3
+Computer Science,TP6,Ivy Cyan,2.3
+Computer Science,TP6,Ivy Gray,2.0
+Computer Science,TP6,Ivy Green,2.0
+Computer Science,TP6,Ivy Magenta,2.7
+Computer Science,TP6,Ivy Orange,2.7
+Computer Science,TP6,Ivy Pink,4.3
+Computer Science,TP6,Ivy Purple,2.7
+Computer Science,TP6,Ivy Violet,2.3
+Computer Science,TP6,Jack Azure,3.7
+Computer Science,TP6,Jack Black,6.7
+Computer Science,TP6,Jack Green,5.7
+Computer Science,TP6,Jack Indigo,5.3
+Computer Science,TP6,Jack Orange,4.7
+Computer Science,TP6,Jack Red,5.0
+Computer Science,TP6,Jack Yellow,4.0
+Computer Science,TP6,Kelly Black,7.0
+Computer Science,TP6,Kelly Gray,2.3
+Computer Science,TP6,Kelly Green,4.0
+Computer Science,TP6,Kelly Pink,3.3
+Computer Science,TP6,Kelly Purple,6.0
+Computer Science,TP6,Kelly Red,2.7
+Computer Science,TP6,Liam Beige,4.0
+Computer Science,TP6,Liam Brown,5.0
+Computer Science,TP6,Liam Cyan,7.3
+Computer Science,TP6,Liam Davis,5.7
+Computer Science,TP6,Liam Magenta,7.3
+Computer Science,TP6,Liam Pink,4.7
+Computer Science,TP6,Liam Purple,6.7
+Computer Science,TP6,Mona Azure,6.7
+Computer Science,TP6,Mona Black,3.7
+Computer Science,TP6,Mona Blue,4.3
+Computer Science,TP6,Mona Brown,4.3
+Computer Science,TP6,Mona Cyan,4.0
+Computer Science,TP6,Mona Davis,4.3
+Computer Science,TP6,Mona Johnson,5.7
+Computer Science,TP6,Mona Orange,3.7
+Computer Science,TP6,Mona Pink,3.3
+Computer Science,TP6,Mona Teal,1.7
+Computer Science,TP6,Nick Green,5.0
+Computer Science,TP6,Nick Indigo,3.7
+Computer Science,TP6,Nick Pink,7.3
+Computer Science,TP6,Nick Purple,6.3
+Computer Science,TP6,Olivia Johnson,5.7
+Computer Science,TP6,Olivia White,3.3
+Computer Science,TP6,Paul Black,3.3
+Computer Science,TP6,Paul Purple,4.0
+Computer Science,TP6,Paul Red,5.7
+Computer Science,TP6,Quincy Azure,2.7
+Computer Science,TP6,Quincy Blue,6.3
+Computer Science,TP6,Quincy Johnson,6.3
+Computer Science,TP6,Quincy Purple,5.3
+Computer Science,TP6,Quincy Red,2.3
+Computer Science,TP6,Quincy Teal,6.0
+Computer Science,TP6,Quincy White,7.7
+Computer Science,TP6,Rita Azure,5.7
+Computer Science,TP6,Rita Beige,6.3
+Computer Science,TP6,Rita Black,3.0
+Computer Science,TP6,Rita Blue,6.0
+Computer Science,TP6,Rita Johnson,4.3
+Computer Science,TP6,Rita Magenta,4.7
+Computer Science,TP6,Rita Orange,5.3
+Computer Science,TP6,Rita Purple,5.3
+Computer Science,TP6,Rita White,3.3
+Computer Science,TP6,Rita Yellow,5.7
+Computer Science,TP6,Sam Black,5.0
+Computer Science,TP6,Sam Cyan,2.7
+Computer Science,TP6,Sam Davis,0.7
+Computer Science,TP6,Sam Gray,4.7
+Computer Science,TP6,Sam Indigo,4.7
+Computer Science,TP6,Sam Violet,3.7
+Computer Science,TP6,Sam White,3.3
+Computer Science,TP7,Alice Green,6.0
+Computer Science,TP7,Alice Orange,3.3
+Computer Science,TP7,Alice Teal,3.7
+Computer Science,TP7,Alice Violet,5.0
+Computer Science,TP7,Alice Yellow,2.3
+Computer Science,TP7,Bob Blue,3.3
+Computer Science,TP7,Bob Brown,6.3
+Computer Science,TP7,Bob Davis,4.3
+Computer Science,TP7,Bob Green,1.3
+Computer Science,TP7,Bob Purple,2.7
+Computer Science,TP7,Bob Red,2.7
+Computer Science,TP7,Charlie Azure,3.3
+Computer Science,TP7,Charlie Beige,5.3
+Computer Science,TP7,Charlie Blue,3.7
+Computer Science,TP7,Charlie Cyan,5.3
+Computer Science,TP7,Charlie Davis,4.3
+Computer Science,TP7,Charlie Green,4.0
+Computer Science,TP7,Charlie Magenta,4.7
+Computer Science,TP7,Charlie Teal,8.0
+Computer Science,TP7,Charlie Violet,8.0
+Computer Science,TP7,Dana Cyan,5.3
+Computer Science,TP7,Dana Indigo,6.7
+Computer Science,TP7,Dana Magenta,7.3
+Computer Science,TP7,Dana Orange,4.0
+Computer Science,TP7,Dana Pink,4.0
+Computer Science,TP7,Dana Teal,4.0
+Computer Science,TP7,Dana Yellow,5.3
+Computer Science,TP7,Eve Azure,6.0
+Computer Science,TP7,Eve Black,5.7
+Computer Science,TP7,Eve Brown,4.3
+Computer Science,TP7,Eve Gray,5.7
+Computer Science,TP7,Eve Green,3.7
+Computer Science,TP7,Eve Indigo,3.3
+Computer Science,TP7,Eve Orange,7.0
+Computer Science,TP7,Frank Blue,5.7
+Computer Science,TP7,Frank Davis,5.0
+Computer Science,TP7,Frank Green,5.0
+Computer Science,TP7,Frank Violet,7.0
+Computer Science,TP7,Frank Yellow,2.7
+Computer Science,TP7,Grace Beige,8.0
+Computer Science,TP7,Grace Black,6.3
+Computer Science,TP7,Grace Blue,5.7
+Computer Science,TP7,Grace Davis,4.3
+Computer Science,TP7,Grace Teal,7.3
+Computer Science,TP7,Hank Cyan,4.0
+Computer Science,TP7,Hank Gray,4.0
+Computer Science,TP7,Hank Green,6.3
+Computer Science,TP7,Hank Teal,6.3
+Computer Science,TP7,Ivy Black,6.7
+Computer Science,TP7,Ivy Blue,4.0
+Computer Science,TP7,Ivy Cyan,4.3
+Computer Science,TP7,Ivy Green,5.0
+Computer Science,TP7,Ivy Johnson,6.7
+Computer Science,TP7,Ivy Purple,4.7
+Computer Science,TP7,Ivy Violet,6.7
+Computer Science,TP7,Jack Azure,7.0
+Computer Science,TP7,Jack Beige,2.0
+Computer Science,TP7,Jack Blue,6.7
+Computer Science,TP7,Jack Cyan,5.3
+Computer Science,TP7,Jack Davis,8.7
+Computer Science,TP7,Jack Indigo,6.7
+Computer Science,TP7,Jack Johnson,6.3
+Computer Science,TP7,Jack Teal,1.7
+Computer Science,TP7,Jack Violet,4.7
+Computer Science,TP7,Kelly Gray,5.3
+Computer Science,TP7,Kelly Green,6.0
+Computer Science,TP7,Kelly Indigo,7.0
+Computer Science,TP7,Kelly Purple,3.7
+Computer Science,TP7,Kelly White,5.3
+Computer Science,TP7,Liam Beige,5.0
+Computer Science,TP7,Liam Black,5.7
+Computer Science,TP7,Liam Gray,4.7
+Computer Science,TP7,Liam Purple,4.7
+Computer Science,TP7,Liam Red,4.0
+Computer Science,TP7,Mona Beige,5.0
+Computer Science,TP7,Mona Johnson,3.7
+Computer Science,TP7,Mona Magenta,6.3
+Computer Science,TP7,Mona Pink,3.7
+Computer Science,TP7,Mona Red,7.7
+Computer Science,TP7,Mona Teal,8.0
+Computer Science,TP7,Mona Violet,3.0
+Computer Science,TP7,Mona White,1.7
+Computer Science,TP7,Nick Cyan,7.0
+Computer Science,TP7,Nick Magenta,5.0
+Computer Science,TP7,Nick Pink,3.3
+Computer Science,TP7,Nick Purple,4.0
+Computer Science,TP7,Nick Red,4.3
+Computer Science,TP7,Olivia Black,7.0
+Computer Science,TP7,Olivia Davis,6.7
+Computer Science,TP7,Olivia Indigo,2.3
+Computer Science,TP7,Olivia Teal,7.3
+Computer Science,TP7,Olivia Yellow,3.0
+Computer Science,TP7,Paul Azure,4.0
+Computer Science,TP7,Paul Cyan,6.3
+Computer Science,TP7,Paul Davis,2.3
+Computer Science,TP7,Paul Indigo,6.0
+Computer Science,TP7,Paul Magenta,6.3
+Computer Science,TP7,Paul Red,5.7
+Computer Science,TP7,Paul White,4.7
+Computer Science,TP7,Quincy Azure,6.0
+Computer Science,TP7,Quincy Beige,6.7
+Computer Science,TP7,Quincy Brown,6.3
+Computer Science,TP7,Quincy Gray,4.3
+Computer Science,TP7,Quincy Magenta,7.0
+Computer Science,TP7,Quincy Pink,5.3
+Computer Science,TP7,Quincy Red,2.7
+Computer Science,TP7,Rita Blue,7.0
+Computer Science,TP7,Rita Davis,6.3
+Computer Science,TP7,Rita Green,4.7
+Computer Science,TP7,Rita Johnson,7.3
+Computer Science,TP7,Rita Orange,6.7
+Computer Science,TP7,Rita Red,4.3
+Computer Science,TP7,Rita Teal,3.3
+Computer Science,TP7,Rita Yellow,6.0
+Computer Science,TP7,Sam Beige,6.3
+Computer Science,TP7,Sam Cyan,6.0
+Computer Science,TP7,Sam Davis,7.0
+Computer Science,TP7,Sam Green,3.7
+Computer Science,TP7,Sam Magenta,4.7
+Computer Science,TP7,Sam Purple,7.3
+Computer Science,TP7,Sam White,6.7
+Computer Science,TP8,Alice Black,3.3
+Computer Science,TP8,Alice Davis,1.3
+Computer Science,TP8,Alice Green,5.0
+Computer Science,TP8,Alice Johnson,4.3
+Computer Science,TP8,Alice Magenta,4.7
+Computer Science,TP8,Alice Red,6.7
+Computer Science,TP8,Alice Violet,3.3
+Computer Science,TP8,Bob Azure,7.0
+Computer Science,TP8,Bob Black,2.3
+Computer Science,TP8,Bob Davis,4.3
+Computer Science,TP8,Bob Gray,5.3
+Computer Science,TP8,Bob Green,4.3
+Computer Science,TP8,Bob Orange,3.3
+Computer Science,TP8,Bob Yellow,7.0
+Computer Science,TP8,Charlie Azure,1.7
+Computer Science,TP8,Charlie Davis,8.3
+Computer Science,TP8,Charlie Gray,5.0
+Computer Science,TP8,Charlie Indigo,1.7
+Computer Science,TP8,Charlie Magenta,4.7
+Computer Science,TP8,Charlie White,5.0
+Computer Science,TP8,Charlie Yellow,5.0
+Computer Science,TP8,Dana Beige,4.7
+Computer Science,TP8,Dana Black,3.7
+Computer Science,TP8,Dana Blue,4.0
+Computer Science,TP8,Dana Cyan,4.3
+Computer Science,TP8,Dana Davis,7.3
+Computer Science,TP8,Dana Purple,4.3
+Computer Science,TP8,Dana Violet,3.3
+Computer Science,TP8,Dana Yellow,4.0
+Computer Science,TP8,Eve Beige,5.3
+Computer Science,TP8,Eve Black,3.3
+Computer Science,TP8,Eve Cyan,2.0
+Computer Science,TP8,Eve Gray,4.7
+Computer Science,TP8,Eve Green,6.3
+Computer Science,TP8,Eve Johnson,6.0
+Computer Science,TP8,Eve Orange,6.3
+Computer Science,TP8,Eve Purple,5.0
+Computer Science,TP8,Frank Cyan,3.0
+Computer Science,TP8,Frank Davis,3.0
+Computer Science,TP8,Frank Indigo,6.7
+Computer Science,TP8,Frank Pink,3.7
+Computer Science,TP8,Frank Teal,4.0
+Computer Science,TP8,Grace Azure,7.3
+Computer Science,TP8,Grace Black,8.7
+Computer Science,TP8,Grace Blue,8.7
+Computer Science,TP8,Grace Cyan,7.7
+Computer Science,TP8,Grace Gray,5.0
+Computer Science,TP8,Grace Teal,7.3
+Computer Science,TP8,Hank Davis,2.7
+Computer Science,TP8,Hank Green,4.0
+Computer Science,TP8,Hank Pink,5.0
+Computer Science,TP8,Hank Red,3.3
+Computer Science,TP8,Hank Teal,6.7
+Computer Science,TP8,Ivy Beige,6.3
+Computer Science,TP8,Ivy Black,3.7
+Computer Science,TP8,Ivy Brown,4.7
+Computer Science,TP8,Ivy Purple,5.7
+Computer Science,TP8,Jack Green,1.0
+Computer Science,TP8,Jack Pink,4.7
+Computer Science,TP8,Jack Teal,6.3
+Computer Science,TP8,Jack Violet,2.7
+Computer Science,TP8,Kelly Beige,3.0
+Computer Science,TP8,Kelly Black,4.0
+Computer Science,TP8,Kelly Green,2.3
+Computer Science,TP8,Kelly Magenta,5.7
+Computer Science,TP8,Kelly Orange,5.7
+Computer Science,TP8,Kelly Purple,4.3
+Computer Science,TP8,Kelly Teal,7.3
+Computer Science,TP8,Kelly White,3.7
+Computer Science,TP8,Kelly Yellow,7.7
+Computer Science,TP8,Liam Azure,7.7
+Computer Science,TP8,Liam Black,5.7
+Computer Science,TP8,Liam Blue,4.0
+Computer Science,TP8,Liam Davis,6.7
+Computer Science,TP8,Liam White,3.0
+Computer Science,TP8,Liam Yellow,2.3
+Computer Science,TP8,Mona Beige,5.7
+Computer Science,TP8,Mona Blue,4.0
+Computer Science,TP8,Mona Davis,1.7
+Computer Science,TP8,Mona Indigo,4.0
+Computer Science,TP8,Mona Magenta,2.7
+Computer Science,TP8,Mona White,5.7
+Computer Science,TP8,Nick Azure,4.7
+Computer Science,TP8,Nick Beige,4.3
+Computer Science,TP8,Nick Brown,4.0
+Computer Science,TP8,Nick Cyan,3.7
+Computer Science,TP8,Nick Johnson,10.0
+Computer Science,TP8,Nick Pink,7.0
+Computer Science,TP8,Nick Purple,5.0
+Computer Science,TP8,Nick Yellow,5.7
+Computer Science,TP8,Olivia Azure,6.3
+Computer Science,TP8,Olivia Gray,4.7
+Computer Science,TP8,Olivia Indigo,6.3
+Computer Science,TP8,Olivia Johnson,4.3
+Computer Science,TP8,Olivia Red,2.3
+Computer Science,TP8,Paul Black,9.3
+Computer Science,TP8,Paul Davis,6.7
+Computer Science,TP8,Paul Gray,6.0
+Computer Science,TP8,Paul Green,3.7
+Computer Science,TP8,Paul Indigo,2.0
+Computer Science,TP8,Paul Magenta,5.3
+Computer Science,TP8,Quincy Azure,5.0
+Computer Science,TP8,Quincy Cyan,5.7
+Computer Science,TP8,Quincy Davis,7.0
+Computer Science,TP8,Quincy Magenta,3.3
+Computer Science,TP8,Quincy Violet,5.7
+Computer Science,TP8,Rita Azure,4.3
+Computer Science,TP8,Rita Brown,4.7
+Computer Science,TP8,Rita Davis,6.3
+Computer Science,TP8,Rita Indigo,5.0
+Computer Science,TP8,Rita Teal,5.3
+Computer Science,TP8,Rita Violet,6.0
+Computer Science,TP8,Rita Yellow,5.3
+Computer Science,TP8,Sam Blue,6.0
+Computer Science,TP8,Sam Davis,8.3
+Computer Science,TP8,Sam Orange,8.7
+Computer Science,TP8,Sam Purple,1.3
+Computer Science,TP9,Alice Brown,1.7
+Computer Science,TP9,Alice Cyan,6.0
+Computer Science,TP9,Alice Davis,7.7
+Computer Science,TP9,Alice Teal,3.0
+Computer Science,TP9,Alice Yellow,0.7
+Computer Science,TP9,Bob Beige,6.7
+Computer Science,TP9,Bob Blue,8.0
+Computer Science,TP9,Bob Pink,7.3
+Computer Science,TP9,Bob Purple,5.7
+Computer Science,TP9,Bob White,1.0
+Computer Science,TP9,Bob Yellow,6.7
+Computer Science,TP9,Charlie Brown,4.7
+Computer Science,TP9,Charlie Cyan,3.3
+Computer Science,TP9,Charlie Gray,7.7
+Computer Science,TP9,Charlie Pink,2.7
+Computer Science,TP9,Charlie Purple,6.3
+Computer Science,TP9,Charlie Red,6.3
+Computer Science,TP9,Charlie Violet,4.3
+Computer Science,TP9,Dana Beige,4.3
+Computer Science,TP9,Dana Gray,7.3
+Computer Science,TP9,Dana Purple,3.3
+Computer Science,TP9,Dana Yellow,7.0
+Computer Science,TP9,Eve Azure,5.3
+Computer Science,TP9,Eve Black,6.3
+Computer Science,TP9,Eve Davis,4.7
+Computer Science,TP9,Eve Pink,4.3
+Computer Science,TP9,Eve Teal,3.3
+Computer Science,TP9,Eve White,3.3
+Computer Science,TP9,Eve Yellow,5.3
+Computer Science,TP9,Frank Azure,5.3
+Computer Science,TP9,Frank Beige,5.3
+Computer Science,TP9,Frank Cyan,4.3
+Computer Science,TP9,Frank Magenta,4.7
+Computer Science,TP9,Grace Azure,3.7
+Computer Science,TP9,Grace Black,4.3
+Computer Science,TP9,Grace Green,3.7
+Computer Science,TP9,Grace Indigo,6.7
+Computer Science,TP9,Grace Johnson,9.7
+Computer Science,TP9,Grace Pink,1.3
+Computer Science,TP9,Grace Purple,3.3
+Computer Science,TP9,Grace White,6.7
+Computer Science,TP9,Grace Yellow,6.7
+Computer Science,TP9,Hank Azure,5.7
+Computer Science,TP9,Hank Blue,4.3
+Computer Science,TP9,Hank Brown,1.0
+Computer Science,TP9,Hank Orange,5.0
+Computer Science,TP9,Hank Purple,6.0
+Computer Science,TP9,Ivy Blue,7.7
+Computer Science,TP9,Ivy Brown,7.3
+Computer Science,TP9,Ivy Davis,6.3
+Computer Science,TP9,Ivy Green,5.3
+Computer Science,TP9,Ivy Indigo,6.7
+Computer Science,TP9,Ivy Pink,4.0
+Computer Science,TP9,Ivy Red,8.3
+Computer Science,TP9,Ivy White,6.3
+Computer Science,TP9,Jack Green,8.3
+Computer Science,TP9,Jack Orange,3.7
+Computer Science,TP9,Jack Violet,5.0
+Computer Science,TP9,Jack White,5.0
+Computer Science,TP9,Kelly Black,7.3
+Computer Science,TP9,Kelly Brown,3.0
+Computer Science,TP9,Kelly Cyan,5.3
+Computer Science,TP9,Kelly Gray,1.7
+Computer Science,TP9,Kelly Pink,7.7
+Computer Science,TP9,Kelly Yellow,5.0
+Computer Science,TP9,Liam Beige,3.3
+Computer Science,TP9,Liam Blue,9.3
+Computer Science,TP9,Liam Cyan,3.7
+Computer Science,TP9,Liam Purple,7.7
+Computer Science,TP9,Liam Teal,5.7
+Computer Science,TP9,Mona Brown,6.0
+Computer Science,TP9,Mona Indigo,5.0
+Computer Science,TP9,Mona Orange,4.3
+Computer Science,TP9,Mona Pink,5.3
+Computer Science,TP9,Mona Purple,4.3
+Computer Science,TP9,Mona Teal,5.0
+Computer Science,TP9,Mona Violet,3.7
+Computer Science,TP9,Mona White,3.7
+Computer Science,TP9,Mona Yellow,8.0
+Computer Science,TP9,Nick Beige,4.7
+Computer Science,TP9,Nick Gray,3.7
+Computer Science,TP9,Nick Orange,5.7
+Computer Science,TP9,Nick Red,5.3
+Computer Science,TP9,Nick Teal,3.7
+Computer Science,TP9,Nick White,6.0
+Computer Science,TP9,Nick Yellow,5.0
+Computer Science,TP9,Olivia Cyan,2.7
+Computer Science,TP9,Olivia Davis,4.3
+Computer Science,TP9,Olivia Green,8.3
+Computer Science,TP9,Olivia Indigo,4.3
+Computer Science,TP9,Olivia Pink,3.0
+Computer Science,TP9,Olivia Purple,3.7
+Computer Science,TP9,Paul Cyan,5.0
+Computer Science,TP9,Paul Johnson,4.3
+Computer Science,TP9,Paul Purple,4.3
+Computer Science,TP9,Paul Violet,5.0
+Computer Science,TP9,Paul White,4.7
+Computer Science,TP9,Paul Yellow,5.3
+Computer Science,TP9,Quincy Azure,2.3
+Computer Science,TP9,Quincy Beige,7.0
+Computer Science,TP9,Quincy Brown,7.7
+Computer Science,TP9,Quincy Gray,3.3
+Computer Science,TP9,Quincy Red,4.7
+Computer Science,TP9,Quincy Violet,2.7
+Computer Science,TP9,Rita Green,4.7
+Computer Science,TP9,Rita Magenta,5.7
+Computer Science,TP9,Rita Orange,6.0
+Computer Science,TP9,Rita Purple,2.3
+Computer Science,TP9,Rita White,6.3
+Computer Science,TP9,Sam Beige,5.7
+Computer Science,TP9,Sam Cyan,6.3
+Computer Science,TP9,Sam Davis,4.3
+Computer Science,TP9,Sam Pink,5.0
+Computer Science,TP9,Sam Red,6.7
+Computer Science,TP9,Sam Teal,5.7
+Computer Science,TP9,Sam Violet,3.7
+Economics,Examen Final,Alice Blue,5.0
+Economics,Examen Final,Alice Pink,5.0
+Economics,Examen Final,Alice White,5.2
+Economics,Examen Final,Alice Yellow,5.1
+Economics,Examen Final,Bob Brown,4.8
+Economics,Examen Final,Bob Johnson,4.9
+Economics,Examen Final,Bob Orange,5.6
+Economics,Examen Final,Bob Teal,5.2
+Economics,Examen Final,Bob White,5.1
+Economics,Examen Final,Charlie Davis,5.5
+Economics,Examen Final,Charlie Purple,4.7
+Economics,Examen Final,Dana Beige,5.1
+Economics,Examen Final,Dana Cyan,5.2
+Economics,Examen Final,Dana Green,5.3
+Economics,Examen Final,Dana Teal,5.0
+Economics,Examen Final,Eve Azure,5.3
+Economics,Examen Final,Eve Black,5.1
+Economics,Examen Final,Frank Cyan,4.9
+Economics,Examen Final,Frank Pink,4.9
+Economics,Examen Final,Frank Purple,4.8
+Economics,Examen Final,Hank Green,5.3
+Economics,Examen Final,Hank Indigo,5.4
+Economics,Examen Final,Hank Violet,4.7
+Economics,Examen Final,Ivy Black,4.8
+Economics,Examen Final,Ivy Orange,4.6
+Economics,Examen Final,Jack Yellow,5.1
+Economics,Examen Final,Kelly Beige,5.7
+Economics,Examen Final,Kelly Orange,5.0
+Economics,Examen Final,Liam Yellow,4.4
+Economics,Examen Final,Mona Cyan,4.9
+Economics,Examen Final,Mona Red,5.9
+Economics,Examen Final,Nick Azure,5.4
+Economics,Examen Final,Nick Beige,4.9
+Economics,Examen Final,Nick Gray,4.9
+Economics,Examen Final,Nick Indigo,5.2
+Economics,Examen Final,Nick White,5.1
+Economics,Examen Final,Nick Yellow,5.0
+Economics,Examen Final,Olivia Indigo,4.4
+Economics,Examen Final,Paul Gray,4.9
+Economics,Examen Final,Paul Pink,4.7
+Economics,Examen Final,Rita Red,4.8
+Economics,Examen Final,Rita Teal,5.5
+Economics,Examen Final,Sam Cyan,4.7
+Economics,Examen Final,Sam Johnson,5.1
+Economics,Primer Parcial,Alice Green,5.0
+Economics,Primer Parcial,Alice Teal,5.0
+Economics,Primer Parcial,Bob Beige,5.0
+Economics,Primer Parcial,Bob Yellow,4.7
+Economics,Primer Parcial,Dana Magenta,5.2
+Economics,Primer Parcial,Dana Pink,4.7
+Economics,Primer Parcial,Eve Beige,5.2
+Economics,Primer Parcial,Eve Teal,4.9
+Economics,Primer Parcial,Frank Blue,5.5
+Economics,Primer Parcial,Frank Purple,4.1
+Economics,Primer Parcial,Grace Beige,5.0
+Economics,Primer Parcial,Grace Davis,5.1
+Economics,Primer Parcial,Grace Purple,5.3
+Economics,Primer Parcial,Hank Blue,5.0
+Economics,Primer Parcial,Hank Cyan,5.2
+Economics,Primer Parcial,Hank Purple,5.6
+Economics,Primer Parcial,Ivy Magenta,5.4
+Economics,Primer Parcial,Jack Black,4.9
+Economics,Primer Parcial,Jack Brown,4.4
+Economics,Primer Parcial,Kelly Azure,5.6
+Economics,Primer Parcial,Kelly Blue,5.3
+Economics,Primer Parcial,Kelly Davis,5.2
+Economics,Primer Parcial,Kelly Pink,5.3
+Economics,Primer Parcial,Liam Indigo,5.0
+Economics,Primer Parcial,Liam Orange,5.0
+Economics,Primer Parcial,Liam Red,5.9
+Economics,Primer Parcial,Mona Blue,4.8
+Economics,Primer Parcial,Mona White,5.0
+Economics,Primer Parcial,Nick Orange,4.9
+Economics,Primer Parcial,Nick Teal,4.4
+Economics,Primer Parcial,Olivia Indigo,5.2
+Economics,Primer Parcial,Olivia Johnson,5.1
+Economics,Primer Parcial,Paul Purple,5.0
+Economics,Primer Parcial,Quincy Indigo,4.8
+Economics,Primer Parcial,Sam Azure,5.1
+Economics,Primer Parcial,Sam Black,4.8
+Economics,Primer Parcial,Sam Johnson,4.7
+Economics,Segundo Parcial,Alice Brown,5.7
+Economics,Segundo Parcial,Alice Pink,4.6
+Economics,Segundo Parcial,Alice Violet,4.7
+Economics,Segundo Parcial,Bob Johnson,4.8
+Economics,Segundo Parcial,Bob Magenta,4.8
+Economics,Segundo Parcial,Bob Purple,4.6
+Economics,Segundo Parcial,Bob Red,5.0
+Economics,Segundo Parcial,Charlie Azure,5.1
+Economics,Segundo Parcial,Dana Cyan,4.8
+Economics,Segundo Parcial,Dana Red,4.9
+Economics,Segundo Parcial,Dana Violet,5.3
+Economics,Segundo Parcial,Eve Black,5.2
+Economics,Segundo Parcial,Eve Brown,4.8
+Economics,Segundo Parcial,Eve Indigo,4.9
+Economics,Segundo Parcial,Frank Blue,5.8
+Economics,Segundo Parcial,Frank Brown,5.2
+Economics,Segundo Parcial,Frank Green,5.6
+Economics,Segundo Parcial,Frank Magenta,4.7
+Economics,Segundo Parcial,Frank Yellow,5.4
+Economics,Segundo Parcial,Grace Beige,4.5
+Economics,Segundo Parcial,Grace Black,5.0
+Economics,Segundo Parcial,Grace Blue,4.9
+Economics,Segundo Parcial,Grace Cyan,4.7
+Economics,Segundo Parcial,Grace Violet,4.5
+Economics,Segundo Parcial,Hank Blue,4.8
+Economics,Segundo Parcial,Hank Brown,5.2
+Economics,Segundo Parcial,Hank Cyan,5.3
+Economics,Segundo Parcial,Hank Orange,4.6
+Economics,Segundo Parcial,Hank Purple,4.7
+Economics,Segundo Parcial,Hank Teal,4.8
+Economics,Segundo Parcial,Hank Yellow,4.8
+Economics,Segundo Parcial,Ivy Gray,5.3
+Economics,Segundo Parcial,Ivy Magenta,5.2
+Economics,Segundo Parcial,Ivy Purple,4.8
+Economics,Segundo Parcial,Ivy Teal,5.5
+Economics,Segundo Parcial,Ivy White,5.2
+Economics,Segundo Parcial,Jack Azure,4.7
+Economics,Segundo Parcial,Jack Pink,4.9
+Economics,Segundo Parcial,Jack Red,5.4
+Economics,Segundo Parcial,Kelly Cyan,5.0
+Economics,Segundo Parcial,Kelly Orange,5.1
+Economics,Segundo Parcial,Kelly Teal,5.0
+Economics,Segundo Parcial,Liam Black,4.9
+Economics,Segundo Parcial,Liam Purple,4.8
+Economics,Segundo Parcial,Mona Brown,5.3
+Economics,Segundo Parcial,Mona Cyan,4.8
+Economics,Segundo Parcial,Mona Green,5.0
+Economics,Segundo Parcial,Mona Johnson,4.9
+Economics,Segundo Parcial,Mona Teal,5.0
+Economics,Segundo Parcial,Mona Yellow,5.3
+Economics,Segundo Parcial,Nick Violet,5.1
+Economics,Segundo Parcial,Olivia Azure,5.3
+Economics,Segundo Parcial,Olivia Cyan,5.0
+Economics,Segundo Parcial,Olivia White,5.0
+Economics,Segundo Parcial,Paul Teal,5.0
+Economics,Segundo Parcial,Rita Violet,5.0
+Economics,Segundo Parcial,Sam Cyan,5.5
+English,Examen Final,Eve Pink,4.7
+English,Examen Final,Grace Pink,4.9
+English,Examen Final,Hank Orange,4.6
+English,Examen Final,Liam Beige,5.0
+English,Examen Final,Liam Magenta,4.8
+English,Examen Final,Quincy Black,5.6
+English,Examen Final,Sam White,4.7
+English,Primer Parcial,Alice Cyan,5.0
+English,Primer Parcial,Alice Davis,4.9
+English,Primer Parcial,Alice Indigo,5.0
+English,Primer Parcial,Alice Purple,4.8
+English,Primer Parcial,Alice Red,5.1
+English,Primer Parcial,Alice Violet,4.7
+English,Primer Parcial,Alice White,5.3
+English,Primer Parcial,Bob Brown,5.6
+English,Primer Parcial,Bob Cyan,4.5
+English,Primer Parcial,Bob Indigo,5.2
+English,Primer Parcial,Bob Johnson,5.3
+English,Primer Parcial,Bob Teal,5.1
+English,Primer Parcial,Charlie Azure,5.2
+English,Primer Parcial,Charlie Blue,5.2
+English,Primer Parcial,Charlie Cyan,4.6
+English,Primer Parcial,Charlie Green,4.8
+English,Primer Parcial,Charlie Johnson,4.4
+English,Primer Parcial,Charlie Magenta,5.3
+English,Primer Parcial,Charlie Violet,4.9
+English,Primer Parcial,Dana Azure,5.3
+English,Primer Parcial,Dana Beige,5.1
+English,Primer Parcial,Dana Black,4.7
+English,Primer Parcial,Dana Red,5.3
+English,Primer Parcial,Dana Violet,5.2
+English,Primer Parcial,Eve Black,4.5
+English,Primer Parcial,Eve Cyan,5.5
+English,Primer Parcial,Eve Davis,4.4
+English,Primer Parcial,Eve Gray,5.1
+English,Primer Parcial,Eve Green,5.2
+English,Primer Parcial,Eve Purple,4.1
+English,Primer Parcial,Frank Brown,4.8
+English,Primer Parcial,Frank Davis,5.4
+English,Primer Parcial,Frank Green,4.9
+English,Primer Parcial,Frank Johnson,4.6
+English,Primer Parcial,Frank Magenta,4.9
+English,Primer Parcial,Frank Orange,5.1
+English,Primer Parcial,Frank Pink,5.5
+English,Primer Parcial,Frank Teal,4.8
+English,Primer Parcial,Frank Yellow,4.9
+English,Primer Parcial,Grace Green,5.3
+English,Primer Parcial,Grace Orange,4.9
+English,Primer Parcial,Grace Pink,4.8
+English,Primer Parcial,Hank Green,5.3
+English,Primer Parcial,Hank Pink,5.0
+English,Primer Parcial,Hank Teal,5.4
+English,Primer Parcial,Hank White,5.0
+English,Primer Parcial,Ivy Gray,4.7
+English,Primer Parcial,Ivy Pink,4.8
+English,Primer Parcial,Ivy Violet,5.1
+English,Primer Parcial,Jack Beige,4.9
+English,Primer Parcial,Jack Cyan,5.2
+English,Primer Parcial,Jack Indigo,5.2
+English,Primer Parcial,Jack Magenta,5.4
+English,Primer Parcial,Jack Yellow,5.6
+English,Primer Parcial,Kelly Beige,4.9
+English,Primer Parcial,Kelly Cyan,4.7
+English,Primer Parcial,Kelly Indigo,5.2
+English,Primer Parcial,Kelly Magenta,5.0
+English,Primer Parcial,Liam Azure,5.3
+English,Primer Parcial,Liam Beige,5.2
+English,Primer Parcial,Liam Black,5.4
+English,Primer Parcial,Liam Pink,5.1
+English,Primer Parcial,Liam Purple,5.0
+English,Primer Parcial,Liam Violet,5.3
+English,Primer Parcial,Mona Beige,5.8
+English,Primer Parcial,Mona Black,4.9
+English,Primer Parcial,Mona Magenta,5.0
+English,Primer Parcial,Mona Orange,4.9
+English,Primer Parcial,Mona Purple,4.9
+English,Primer Parcial,Mona Violet,5.2
+English,Primer Parcial,Nick Azure,5.9
+English,Primer Parcial,Nick Beige,4.7
+English,Primer Parcial,Nick Cyan,4.8
+English,Primer Parcial,Nick Davis,5.0
+English,Primer Parcial,Nick Indigo,5.0
+English,Primer Parcial,Nick Magenta,4.9
+English,Primer Parcial,Nick Pink,5.0
+English,Primer Parcial,Nick Purple,4.9
+English,Primer Parcial,Nick Violet,5.0
+English,Primer Parcial,Olivia Black,5.1
+English,Primer Parcial,Olivia Cyan,5.7
+English,Primer Parcial,Olivia Orange,5.3
+English,Primer Parcial,Olivia Violet,5.1
+English,Primer Parcial,Paul Davis,5.4
+English,Primer Parcial,Paul Gray,5.2
+English,Primer Parcial,Paul Johnson,5.2
+English,Primer Parcial,Paul Teal,5.6
+English,Primer Parcial,Quincy Black,4.5
+English,Primer Parcial,Quincy Gray,4.5
+English,Primer Parcial,Quincy Orange,4.9
+English,Primer Parcial,Quincy Pink,4.7
+English,Primer Parcial,Quincy Teal,4.5
+English,Primer Parcial,Quincy White,5.3
+English,Primer Parcial,Rita Azure,4.9
+English,Primer Parcial,Rita Brown,5.3
+English,Primer Parcial,Rita Cyan,4.7
+English,Primer Parcial,Rita Indigo,4.8
+English,Primer Parcial,Rita Purple,5.5
+English,Primer Parcial,Rita Teal,5.3
+English,Primer Parcial,Rita White,5.8
+English,Primer Parcial,Sam Gray,4.4
+English,Primer Parcial,Sam Green,5.2
+English,Primer Parcial,Sam Orange,5.4
+English,Primer Parcial,Sam White,5.0
+English,Segundo Parcial,Alice Davis,4.9
+English,Segundo Parcial,Alice Indigo,4.5
+English,Segundo Parcial,Alice Magenta,5.3
+English,Segundo Parcial,Alice Yellow,5.0
+English,Segundo Parcial,Bob Azure,5.0
+English,Segundo Parcial,Bob Beige,5.0
+English,Segundo Parcial,Bob Black,4.9
+English,Segundo Parcial,Bob Brown,4.9
+English,Segundo Parcial,Bob Gray,4.8
+English,Segundo Parcial,Bob Indigo,5.2
+English,Segundo Parcial,Bob White,4.6
+English,Segundo Parcial,Bob Yellow,5.3
+English,Segundo Parcial,Charlie Gray,4.4
+English,Segundo Parcial,Charlie Johnson,5.2
+English,Segundo Parcial,Charlie Magenta,5.3
+English,Segundo Parcial,Charlie Teal,5.0
+English,Segundo Parcial,Charlie White,4.8
+English,Segundo Parcial,Dana Azure,4.3
+English,Segundo Parcial,Dana Blue,4.8
+English,Segundo Parcial,Dana Brown,5.2
+English,Segundo Parcial,Dana Davis,5.4
+English,Segundo Parcial,Dana Green,4.9
+English,Segundo Parcial,Dana Magenta,4.7
+English,Segundo Parcial,Dana Yellow,4.8
+English,Segundo Parcial,Eve Orange,5.2
+English,Segundo Parcial,Frank Azure,5.4
+English,Segundo Parcial,Frank Purple,5.2
+English,Segundo Parcial,Frank White,4.6
+English,Segundo Parcial,Grace Gray,5.2
+English,Segundo Parcial,Grace Green,5.0
+English,Segundo Parcial,Grace Johnson,4.8
+English,Segundo Parcial,Grace Magenta,5.4
+English,Segundo Parcial,Grace Teal,5.0
+English,Segundo Parcial,Grace Yellow,5.1
+English,Segundo Parcial,Hank Azure,4.7
+English,Segundo Parcial,Hank Beige,5.5
+English,Segundo Parcial,Hank Pink,4.8
+English,Segundo Parcial,Hank Violet,5.1
+English,Segundo Parcial,Ivy Black,5.2
+English,Segundo Parcial,Ivy Davis,4.8
+English,Segundo Parcial,Ivy Orange,5.0
+English,Segundo Parcial,Ivy Yellow,4.9
+English,Segundo Parcial,Jack Gray,5.1
+English,Segundo Parcial,Jack Magenta,5.1
+English,Segundo Parcial,Jack Violet,5.2
+English,Segundo Parcial,Kelly Green,5.4
+English,Segundo Parcial,Kelly Magenta,5.3
+English,Segundo Parcial,Kelly White,5.0
+English,Segundo Parcial,Kelly Yellow,5.1
+English,Segundo Parcial,Liam Azure,5.4
+English,Segundo Parcial,Liam Beige,4.6
+English,Segundo Parcial,Liam Green,4.4
+English,Segundo Parcial,Liam Magenta,4.8
+English,Segundo Parcial,Liam Orange,4.5
+English,Segundo Parcial,Liam Pink,5.3
+English,Segundo Parcial,Liam Red,5.1
+English,Segundo Parcial,Liam Violet,5.2
+English,Segundo Parcial,Mona Black,5.4
+English,Segundo Parcial,Mona Blue,5.4
+English,Segundo Parcial,Nick Green,4.8
+English,Segundo Parcial,Nick Indigo,5.6
+English,Segundo Parcial,Nick Magenta,4.9
+English,Segundo Parcial,Olivia Brown,5.5
+English,Segundo Parcial,Olivia Teal,5.2
+English,Segundo Parcial,Paul Beige,4.9
+English,Segundo Parcial,Paul Brown,4.8
+English,Segundo Parcial,Paul Cyan,4.8
+English,Segundo Parcial,Paul Davis,5.6
+English,Segundo Parcial,Paul Gray,5.3
+English,Segundo Parcial,Quincy Cyan,4.7
+English,Segundo Parcial,Quincy Johnson,5.0
+English,Segundo Parcial,Quincy Magenta,4.7
+English,Segundo Parcial,Quincy Pink,4.6
+English,Segundo Parcial,Quincy Purple,4.9
+English,Segundo Parcial,Quincy Violet,5.0
+English,Segundo Parcial,Quincy White,5.0
+English,Segundo Parcial,Rita Beige,4.7
+English,Segundo Parcial,Rita Davis,5.1
+English,Segundo Parcial,Rita Magenta,5.3
+English,Segundo Parcial,Rita Yellow,5.1
+English,Segundo Parcial,Sam Gray,5.5
+English,Segundo Parcial,Sam Indigo,5.2
+English,Segundo Parcial,Sam Magenta,5.4
+English,Segundo Parcial,Sam Violet,4.8
+English,Segundo Parcial,Sam White,5.2
+Geography,Examen Final,Alice Brown,4.8
+Geography,Examen Final,Alice Orange,5.1
+Geography,Examen Final,Bob Black,4.5
+Geography,Examen Final,Bob Indigo,5.6
+Geography,Examen Final,Bob Purple,5.0
+Geography,Examen Final,Charlie Blue,4.7
+Geography,Examen Final,Eve Blue,5.2
+Geography,Examen Final,Eve Davis,5.2
+Geography,Examen Final,Eve Gray,5.6
+Geography,Examen Final,Frank Beige,4.9
+Geography,Examen Final,Frank Black,5.3
+Geography,Examen Final,Frank Brown,4.9
+Geography,Examen Final,Frank Green,5.5
+Geography,Examen Final,Grace Azure,4.8
+Geography,Examen Final,Grace Black,5.2
+Geography,Examen Final,Grace Indigo,5.5
+Geography,Examen Final,Grace Johnson,5.1
+Geography,Examen Final,Grace Teal,5.2
+Geography,Examen Final,Grace Yellow,5.3
+Geography,Examen Final,Hank Johnson,5.2
+Geography,Examen Final,Ivy Blue,5.0
+Geography,Examen Final,Ivy Magenta,4.9
+Geography,Examen Final,Ivy Red,4.7
+Geography,Examen Final,Ivy Yellow,4.6
+Geography,Examen Final,Jack Beige,5.6
+Geography,Examen Final,Jack Orange,5.0
+Geography,Examen Final,Kelly Davis,4.9
+Geography,Examen Final,Kelly Green,4.9
+Geography,Examen Final,Liam Azure,4.9
+Geography,Examen Final,Liam Johnson,4.9
+Geography,Examen Final,Liam Purple,5.2
+Geography,Examen Final,Liam Red,4.6
+Geography,Examen Final,Mona Blue,5.1
+Geography,Examen Final,Mona Purple,4.8
+Geography,Examen Final,Nick Orange,5.3
+Geography,Examen Final,Nick Violet,4.8
+Geography,Examen Final,Olivia Gray,5.2
+Geography,Examen Final,Olivia Teal,5.3
+Geography,Examen Final,Paul Green,5.6
+Geography,Examen Final,Paul Teal,5.4
+Geography,Examen Final,Paul Violet,5.1
+Geography,Examen Final,Quincy Blue,4.8
+Geography,Examen Final,Quincy Red,5.6
+Geography,Examen Final,Quincy Violet,5.6
+Geography,Examen Final,Rita Beige,4.9
+Geography,Examen Final,Rita Indigo,5.6
+Geography,Examen Final,Sam Blue,5.1
+Geography,Examen Final,Sam Orange,5.4
+Geography,Examen Final,Sam Pink,4.8
+Geography,TP1,Alice Azure,4.8
+Geography,TP1,Alice Gray,5.0
+Geography,TP1,Alice Indigo,5.8
+Geography,TP1,Alice Magenta,4.5
+Geography,TP1,Alice Orange,5.1
+Geography,TP1,Alice Purple,4.7
+Geography,TP1,Alice White,4.2
+Geography,TP1,Bob Azure,5.6
+Geography,TP1,Bob Orange,4.3
+Geography,TP1,Charlie Davis,5.1
+Geography,TP1,Charlie Orange,5.6
+Geography,TP1,Charlie Yellow,5.7
+Geography,TP1,Dana Cyan,5.4
+Geography,TP1,Dana Gray,4.9
+Geography,TP1,Dana Magenta,3.8
+Geography,TP1,Dana Pink,4.6
+Geography,TP1,Dana Violet,5.1
+Geography,TP1,Eve Indigo,5.3
+Geography,TP1,Frank Black,5.5
+Geography,TP1,Frank Davis,5.0
+Geography,TP1,Frank Magenta,5.5
+Geography,TP1,Grace Black,4.3
+Geography,TP1,Hank Black,4.6
+Geography,TP1,Hank Blue,5.7
+Geography,TP1,Hank Davis,5.2
+Geography,TP1,Hank Green,5.1
+Geography,TP1,Hank Magenta,5.0
+Geography,TP1,Hank Violet,5.0
+Geography,TP1,Hank Yellow,4.7
+Geography,TP1,Jack Orange,4.0
+Geography,TP1,Jack Teal,5.6
+Geography,TP1,Kelly Azure,4.6
+Geography,TP1,Kelly Cyan,4.0
+Geography,TP1,Kelly Davis,5.4
+Geography,TP1,Kelly Gray,5.3
+Geography,TP1,Kelly Purple,5.9
+Geography,TP1,Kelly Violet,3.6
+Geography,TP1,Liam Beige,5.9
+Geography,TP1,Liam Blue,5.3
+Geography,TP1,Liam Magenta,5.8
+Geography,TP1,Liam Pink,6.1
+Geography,TP1,Liam Purple,5.0
+Geography,TP1,Mona Cyan,4.2
+Geography,TP1,Mona Davis,5.6
+Geography,TP1,Mona Gray,5.0
+Geography,TP1,Mona Johnson,3.7
+Geography,TP1,Mona Orange,5.0
+Geography,TP1,Mona Pink,3.9
+Geography,TP1,Nick Brown,5.9
+Geography,TP1,Nick Gray,4.2
+Geography,TP1,Nick Green,4.9
+Geography,TP1,Nick Indigo,5.0
+Geography,TP1,Nick Orange,5.3
+Geography,TP1,Nick Purple,5.3
+Geography,TP1,Nick Yellow,4.8
+Geography,TP1,Olivia Azure,5.2
+Geography,TP1,Olivia Gray,5.2
+Geography,TP1,Olivia Green,5.4
+Geography,TP1,Olivia Johnson,6.0
+Geography,TP1,Olivia Orange,5.1
+Geography,TP1,Olivia Pink,4.9
+Geography,TP1,Olivia Purple,4.4
+Geography,TP1,Olivia Violet,5.1
+Geography,TP1,Olivia Yellow,4.3
+Geography,TP1,Paul Orange,5.2
+Geography,TP1,Paul Red,4.3
+Geography,TP1,Paul Violet,4.7
+Geography,TP1,Quincy Black,5.0
+Geography,TP1,Quincy Green,6.0
+Geography,TP1,Quincy Johnson,4.6
+Geography,TP1,Quincy Purple,5.0
+Geography,TP1,Quincy Red,4.6
+Geography,TP1,Quincy Teal,4.8
+Geography,TP1,Quincy Violet,5.3
+Geography,TP1,Quincy White,4.6
+Geography,TP1,Quincy Yellow,4.3
+Geography,TP1,Rita Brown,4.5
+Geography,TP1,Rita Gray,5.5
+Geography,TP1,Rita Indigo,5.3
+Geography,TP1,Sam Azure,5.1
+Geography,TP1,Sam Blue,5.8
+Geography,TP1,Sam Cyan,4.4
+Geography,TP1,Sam Green,4.7
+Geography,TP1,Sam Magenta,5.6
+Geography,TP1,Sam White,5.9
+Geography,TP2,Alice Black,4.3
+Geography,TP2,Alice Blue,4.7
+Geography,TP2,Alice Cyan,5.9
+Geography,TP2,Alice Davis,4.9
+Geography,TP2,Alice Gray,5.7
+Geography,TP2,Alice Indigo,5.9
+Geography,TP2,Alice Yellow,5.1
+Geography,TP2,Bob Azure,4.9
+Geography,TP2,Bob Blue,5.5
+Geography,TP2,Bob Green,4.9
+Geography,TP2,Bob White,3.3
+Geography,TP2,Charlie Beige,4.3
+Geography,TP2,Charlie Green,5.0
+Geography,TP2,Charlie Indigo,4.8
+Geography,TP2,Dana Beige,4.7
+Geography,TP2,Dana Indigo,5.1
+Geography,TP2,Dana Magenta,5.2
+Geography,TP2,Eve Azure,5.2
+Geography,TP2,Eve Beige,5.7
+Geography,TP2,Eve Davis,5.6
+Geography,TP2,Eve Pink,5.4
+Geography,TP2,Eve Red,5.6
+Geography,TP2,Eve Teal,4.4
+Geography,TP2,Eve Yellow,5.3
+Geography,TP2,Frank Beige,5.7
+Geography,TP2,Frank Black,5.3
+Geography,TP2,Frank Indigo,5.0
+Geography,TP2,Frank White,6.0
+Geography,TP2,Grace Blue,5.0
+Geography,TP2,Grace Cyan,4.0
+Geography,TP2,Grace Johnson,4.0
+Geography,TP2,Grace Orange,4.5
+Geography,TP2,Grace Red,5.1
+Geography,TP2,Grace Teal,3.2
+Geography,TP2,Hank Black,5.5
+Geography,TP2,Hank Green,4.6
+Geography,TP2,Hank Johnson,4.4
+Geography,TP2,Hank Magenta,5.0
+Geography,TP2,Hank White,4.3
+Geography,TP2,Hank Yellow,4.1
+Geography,TP2,Ivy Beige,5.4
+Geography,TP2,Ivy Green,5.0
+Geography,TP2,Ivy Indigo,5.2
+Geography,TP2,Ivy Red,5.0
+Geography,TP2,Jack Blue,4.8
+Geography,TP2,Jack Cyan,3.9
+Geography,TP2,Jack Indigo,5.1
+Geography,TP2,Kelly Blue,5.5
+Geography,TP2,Kelly Brown,5.1
+Geography,TP2,Kelly Gray,4.2
+Geography,TP2,Kelly Pink,5.7
+Geography,TP2,Kelly Red,4.7
+Geography,TP2,Liam Black,4.6
+Geography,TP2,Liam Brown,4.1
+Geography,TP2,Liam Cyan,5.8
+Geography,TP2,Liam Gray,4.9
+Geography,TP2,Liam Johnson,4.7
+Geography,TP2,Liam Orange,5.4
+Geography,TP2,Liam Red,4.4
+Geography,TP2,Mona Cyan,5.2
+Geography,TP2,Mona Pink,5.6
+Geography,TP2,Mona Teal,5.2
+Geography,TP2,Nick Gray,4.0
+Geography,TP2,Nick Teal,4.3
+Geography,TP2,Nick Violet,6.0
+Geography,TP2,Nick White,5.0
+Geography,TP2,Olivia Blue,4.7
+Geography,TP2,Olivia Gray,4.6
+Geography,TP2,Olivia Green,5.0
+Geography,TP2,Olivia Indigo,4.6
+Geography,TP2,Olivia Johnson,5.8
+Geography,TP2,Olivia Pink,5.0
+Geography,TP2,Olivia Purple,5.3
+Geography,TP2,Olivia Red,3.9
+Geography,TP2,Olivia Teal,5.8
+Geography,TP2,Paul Azure,4.0
+Geography,TP2,Paul Green,5.0
+Geography,TP2,Paul Purple,5.3
+Geography,TP2,Paul Yellow,4.3
+Geography,TP2,Quincy Beige,3.9
+Geography,TP2,Quincy Black,5.2
+Geography,TP2,Quincy Cyan,4.9
+Geography,TP2,Quincy Gray,5.1
+Geography,TP2,Quincy Indigo,5.8
+Geography,TP2,Quincy Orange,4.3
+Geography,TP2,Quincy Yellow,4.9
+Geography,TP2,Rita Black,4.0
+Geography,TP2,Rita Brown,4.6
+Geography,TP2,Rita Cyan,5.5
+Geography,TP2,Rita Davis,5.6
+Geography,TP2,Rita Orange,5.1
+Geography,TP2,Sam Gray,4.6
+Geography,TP2,Sam Johnson,5.0
+Geography,TP2,Sam Violet,5.0
+Geography,TP2,Sam White,6.5
+Geography,TP3,Alice Black,4.6
+Geography,TP3,Alice Blue,5.0
+Geography,TP3,Alice Brown,4.1
+Geography,TP3,Alice Cyan,5.5
+Geography,TP3,Alice Davis,5.1
+Geography,TP3,Alice Gray,4.3
+Geography,TP3,Alice Indigo,5.3
+Geography,TP3,Alice Magenta,3.4
+Geography,TP3,Alice Violet,5.4
+Geography,TP3,Alice Yellow,4.8
+Geography,TP3,Bob Blue,5.5
+Geography,TP3,Bob Brown,5.0
+Geography,TP3,Bob Gray,4.0
+Geography,TP3,Bob Johnson,5.5
+Geography,TP3,Bob Magenta,5.6
+Geography,TP3,Bob Orange,5.7
+Geography,TP3,Bob Purple,5.2
+Geography,TP3,Bob Red,4.1
+Geography,TP3,Bob Teal,4.9
+Geography,TP3,Bob Yellow,4.1
+Geography,TP3,Charlie Black,5.4
+Geography,TP3,Charlie Blue,4.7
+Geography,TP3,Charlie Brown,4.8
+Geography,TP3,Charlie Gray,5.0
+Geography,TP3,Charlie Green,6.4
+Geography,TP3,Charlie Indigo,4.2
+Geography,TP3,Charlie Johnson,4.6
+Geography,TP3,Charlie Magenta,4.7
+Geography,TP3,Charlie Orange,6.0
+Geography,TP3,Charlie Purple,5.1
+Geography,TP3,Charlie Teal,4.4
+Geography,TP3,Charlie White,4.6
+Geography,TP3,Charlie Yellow,5.1
+Geography,TP3,Dana Beige,3.9
+Geography,TP3,Dana Black,4.4
+Geography,TP3,Dana Davis,5.9
+Geography,TP3,Dana Gray,4.3
+Geography,TP3,Dana Johnson,4.4
+Geography,TP3,Dana Magenta,5.1
+Geography,TP3,Dana Purple,5.1
+Geography,TP3,Dana Teal,4.4
+Geography,TP3,Dana Violet,5.4
+Geography,TP3,Dana Yellow,4.8
+Geography,TP3,Eve Black,5.4
+Geography,TP3,Eve Gray,5.3
+Geography,TP3,Eve Johnson,5.2
+Geography,TP3,Eve Magenta,5.6
+Geography,TP3,Eve Orange,5.4
+Geography,TP3,Eve Pink,4.2
+Geography,TP3,Eve Purple,4.3
+Geography,TP3,Eve Red,4.4
+Geography,TP3,Eve Violet,4.5
+Geography,TP3,Eve White,5.6
+Geography,TP3,Frank Azure,4.6
+Geography,TP3,Frank Beige,4.0
+Geography,TP3,Frank Blue,3.8
+Geography,TP3,Frank Brown,5.1
+Geography,TP3,Frank Davis,5.0
+Geography,TP3,Frank Pink,6.2
+Geography,TP3,Frank Purple,4.9
+Geography,TP3,Frank Red,4.4
+Geography,TP3,Frank Teal,5.0
+Geography,TP3,Frank White,5.5
+Geography,TP3,Frank Yellow,6.0
+Geography,TP3,Grace Blue,5.0
+Geography,TP3,Grace Cyan,4.9
+Geography,TP3,Grace Gray,5.5
+Geography,TP3,Grace Green,4.4
+Geography,TP3,Grace Indigo,4.7
+Geography,TP3,Grace Johnson,5.1
+Geography,TP3,Grace Magenta,4.2
+Geography,TP3,Grace Orange,4.3
+Geography,TP3,Grace Pink,5.8
+Geography,TP3,Grace Teal,4.5
+Geography,TP3,Hank Brown,5.1
+Geography,TP3,Hank Davis,5.9
+Geography,TP3,Hank Green,5.0
+Geography,TP3,Hank Johnson,3.9
+Geography,TP3,Hank Pink,5.0
+Geography,TP3,Hank Teal,5.3
+Geography,TP3,Hank Violet,5.7
+Geography,TP3,Ivy Black,5.8
+Geography,TP3,Ivy Brown,5.6
+Geography,TP3,Ivy Davis,5.5
+Geography,TP3,Ivy Gray,4.9
+Geography,TP3,Ivy Green,5.8
+Geography,TP3,Ivy Pink,4.6
+Geography,TP3,Ivy Purple,4.5
+Geography,TP3,Ivy Red,3.9
+Geography,TP3,Ivy Teal,5.7
+Geography,TP3,Ivy Violet,5.0
+Geography,TP3,Jack Azure,4.5
+Geography,TP3,Jack Cyan,4.6
+Geography,TP3,Jack Indigo,4.6
+Geography,TP3,Jack Johnson,4.8
+Geography,TP3,Jack Orange,5.5
+Geography,TP3,Jack Pink,4.7
+Geography,TP3,Jack Violet,4.5
+Geography,TP3,Kelly Beige,4.0
+Geography,TP3,Kelly Brown,5.4
+Geography,TP3,Kelly Cyan,4.4
+Geography,TP3,Kelly Davis,6.0
+Geography,TP3,Kelly Gray,4.9
+Geography,TP3,Kelly Indigo,5.3
+Geography,TP3,Kelly Magenta,3.8
+Geography,TP3,Kelly Purple,5.0
+Geography,TP3,Liam Cyan,5.1
+Geography,TP3,Liam Gray,5.6
+Geography,TP3,Liam Green,3.8
+Geography,TP3,Liam Johnson,5.1
+Geography,TP3,Liam Magenta,5.3
+Geography,TP3,Liam Orange,5.2
+Geography,TP3,Liam Pink,4.8
+Geography,TP3,Liam Teal,5.7
+Geography,TP3,Mona Beige,5.6
+Geography,TP3,Mona Blue,4.9
+Geography,TP3,Mona Brown,4.5
+Geography,TP3,Mona Magenta,5.5
+Geography,TP3,Mona Purple,4.4
+Geography,TP3,Mona Red,4.9
+Geography,TP3,Mona White,5.3
+Geography,TP3,Nick Azure,5.2
+Geography,TP3,Nick Black,5.4
+Geography,TP3,Nick Blue,4.5
+Geography,TP3,Nick Davis,4.6
+Geography,TP3,Nick Gray,5.4
+Geography,TP3,Nick Green,5.5
+Geography,TP3,Nick Indigo,4.4
+Geography,TP3,Nick Orange,4.6
+Geography,TP3,Nick Pink,5.5
+Geography,TP3,Nick Purple,5.6
+Geography,TP3,Nick Yellow,4.2
+Geography,TP3,Olivia Blue,3.5
+Geography,TP3,Olivia Brown,4.4
+Geography,TP3,Olivia Cyan,5.3
+Geography,TP3,Olivia Davis,5.7
+Geography,TP3,Olivia Magenta,5.5
+Geography,TP3,Olivia Pink,5.4
+Geography,TP3,Olivia Red,5.2
+Geography,TP3,Olivia Yellow,4.9
+Geography,TP3,Paul Beige,4.5
+Geography,TP3,Paul Brown,5.5
+Geography,TP3,Paul Cyan,4.6
+Geography,TP3,Paul Green,5.8
+Geography,TP3,Paul Indigo,4.7
+Geography,TP3,Paul Johnson,5.1
+Geography,TP3,Paul Orange,4.0
+Geography,TP3,Paul Red,5.0
+Geography,TP3,Paul Teal,5.7
+Geography,TP3,Paul Yellow,5.8
+Geography,TP3,Quincy Azure,4.7
+Geography,TP3,Quincy Black,5.2
+Geography,TP3,Quincy Blue,5.5
+Geography,TP3,Quincy Brown,5.0
+Geography,TP3,Quincy Cyan,5.0
+Geography,TP3,Quincy Green,3.8
+Geography,TP3,Quincy Indigo,5.6
+Geography,TP3,Quincy Johnson,5.1
+Geography,TP3,Quincy Pink,5.6
+Geography,TP3,Quincy Teal,4.3
+Geography,TP3,Quincy White,5.5
+Geography,TP3,Quincy Yellow,5.3
+Geography,TP3,Rita Azure,4.4
+Geography,TP3,Rita Beige,4.4
+Geography,TP3,Rita Black,4.8
+Geography,TP3,Rita Cyan,5.3
+Geography,TP3,Rita Davis,5.5
+Geography,TP3,Rita Indigo,5.9
+Geography,TP3,Rita Pink,5.8
+Geography,TP3,Rita Red,4.5
+Geography,TP3,Sam Beige,5.1
+Geography,TP3,Sam Black,5.8
+Geography,TP3,Sam Blue,5.2
+Geography,TP3,Sam Brown,3.6
+Geography,TP3,Sam Cyan,5.3
+Geography,TP3,Sam Davis,5.3
+Geography,TP3,Sam Green,5.1
+Geography,TP3,Sam Indigo,5.3
+Geography,TP3,Sam Magenta,4.7
+Geography,TP3,Sam Purple,5.1
+Geography,TP3,Sam Teal,5.5
+Geography,TP3,Sam White,4.5
+Geography,TP4,Alice Azure,4.1
+Geography,TP4,Alice Black,4.4
+Geography,TP4,Alice Blue,6.0
+Geography,TP4,Alice Brown,4.6
+Geography,TP4,Alice Cyan,5.6
+Geography,TP4,Alice Gray,6.1
+Geography,TP4,Alice Green,6.9
+Geography,TP4,Alice Johnson,3.9
+Geography,TP4,Alice Magenta,3.8
+Geography,TP4,Alice Red,5.3
+Geography,TP4,Alice Teal,4.5
+Geography,TP4,Alice Violet,5.9
+Geography,TP4,Alice Yellow,5.5
+Geography,TP4,Bob Azure,5.0
+Geography,TP4,Bob Blue,5.3
+Geography,TP4,Bob Brown,5.5
+Geography,TP4,Bob Green,4.3
+Geography,TP4,Bob Indigo,5.6
+Geography,TP4,Bob Johnson,4.3
+Geography,TP4,Bob Magenta,5.4
+Geography,TP4,Bob Orange,4.6
+Geography,TP4,Bob Pink,4.5
+Geography,TP4,Bob Purple,5.6
+Geography,TP4,Bob Red,3.6
+Geography,TP4,Bob Teal,5.0
+Geography,TP4,Bob Violet,5.9
+Geography,TP4,Bob White,3.8
+Geography,TP4,Bob Yellow,5.0
+Geography,TP4,Charlie Azure,4.4
+Geography,TP4,Charlie Beige,3.4
+Geography,TP4,Charlie Black,5.6
+Geography,TP4,Charlie Blue,4.3
+Geography,TP4,Charlie Cyan,3.4
+Geography,TP4,Charlie Davis,5.1
+Geography,TP4,Charlie Gray,3.6
+Geography,TP4,Charlie Green,5.1
+Geography,TP4,Charlie Indigo,5.4
+Geography,TP4,Charlie Johnson,6.9
+Geography,TP4,Charlie Magenta,6.3
+Geography,TP4,Charlie Orange,4.9
+Geography,TP4,Charlie Pink,5.1
+Geography,TP4,Charlie Teal,3.8
+Geography,TP4,Charlie Violet,5.5
+Geography,TP4,Dana Azure,3.0
+Geography,TP4,Dana Beige,5.0
+Geography,TP4,Dana Black,3.8
+Geography,TP4,Dana Brown,3.1
+Geography,TP4,Dana Cyan,5.4
+Geography,TP4,Dana Gray,3.6
+Geography,TP4,Dana Indigo,4.3
+Geography,TP4,Dana Magenta,5.8
+Geography,TP4,Dana Pink,4.9
+Geography,TP4,Dana Purple,5.6
+Geography,TP4,Dana Red,5.0
+Geography,TP4,Dana Violet,5.4
+Geography,TP4,Eve Azure,4.3
+Geography,TP4,Eve Beige,4.8
+Geography,TP4,Eve Brown,5.4
+Geography,TP4,Eve Cyan,5.9
+Geography,TP4,Eve Davis,5.4
+Geography,TP4,Eve Gray,5.9
+Geography,TP4,Eve Indigo,4.3
+Geography,TP4,Eve Johnson,5.5
+Geography,TP4,Eve Purple,3.4
+Geography,TP4,Eve White,4.3
+Geography,TP4,Eve Yellow,4.9
+Geography,TP4,Frank Beige,4.3
+Geography,TP4,Frank Blue,6.0
+Geography,TP4,Frank Brown,4.4
+Geography,TP4,Frank Cyan,6.4
+Geography,TP4,Frank Davis,4.4
+Geography,TP4,Frank Green,4.6
+Geography,TP4,Frank Indigo,7.0
+Geography,TP4,Frank Johnson,6.3
+Geography,TP4,Frank Magenta,3.6
+Geography,TP4,Frank Pink,3.4
+Geography,TP4,Frank Purple,3.4
+Geography,TP4,Frank Teal,3.6
+Geography,TP4,Frank Yellow,4.5
+Geography,TP4,Grace Azure,5.0
+Geography,TP4,Grace Beige,4.1
+Geography,TP4,Grace Brown,4.5
+Geography,TP4,Grace Indigo,5.5
+Geography,TP4,Grace Magenta,5.4
+Geography,TP4,Grace Orange,6.3
+Geography,TP4,Grace Pink,5.3
+Geography,TP4,Grace Purple,7.3
+Geography,TP4,Grace Teal,4.9
+Geography,TP4,Grace Violet,5.5
+Geography,TP4,Grace White,5.4
+Geography,TP4,Grace Yellow,6.3
+Geography,TP4,Hank Azure,4.1
+Geography,TP4,Hank Beige,3.5
+Geography,TP4,Hank Black,4.5
+Geography,TP4,Hank Blue,4.6
+Geography,TP4,Hank Brown,6.3
+Geography,TP4,Hank Cyan,6.8
+Geography,TP4,Hank Davis,5.6
+Geography,TP4,Hank Gray,5.1
+Geography,TP4,Hank Green,4.9
+Geography,TP4,Hank Johnson,5.3
+Geography,TP4,Hank Magenta,5.8
+Geography,TP4,Hank Orange,4.0
+Geography,TP4,Hank Pink,4.9
+Geography,TP4,Hank Purple,4.8
+Geography,TP4,Hank Red,5.5
+Geography,TP4,Hank Teal,5.6
+Geography,TP4,Hank Violet,5.5
+Geography,TP4,Hank White,5.8
+Geography,TP4,Hank Yellow,5.0
+Geography,TP4,Ivy Azure,5.5
+Geography,TP4,Ivy Black,5.4
+Geography,TP4,Ivy Blue,3.1
+Geography,TP4,Ivy Brown,5.4
+Geography,TP4,Ivy Green,4.9
+Geography,TP4,Ivy Indigo,6.1
+Geography,TP4,Ivy Magenta,6.6
+Geography,TP4,Ivy Orange,2.4
+Geography,TP4,Ivy Red,5.1
+Geography,TP4,Ivy Violet,5.0
+Geography,TP4,Ivy White,5.4
+Geography,TP4,Ivy Yellow,3.4
+Geography,TP4,Jack Azure,4.4
+Geography,TP4,Jack Beige,5.8
+Geography,TP4,Jack Black,4.0
+Geography,TP4,Jack Blue,3.9
+Geography,TP4,Jack Brown,5.9
+Geography,TP4,Jack Cyan,5.6
+Geography,TP4,Jack Davis,6.1
+Geography,TP4,Jack Gray,4.4
+Geography,TP4,Jack Indigo,4.1
+Geography,TP4,Jack Johnson,6.8
+Geography,TP4,Jack Magenta,5.0
+Geography,TP4,Jack Pink,6.9
+Geography,TP4,Jack Purple,3.9
+Geography,TP4,Jack Red,4.3
+Geography,TP4,Jack White,4.6
+Geography,TP4,Jack Yellow,4.9
+Geography,TP4,Kelly Azure,3.5
+Geography,TP4,Kelly Blue,2.6
+Geography,TP4,Kelly Davis,5.0
+Geography,TP4,Kelly Gray,5.1
+Geography,TP4,Kelly Green,5.4
+Geography,TP4,Kelly Indigo,3.9
+Geography,TP4,Kelly Magenta,3.4
+Geography,TP4,Kelly Pink,5.1
+Geography,TP4,Kelly Red,5.4
+Geography,TP4,Kelly Teal,3.5
+Geography,TP4,Kelly Violet,5.5
+Geography,TP4,Kelly White,5.6
+Geography,TP4,Kelly Yellow,4.0
+Geography,TP4,Liam Azure,5.1
+Geography,TP4,Liam Black,6.5
+Geography,TP4,Liam Brown,5.5
+Geography,TP4,Liam Davis,3.6
+Geography,TP4,Liam Gray,6.0
+Geography,TP4,Liam Green,4.8
+Geography,TP4,Liam Indigo,4.1
+Geography,TP4,Liam Magenta,3.9
+Geography,TP4,Liam Orange,6.0
+Geography,TP4,Liam Pink,5.0
+Geography,TP4,Liam Red,3.9
+Geography,TP4,Liam Teal,5.1
+Geography,TP4,Liam Yellow,5.4
+Geography,TP4,Mona Azure,5.0
+Geography,TP4,Mona Beige,4.5
+Geography,TP4,Mona Blue,6.8
+Geography,TP4,Mona Brown,4.3
+Geography,TP4,Mona Indigo,5.1
+Geography,TP4,Mona Johnson,5.1
+Geography,TP4,Mona Magenta,5.6
+Geography,TP4,Mona Orange,6.9
+Geography,TP4,Mona Pink,3.6
+Geography,TP4,Mona Purple,4.4
+Geography,TP4,Mona Violet,5.0
+Geography,TP4,Mona White,5.3
+Geography,TP4,Mona Yellow,4.4
+Geography,TP4,Nick Beige,4.4
+Geography,TP4,Nick Black,5.4
+Geography,TP4,Nick Cyan,5.9
+Geography,TP4,Nick Gray,3.3
+Geography,TP4,Nick Green,4.6
+Geography,TP4,Nick Indigo,6.6
+Geography,TP4,Nick Johnson,6.9
+Geography,TP4,Nick Magenta,5.3
+Geography,TP4,Nick Orange,4.5
+Geography,TP4,Nick Pink,3.8
+Geography,TP4,Nick Red,6.0
+Geography,TP4,Nick Teal,4.9
+Geography,TP4,Nick Violet,4.1
+Geography,TP4,Nick Yellow,4.5
+Geography,TP4,Olivia Azure,6.0
+Geography,TP4,Olivia Beige,5.1
+Geography,TP4,Olivia Black,4.8
+Geography,TP4,Olivia Blue,4.9
+Geography,TP4,Olivia Cyan,4.9
+Geography,TP4,Olivia Gray,4.9
+Geography,TP4,Olivia Johnson,6.3
+Geography,TP4,Olivia Purple,5.3
+Geography,TP4,Olivia Red,3.6
+Geography,TP4,Olivia Teal,5.0
+Geography,TP4,Olivia Violet,5.0
+Geography,TP4,Olivia Yellow,5.6
+Geography,TP4,Paul Azure,5.3
+Geography,TP4,Paul Beige,4.3
+Geography,TP4,Paul Black,4.8
+Geography,TP4,Paul Brown,4.5
+Geography,TP4,Paul Gray,5.9
+Geography,TP4,Paul Indigo,4.4
+Geography,TP4,Paul Pink,3.6
+Geography,TP4,Paul Red,7.0
+Geography,TP4,Paul Teal,3.4
+Geography,TP4,Quincy Azure,4.9
+Geography,TP4,Quincy Beige,5.0
+Geography,TP4,Quincy Black,4.4
+Geography,TP4,Quincy Blue,5.6
+Geography,TP4,Quincy Brown,5.0
+Geography,TP4,Quincy Cyan,4.4
+Geography,TP4,Quincy Gray,4.4
+Geography,TP4,Quincy Johnson,5.0
+Geography,TP4,Quincy Magenta,5.5
+Geography,TP4,Quincy Pink,6.9
+Geography,TP4,Quincy Purple,5.0
+Geography,TP4,Quincy Red,4.6
+Geography,TP4,Quincy Violet,6.0
+Geography,TP4,Quincy White,3.9
+Geography,TP4,Quincy Yellow,4.5
+Geography,TP4,Rita Black,5.5
+Geography,TP4,Rita Blue,4.6
+Geography,TP4,Rita Brown,4.9
+Geography,TP4,Rita Davis,4.4
+Geography,TP4,Rita Green,5.1
+Geography,TP4,Rita Indigo,4.9
+Geography,TP4,Rita Magenta,7.1
+Geography,TP4,Rita Orange,4.6
+Geography,TP4,Rita Pink,5.4
+Geography,TP4,Rita Red,5.0
+Geography,TP4,Rita Yellow,3.9
+Geography,TP4,Sam Azure,5.4
+Geography,TP4,Sam Black,6.3
+Geography,TP4,Sam Brown,5.0
+Geography,TP4,Sam Gray,7.0
+Geography,TP4,Sam Green,4.3
+Geography,TP4,Sam Magenta,5.9
+Geography,TP4,Sam Orange,4.5
+Geography,TP4,Sam Purple,4.4
+Geography,TP4,Sam Red,5.9
+Geography,TP4,Sam Teal,5.0
+Geography,TP4,Sam Violet,5.3
+History,Examen Final,Alice Violet,5.1
+History,Examen Final,Dana Violet,6.0
+History,Examen Final,Hank Beige,4.8
+History,Examen Final,Jack Red,4.4
+History,Examen Final,Nick Pink,4.7
+History,Examen Final,Olivia Magenta,4.8
+History,Primer Parcial,Grace Red,5.2
+History,Primer Parcial,Hank Violet,5.2
+History,Primer Parcial,Jack Orange,4.3
+History,Primer Parcial,Kelly Violet,5.1
+History,Segundo Parcial,Jack Johnson,5.5
+History,Segundo Parcial,Olivia Orange,5.4
+Mathematics,Examen Final,Alice Davis,4.5
+Mathematics,Examen Final,Alice Magenta,5.0
+Mathematics,Examen Final,Bob Violet,4.5
+Mathematics,Examen Final,Charlie Gray,5.6
+Mathematics,Examen Final,Charlie Indigo,4.9
+Mathematics,Examen Final,Dana Orange,5.1
+Mathematics,Examen Final,Eve Cyan,5.2
+Mathematics,Examen Final,Eve Johnson,5.2
+Mathematics,Examen Final,Frank Blue,4.5
+Mathematics,Examen Final,Frank Gray,4.3
+Mathematics,Examen Final,Frank Orange,5.1
+Mathematics,Examen Final,Frank Yellow,5.6
+Mathematics,Examen Final,Grace Purple,5.0
+Mathematics,Examen Final,Grace Violet,5.6
+Mathematics,Examen Final,Hank Blue,5.2
+Mathematics,Examen Final,Ivy Azure,5.0
+Mathematics,Examen Final,Ivy Brown,5.1
+Mathematics,Examen Final,Ivy Green,5.1
+Mathematics,Examen Final,Jack Black,4.9
+Mathematics,Examen Final,Jack Green,4.7
+Mathematics,Examen Final,Jack Indigo,5.2
+Mathematics,Examen Final,Jack Purple,5.4
+Mathematics,Examen Final,Jack Violet,4.8
+Mathematics,Examen Final,Kelly Cyan,5.1
+Mathematics,Examen Final,Kelly Violet,4.7
+Mathematics,Examen Final,Liam Cyan,4.9
+Mathematics,Examen Final,Liam Davis,4.7
+Mathematics,Examen Final,Liam Violet,4.6
+Mathematics,Examen Final,Mona Indigo,4.8
+Mathematics,Examen Final,Nick Blue,5.6
+Mathematics,Examen Final,Nick Cyan,4.6
+Mathematics,Examen Final,Nick Johnson,5.3
+Mathematics,Examen Final,Nick Purple,5.3
+Mathematics,Examen Final,Olivia Davis,5.6
+Mathematics,Examen Final,Olivia Violet,5.1
+Mathematics,Examen Final,Paul Azure,5.0
+Mathematics,Examen Final,Paul Red,4.9
+Mathematics,Examen Final,Quincy Green,5.2
+Mathematics,Examen Final,Quincy White,5.1
+Mathematics,Examen Final,Rita Black,4.5
+Mathematics,Examen Final,Rita Brown,4.8
+Mathematics,Examen Final,Rita Green,4.8
+Mathematics,Examen Final,Rita Magenta,5.7
+Mathematics,Examen Final,Rita Orange,5.5
+Mathematics,Examen Final,Rita Pink,5.0
+Mathematics,Examen Final,Rita Violet,5.2
+Mathematics,Examen Final,Sam Azure,4.8
+Mathematics,Examen Final,Sam Black,5.1
+Mathematics,Examen Final,Sam Magenta,5.2
+Mathematics,Primer Parcial,Alice Azure,4.5
+Mathematics,Primer Parcial,Alice Gray,5.3
+Mathematics,Primer Parcial,Bob Blue,4.7
+Mathematics,Primer Parcial,Bob Green,5.7
+Mathematics,Primer Parcial,Bob Purple,5.0
+Mathematics,Primer Parcial,Bob Red,4.6
+Mathematics,Primer Parcial,Bob Violet,5.0
+Mathematics,Primer Parcial,Dana Brown,4.6
+Mathematics,Primer Parcial,Dana Green,4.9
+Mathematics,Primer Parcial,Dana Purple,4.4
+Mathematics,Primer Parcial,Dana Teal,4.5
+Mathematics,Primer Parcial,Eve Magenta,4.5
+Mathematics,Primer Parcial,Eve Orange,4.9
+Mathematics,Primer Parcial,Eve Pink,5.3
+Mathematics,Primer Parcial,Frank Black,5.0
+Mathematics,Primer Parcial,Frank White,5.3
+Mathematics,Primer Parcial,Grace Azure,4.9
+Mathematics,Primer Parcial,Grace Indigo,5.0
+Mathematics,Primer Parcial,Grace Teal,5.1
+Mathematics,Primer Parcial,Grace Violet,5.0
+Mathematics,Primer Parcial,Hank Black,5.3
+Mathematics,Primer Parcial,Hank Brown,5.5
+Mathematics,Primer Parcial,Hank Gray,5.1
+Mathematics,Primer Parcial,Hank Indigo,4.9
+Mathematics,Primer Parcial,Hank Red,5.1
+Mathematics,Primer Parcial,Ivy Black,4.6
+Mathematics,Primer Parcial,Ivy Cyan,5.1
+Mathematics,Primer Parcial,Ivy Johnson,5.0
+Mathematics,Primer Parcial,Ivy Orange,4.7
+Mathematics,Primer Parcial,Ivy Red,5.4
+Mathematics,Primer Parcial,Ivy Teal,5.3
+Mathematics,Primer Parcial,Jack Johnson,5.1
+Mathematics,Primer Parcial,Jack Pink,5.0
+Mathematics,Primer Parcial,Jack Red,5.1
+Mathematics,Primer Parcial,Jack Violet,5.1
+Mathematics,Primer Parcial,Jack White,4.5
+Mathematics,Primer Parcial,Kelly Brown,5.3
+Mathematics,Primer Parcial,Liam Gray,4.8
+Mathematics,Primer Parcial,Liam Magenta,4.6
+Mathematics,Primer Parcial,Mona Green,5.0
+Mathematics,Primer Parcial,Nick Brown,4.9
+Mathematics,Primer Parcial,Nick Gray,4.8
+Mathematics,Primer Parcial,Olivia Azure,4.7
+Mathematics,Primer Parcial,Olivia Beige,5.1
+Mathematics,Primer Parcial,Olivia Magenta,5.1
+Mathematics,Primer Parcial,Olivia Teal,4.5
+Mathematics,Primer Parcial,Paul Black,5.5
+Mathematics,Primer Parcial,Paul White,5.1
+Mathematics,Primer Parcial,Quincy Purple,4.6
+Mathematics,Primer Parcial,Sam Blue,5.0
+Mathematics,Primer Parcial,Sam Cyan,5.4
+Mathematics,Primer Parcial,Sam Magenta,5.0
+Mathematics,Segundo Parcial,Alice Gray,4.7
+Mathematics,Segundo Parcial,Alice Red,5.4
+Mathematics,Segundo Parcial,Alice Teal,4.8
+Mathematics,Segundo Parcial,Bob Davis,4.8
+Mathematics,Segundo Parcial,Charlie Blue,5.0
+Mathematics,Segundo Parcial,Charlie Green,5.0
+Mathematics,Segundo Parcial,Eve Azure,4.6
+Mathematics,Segundo Parcial,Eve Beige,4.8
+Mathematics,Segundo Parcial,Eve Blue,5.2
+Mathematics,Segundo Parcial,Eve Purple,5.2
+Mathematics,Segundo Parcial,Frank Beige,5.0
+Mathematics,Segundo Parcial,Frank Gray,5.5
+Mathematics,Segundo Parcial,Frank Johnson,5.3
+Mathematics,Segundo Parcial,Grace Brown,5.0
+Mathematics,Segundo Parcial,Grace Pink,5.2
+Mathematics,Segundo Parcial,Grace Purple,5.0
+Mathematics,Segundo Parcial,Hank Black,5.0
+Mathematics,Segundo Parcial,Hank Davis,4.8
+Mathematics,Segundo Parcial,Hank Indigo,5.2
+Mathematics,Segundo Parcial,Ivy Beige,5.1
+Mathematics,Segundo Parcial,Ivy Cyan,4.5
+Mathematics,Segundo Parcial,Jack Davis,5.0
+Mathematics,Segundo Parcial,Jack Teal,4.7
+Mathematics,Segundo Parcial,Jack White,5.2
+Mathematics,Segundo Parcial,Kelly Blue,5.1
+Mathematics,Segundo Parcial,Kelly Gray,4.7
+Mathematics,Segundo Parcial,Kelly Indigo,5.4
+Mathematics,Segundo Parcial,Kelly Johnson,4.8
+Mathematics,Segundo Parcial,Kelly Pink,5.1
+Mathematics,Segundo Parcial,Liam Gray,5.4
+Mathematics,Segundo Parcial,Liam Johnson,5.3
+Mathematics,Segundo Parcial,Mona Magenta,5.1
+Mathematics,Segundo Parcial,Mona Purple,4.7
+Mathematics,Segundo Parcial,Mona White,4.5
+Mathematics,Segundo Parcial,Nick Azure,4.7
+Mathematics,Segundo Parcial,Nick Black,5.3
+Mathematics,Segundo Parcial,Nick Orange,5.0
+Mathematics,Segundo Parcial,Nick Purple,5.1
+Mathematics,Segundo Parcial,Olivia Black,4.5
+Mathematics,Segundo Parcial,Olivia Green,5.0
+Mathematics,Segundo Parcial,Olivia Indigo,4.9
+Mathematics,Segundo Parcial,Paul Azure,4.6
+Mathematics,Segundo Parcial,Paul Blue,5.0
+Mathematics,Segundo Parcial,Paul Magenta,5.4
+Mathematics,Segundo Parcial,Paul White,5.3
+Mathematics,Segundo Parcial,Paul Yellow,4.8
+Mathematics,Segundo Parcial,Quincy Black,4.8
+Mathematics,Segundo Parcial,Quincy Blue,4.8
+Mathematics,Segundo Parcial,Quincy Brown,5.4
+Mathematics,Segundo Parcial,Quincy Yellow,5.3
+Mathematics,Segundo Parcial,Rita Gray,5.0
+Mathematics,Segundo Parcial,Rita Indigo,5.0
+Mathematics,Segundo Parcial,Sam Teal,4.8
+Mathematics,TP1,Alice Black,3.9
+Mathematics,TP1,Alice Blue,4.3
+Mathematics,TP1,Alice Cyan,4.9
+Mathematics,TP1,Alice Pink,5.9
+Mathematics,TP1,Alice Violet,4.8
+Mathematics,TP1,Bob Cyan,4.6
+Mathematics,TP1,Bob Indigo,4.7
+Mathematics,TP1,Bob Magenta,5.9
+Mathematics,TP1,Bob Pink,5.9
+Mathematics,TP1,Bob Violet,4.9
+Mathematics,TP1,Bob White,4.0
+Mathematics,TP1,Charlie Gray,5.0
+Mathematics,TP1,Charlie Green,4.7
+Mathematics,TP1,Charlie Purple,4.5
+Mathematics,TP1,Charlie White,5.5
+Mathematics,TP1,Dana Black,5.9
+Mathematics,TP1,Dana Blue,4.0
+Mathematics,TP1,Dana Indigo,5.2
+Mathematics,TP1,Dana Orange,5.1
+Mathematics,TP1,Dana White,5.5
+Mathematics,TP1,Dana Yellow,6.1
+Mathematics,TP1,Eve Blue,5.6
+Mathematics,TP1,Eve Cyan,5.2
+Mathematics,TP1,Eve Green,5.2
+Mathematics,TP1,Eve Orange,4.8
+Mathematics,TP1,Eve Purple,6.0
+Mathematics,TP1,Eve Teal,4.4
+Mathematics,TP1,Frank Purple,5.1
+Mathematics,TP1,Frank Teal,4.1
+Mathematics,TP1,Frank Violet,4.8
+Mathematics,TP1,Frank Yellow,4.4
+Mathematics,TP1,Grace Azure,5.6
+Mathematics,TP1,Grace Beige,5.6
+Mathematics,TP1,Grace Cyan,4.9
+Mathematics,TP1,Grace Davis,5.5
+Mathematics,TP1,Grace Green,4.7
+Mathematics,TP1,Grace Magenta,5.1
+Mathematics,TP1,Hank Beige,4.0
+Mathematics,TP1,Hank Indigo,4.4
+Mathematics,TP1,Ivy Azure,4.4
+Mathematics,TP1,Ivy Beige,4.1
+Mathematics,TP1,Ivy Black,4.6
+Mathematics,TP1,Ivy Davis,4.0
+Mathematics,TP1,Ivy Orange,5.5
+Mathematics,TP1,Ivy Pink,4.9
+Mathematics,TP1,Ivy Red,5.1
+Mathematics,TP1,Ivy Violet,3.4
+Mathematics,TP1,Ivy White,4.7
+Mathematics,TP1,Ivy Yellow,5.0
+Mathematics,TP1,Jack Azure,5.7
+Mathematics,TP1,Jack Beige,4.9
+Mathematics,TP1,Jack Blue,5.9
+Mathematics,TP1,Jack Davis,3.5
+Mathematics,TP1,Jack Pink,6.4
+Mathematics,TP1,Jack Violet,4.4
+Mathematics,TP1,Jack White,5.0
+Mathematics,TP1,Kelly Beige,5.0
+Mathematics,TP1,Kelly Johnson,5.0
+Mathematics,TP1,Liam Azure,4.3
+Mathematics,TP1,Liam Black,5.5
+Mathematics,TP1,Liam Brown,5.3
+Mathematics,TP1,Liam Gray,4.4
+Mathematics,TP1,Mona Magenta,5.4
+Mathematics,TP1,Mona Red,5.0
+Mathematics,TP1,Mona White,4.9
+Mathematics,TP1,Mona Yellow,4.7
+Mathematics,TP1,Nick Black,5.8
+Mathematics,TP1,Nick Pink,4.9
+Mathematics,TP1,Nick Teal,4.2
+Mathematics,TP1,Nick Violet,4.6
+Mathematics,TP1,Olivia Black,4.3
+Mathematics,TP1,Olivia Brown,5.0
+Mathematics,TP1,Olivia Cyan,3.9
+Mathematics,TP1,Olivia Teal,4.3
+Mathematics,TP1,Olivia White,3.6
+Mathematics,TP1,Paul Azure,4.9
+Mathematics,TP1,Paul Cyan,5.5
+Mathematics,TP1,Paul Davis,5.3
+Mathematics,TP1,Paul Green,4.1
+Mathematics,TP1,Paul White,6.4
+Mathematics,TP1,Quincy Azure,6.0
+Mathematics,TP1,Quincy Beige,5.7
+Mathematics,TP1,Quincy Blue,3.9
+Mathematics,TP1,Quincy Brown,5.5
+Mathematics,TP1,Quincy Cyan,6.0
+Mathematics,TP1,Rita Cyan,2.5
+Mathematics,TP1,Rita Johnson,4.7
+Mathematics,TP1,Rita Magenta,6.8
+Mathematics,TP1,Rita Teal,5.0
+Mathematics,TP1,Rita White,5.6
+Mathematics,TP1,Sam Indigo,5.1
+Mathematics,TP1,Sam Johnson,4.9
+Mathematics,TP1,Sam Teal,4.5
+Mathematics,TP2,Alice Orange,4.0
+Mathematics,TP2,Alice Pink,5.5
+Mathematics,TP2,Alice Violet,5.4
+Mathematics,TP2,Bob Black,6.0
+Mathematics,TP2,Bob Brown,6.2
+Mathematics,TP2,Bob Johnson,4.9
+Mathematics,TP2,Bob Pink,5.5
+Mathematics,TP2,Bob Teal,5.2
+Mathematics,TP2,Bob Violet,6.0
+Mathematics,TP2,Bob Yellow,6.0
+Mathematics,TP2,Charlie Black,5.1
+Mathematics,TP2,Charlie Magenta,4.2
+Mathematics,TP2,Charlie Red,4.5
+Mathematics,TP2,Charlie Teal,5.2
+Mathematics,TP2,Charlie White,5.2
+Mathematics,TP2,Dana Blue,5.7
+Mathematics,TP2,Dana Davis,6.0
+Mathematics,TP2,Dana Gray,5.2
+Mathematics,TP2,Dana Teal,5.1
+Mathematics,TP2,Dana White,4.4
+Mathematics,TP2,Eve Johnson,4.9
+Mathematics,TP2,Eve Purple,4.8
+Mathematics,TP2,Eve White,5.7
+Mathematics,TP2,Frank Blue,5.3
+Mathematics,TP2,Frank Davis,5.1
+Mathematics,TP2,Frank Green,5.4
+Mathematics,TP2,Frank Pink,5.0
+Mathematics,TP2,Frank Violet,4.4
+Mathematics,TP2,Frank Yellow,5.0
+Mathematics,TP2,Grace Beige,4.6
+Mathematics,TP2,Grace Green,4.2
+Mathematics,TP2,Grace Purple,4.7
+Mathematics,TP2,Hank Azure,4.9
+Mathematics,TP2,Hank Blue,4.7
+Mathematics,TP2,Hank Brown,6.7
+Mathematics,TP2,Hank Cyan,4.3
+Mathematics,TP2,Hank Red,4.5
+Mathematics,TP2,Ivy Cyan,5.8
+Mathematics,TP2,Ivy Davis,4.5
+Mathematics,TP2,Ivy Pink,5.0
+Mathematics,TP2,Ivy Purple,5.2
+Mathematics,TP2,Ivy White,4.5
+Mathematics,TP2,Ivy Yellow,4.9
+Mathematics,TP2,Jack Gray,4.6
+Mathematics,TP2,Jack Magenta,4.9
+Mathematics,TP2,Jack White,4.2
+Mathematics,TP2,Kelly Cyan,6.0
+Mathematics,TP2,Kelly Indigo,5.1
+Mathematics,TP2,Kelly Johnson,4.4
+Mathematics,TP2,Kelly Magenta,4.3
+Mathematics,TP2,Kelly Yellow,4.8
+Mathematics,TP2,Liam Blue,4.4
+Mathematics,TP2,Liam Magenta,5.2
+Mathematics,TP2,Liam White,5.0
+Mathematics,TP2,Mona Beige,6.1
+Mathematics,TP2,Mona Blue,6.2
+Mathematics,TP2,Mona Davis,5.4
+Mathematics,TP2,Mona Gray,5.7
+Mathematics,TP2,Mona Magenta,5.4
+Mathematics,TP2,Mona Purple,4.5
+Mathematics,TP2,Mona White,3.8
+Mathematics,TP2,Nick Azure,5.8
+Mathematics,TP2,Nick Black,4.3
+Mathematics,TP2,Nick Brown,5.6
+Mathematics,TP2,Nick Indigo,5.3
+Mathematics,TP2,Nick Magenta,5.2
+Mathematics,TP2,Nick Orange,4.4
+Mathematics,TP2,Nick Purple,4.3
+Mathematics,TP2,Nick Red,5.8
+Mathematics,TP2,Olivia Beige,5.3
+Mathematics,TP2,Olivia Black,4.7
+Mathematics,TP2,Olivia Brown,3.8
+Mathematics,TP2,Paul Beige,5.7
+Mathematics,TP2,Paul Black,5.8
+Mathematics,TP2,Paul Magenta,5.4
+Mathematics,TP2,Paul Pink,5.0
+Mathematics,TP2,Paul Red,4.6
+Mathematics,TP2,Paul Teal,5.0
+Mathematics,TP2,Paul Violet,5.7
+Mathematics,TP2,Paul White,5.5
+Mathematics,TP2,Quincy Azure,6.3
+Mathematics,TP2,Quincy Johnson,5.4
+Mathematics,TP2,Quincy Magenta,6.1
+Mathematics,TP2,Quincy Teal,5.1
+Mathematics,TP2,Rita Magenta,4.1
+Mathematics,TP2,Rita Purple,5.2
+Mathematics,TP2,Rita Red,4.0
+Mathematics,TP2,Sam Azure,5.4
+Mathematics,TP2,Sam Beige,4.4
+Mathematics,TP2,Sam Black,5.4
+Mathematics,TP2,Sam Blue,4.8
+Mathematics,TP2,Sam Orange,5.1
+Mathematics,TP3,Alice Azure,5.3
+Mathematics,TP3,Alice Johnson,4.5
+Mathematics,TP3,Alice Pink,4.8
+Mathematics,TP3,Alice Purple,5.2
+Mathematics,TP3,Alice Teal,5.3
+Mathematics,TP3,Alice White,5.4
+Mathematics,TP3,Bob Beige,5.1
+Mathematics,TP3,Bob Black,5.1
+Mathematics,TP3,Bob Cyan,4.8
+Mathematics,TP3,Bob Green,4.7
+Mathematics,TP3,Bob Indigo,5.2
+Mathematics,TP3,Bob White,5.1
+Mathematics,TP3,Charlie Cyan,4.6
+Mathematics,TP3,Charlie Davis,5.5
+Mathematics,TP3,Charlie Red,5.8
+Mathematics,TP3,Dana Blue,5.0
+Mathematics,TP3,Dana Brown,5.5
+Mathematics,TP3,Dana Cyan,4.6
+Mathematics,TP3,Dana Green,4.9
+Mathematics,TP3,Dana Orange,5.1
+Mathematics,TP3,Dana Red,5.1
+Mathematics,TP3,Eve Azure,5.0
+Mathematics,TP3,Eve Cyan,4.9
+Mathematics,TP3,Eve Indigo,5.5
+Mathematics,TP3,Eve Yellow,5.7
+Mathematics,TP3,Frank Black,5.2
+Mathematics,TP3,Frank Johnson,5.9
+Mathematics,TP3,Grace Red,5.2
+Mathematics,TP3,Grace Yellow,5.6
+Mathematics,TP3,Hank Black,4.9
+Mathematics,TP3,Hank Cyan,4.3
+Mathematics,TP3,Hank Indigo,5.7
+Mathematics,TP3,Hank Yellow,5.8
+Mathematics,TP3,Ivy Beige,4.7
+Mathematics,TP3,Ivy Blue,4.5
+Mathematics,TP3,Ivy Cyan,6.1
+Mathematics,TP3,Ivy Indigo,5.4
+Mathematics,TP3,Ivy Johnson,4.7
+Mathematics,TP3,Ivy White,4.8
+Mathematics,TP3,Jack Blue,4.7
+Mathematics,TP3,Jack Davis,5.4
+Mathematics,TP3,Jack Gray,5.7
+Mathematics,TP3,Kelly Black,4.8
+Mathematics,TP3,Kelly Green,4.9
+Mathematics,TP3,Kelly Johnson,4.8
+Mathematics,TP3,Kelly Pink,5.3
+Mathematics,TP3,Kelly Red,4.6
+Mathematics,TP3,Kelly White,3.7
+Mathematics,TP3,Kelly Yellow,5.1
+Mathematics,TP3,Liam Azure,5.0
+Mathematics,TP3,Liam Black,5.6
+Mathematics,TP3,Liam Davis,5.0
+Mathematics,TP3,Liam Red,5.5
+Mathematics,TP3,Liam Yellow,4.6
+Mathematics,TP3,Mona Cyan,3.8
+Mathematics,TP3,Mona Indigo,4.4
+Mathematics,TP3,Mona Pink,4.5
+Mathematics,TP3,Mona Teal,4.9
+Mathematics,TP3,Mona Violet,5.1
+Mathematics,TP3,Olivia Black,5.4
+Mathematics,TP3,Olivia Green,4.8
+Mathematics,TP3,Olivia Indigo,5.0
+Mathematics,TP3,Olivia Johnson,5.3
+Mathematics,TP3,Olivia Orange,5.2
+Mathematics,TP3,Olivia Teal,6.2
+Mathematics,TP3,Paul Azure,5.0
+Mathematics,TP3,Paul Blue,4.1
+Mathematics,TP3,Paul Davis,4.3
+Mathematics,TP3,Paul Magenta,4.6
+Mathematics,TP3,Paul Purple,5.5
+Mathematics,TP3,Quincy Davis,4.9
+Mathematics,TP3,Quincy Gray,5.9
+Mathematics,TP3,Quincy Red,4.6
+Mathematics,TP3,Quincy Violet,5.4
+Mathematics,TP3,Rita Blue,5.6
+Mathematics,TP3,Sam Azure,4.2
+Mathematics,TP3,Sam Orange,5.5
+Music,Examen Final,Eve Magenta,5.1
+Music,Examen Final,Olivia Brown,5.2
+Music,TP Final,Alice Davis,4.0
+Music,TP Final,Alice Indigo,3.9
+Music,TP Final,Bob Blue,3.7
+Music,TP Final,Bob Cyan,5.0
+Music,TP Final,Bob Davis,5.9
+Music,TP Final,Bob Green,5.1
+Music,TP Final,Bob Johnson,6.9
+Music,TP Final,Bob Orange,6.7
+Music,TP Final,Charlie Blue,5.7
+Music,TP Final,Charlie Green,4.9
+Music,TP Final,Dana Johnson,3.3
+Music,TP Final,Dana Purple,4.9
+Music,TP Final,Eve Davis,4.7
+Music,TP Final,Frank Gray,4.3
+Music,TP Final,Frank Orange,4.7
+Music,TP Final,Frank White,7.0
+Music,TP Final,Frank Yellow,3.4
+Music,TP Final,Grace Cyan,5.0
+Music,TP Final,Grace Pink,5.4
+Music,TP Final,Hank Blue,3.3
+Music,TP Final,Hank Cyan,5.7
+Music,TP Final,Hank Davis,4.0
+Music,TP Final,Hank Indigo,6.3
+Music,TP Final,Hank Magenta,5.7
+Music,TP Final,Ivy Purple,5.3
+Music,TP Final,Jack Azure,7.0
+Music,TP Final,Jack Black,5.3
+Music,TP Final,Jack Blue,3.7
+Music,TP Final,Jack Gray,6.4
+Music,TP Final,Jack Purple,4.4
+Music,TP Final,Jack Red,3.7
+Music,TP Final,Kelly Pink,5.6
+Music,TP Final,Kelly White,4.7
+Music,TP Final,Liam Gray,5.9
+Music,TP Final,Liam Indigo,4.4
+Music,TP Final,Liam Pink,4.6
+Music,TP Final,Mona Violet,5.7
+Music,TP Final,Nick Azure,4.0
+Music,TP Final,Nick Green,4.1
+Music,TP Final,Nick Magenta,4.9
+Music,TP Final,Nick Red,6.7
+Music,TP Final,Nick Violet,5.3
+Music,TP Final,Olivia Azure,6.6
+Music,TP Final,Olivia Black,6.7
+Music,TP Final,Olivia Cyan,5.4
+Music,TP Final,Paul Brown,4.6
+Music,TP Final,Paul Cyan,6.9
+Music,TP Final,Quincy Azure,4.3
+Music,TP Final,Quincy Black,5.9
+Music,TP Final,Quincy Cyan,4.7
+Music,TP Final,Quincy Gray,4.7
+Music,TP Final,Quincy Teal,5.4
+Music,TP Final,Quincy White,3.4
+Music,TP Final,Rita Blue,5.9
+Music,TP Final,Rita Red,4.3
+Music,TP Final,Rita Violet,5.9
+Music,TP Final,Rita Yellow,4.4
+Music,TP Final,Sam Brown,5.9
+Music,TP1,Frank Blue,5.4
+Music,TP1,Grace Orange,5.4
+Music,TP1,Grace Violet,5.0
+Music,TP1,Liam Green,5.1
+Music,TP1,Olivia Blue,5.2
+Music,TP1,Olivia Davis,4.5
+Music,TP1,Paul Black,6.3
+Music,TP1,Quincy Pink,4.7
+Music,TP1,Rita Black,4.4
+Music,TP1,Rita Red,4.4
+Music,TP1,Sam Pink,6.3
+Music,TP10,Alice Davis,7.0
+Music,TP10,Alice Gray,7.3
+Music,TP10,Alice Green,5.3
+Music,TP10,Alice Yellow,8.0
+Music,TP10,Bob Cyan,5.7
+Music,TP10,Bob Davis,3.7
+Music,TP10,Bob Johnson,5.0
+Music,TP10,Bob Purple,5.7
+Music,TP10,Bob Red,4.3
+Music,TP10,Bob Teal,5.7
+Music,TP10,Bob Yellow,5.0
+Music,TP10,Charlie Blue,7.3
+Music,TP10,Charlie Gray,5.0
+Music,TP10,Charlie Johnson,4.0
+Music,TP10,Charlie Orange,3.3
+Music,TP10,Charlie Purple,3.0
+Music,TP10,Charlie Teal,6.7
+Music,TP10,Charlie Violet,4.3
+Music,TP10,Dana Azure,4.7
+Music,TP10,Dana Blue,5.0
+Music,TP10,Dana Green,2.3
+Music,TP10,Dana Magenta,5.0
+Music,TP10,Dana Orange,6.0
+Music,TP10,Dana Teal,3.7
+Music,TP10,Dana Violet,6.3
+Music,TP10,Dana White,5.3
+Music,TP10,Eve Azure,6.0
+Music,TP10,Eve Beige,6.7
+Music,TP10,Eve Black,5.3
+Music,TP10,Eve Blue,6.3
+Music,TP10,Eve Cyan,6.3
+Music,TP10,Eve Green,3.7
+Music,TP10,Eve Magenta,6.3
+Music,TP10,Eve Purple,6.7
+Music,TP10,Eve Teal,5.3
+Music,TP10,Frank Black,4.0
+Music,TP10,Frank Brown,7.3
+Music,TP10,Frank Magenta,3.3
+Music,TP10,Frank Violet,3.3
+Music,TP10,Grace Brown,6.7
+Music,TP10,Grace Cyan,4.0
+Music,TP10,Grace Davis,6.0
+Music,TP10,Grace Gray,4.7
+Music,TP10,Grace Indigo,3.3
+Music,TP10,Grace Johnson,2.7
+Music,TP10,Grace Pink,5.0
+Music,TP10,Hank Davis,2.3
+Music,TP10,Hank Gray,7.0
+Music,TP10,Hank Indigo,4.7
+Music,TP10,Hank Johnson,3.0
+Music,TP10,Hank Magenta,4.3
+Music,TP10,Hank Purple,7.0
+Music,TP10,Hank Red,4.7
+Music,TP10,Hank White,3.3
+Music,TP10,Ivy Blue,4.3
+Music,TP10,Ivy Indigo,4.7
+Music,TP10,Ivy Red,6.0
+Music,TP10,Ivy Yellow,2.7
+Music,TP10,Jack Black,4.0
+Music,TP10,Jack Blue,6.0
+Music,TP10,Jack Brown,6.3
+Music,TP10,Jack Gray,7.0
+Music,TP10,Jack Johnson,7.7
+Music,TP10,Jack Yellow,3.3
+Music,TP10,Kelly Black,6.3
+Music,TP10,Kelly Cyan,6.0
+Music,TP10,Kelly Davis,6.7
+Music,TP10,Kelly Johnson,3.3
+Music,TP10,Kelly Orange,2.7
+Music,TP10,Kelly Pink,3.3
+Music,TP10,Kelly Purple,3.3
+Music,TP10,Kelly Red,4.0
+Music,TP10,Kelly Violet,2.7
+Music,TP10,Liam Brown,4.3
+Music,TP10,Liam Davis,4.0
+Music,TP10,Liam Magenta,7.0
+Music,TP10,Liam Pink,5.3
+Music,TP10,Liam Red,2.0
+Music,TP10,Liam Teal,2.0
+Music,TP10,Liam Violet,6.3
+Music,TP10,Liam White,4.0
+Music,TP10,Mona Azure,0.3
+Music,TP10,Mona Blue,5.0
+Music,TP10,Mona Indigo,5.7
+Music,TP10,Mona Magenta,7.3
+Music,TP10,Mona Pink,4.7
+Music,TP10,Mona Purple,4.3
+Music,TP10,Mona Red,2.3
+Music,TP10,Mona Yellow,5.0
+Music,TP10,Nick Azure,4.3
+Music,TP10,Nick Beige,5.0
+Music,TP10,Nick Black,3.0
+Music,TP10,Nick Cyan,5.3
+Music,TP10,Nick Davis,4.7
+Music,TP10,Nick Pink,6.7
+Music,TP10,Nick Violet,3.0
+Music,TP10,Nick Yellow,7.7
+Music,TP10,Olivia Azure,6.7
+Music,TP10,Olivia Black,5.0
+Music,TP10,Olivia Blue,7.3
+Music,TP10,Olivia Orange,6.0
+Music,TP10,Olivia Teal,6.3
+Music,TP10,Olivia White,6.0
+Music,TP10,Paul Beige,3.7
+Music,TP10,Paul Davis,6.3
+Music,TP10,Paul Gray,5.3
+Music,TP10,Paul Magenta,5.7
+Music,TP10,Paul Orange,6.0
+Music,TP10,Paul Red,4.7
+Music,TP10,Paul Violet,3.0
+Music,TP10,Paul Yellow,4.7
+Music,TP10,Quincy Azure,4.3
+Music,TP10,Quincy Beige,2.3
+Music,TP10,Quincy Gray,4.7
+Music,TP10,Quincy Magenta,3.0
+Music,TP10,Quincy Teal,5.3
+Music,TP10,Quincy Violet,7.7
+Music,TP10,Rita Azure,4.3
+Music,TP10,Rita Black,4.0
+Music,TP10,Rita Cyan,5.3
+Music,TP10,Rita Davis,1.0
+Music,TP10,Rita Green,0.7
+Music,TP10,Rita Indigo,8.7
+Music,TP10,Rita Red,4.7
+Music,TP10,Rita Teal,6.7
+Music,TP10,Sam Beige,5.0
+Music,TP10,Sam Brown,5.3
+Music,TP10,Sam Green,3.7
+Music,TP10,Sam Johnson,8.0
+Music,TP10,Sam Orange,3.7
+Music,TP10,Sam Purple,5.3
+Music,TP10,Sam Teal,2.3
+Music,TP10,Sam Violet,6.3
+Music,TP2,Bob Davis,4.7
+Music,TP2,Charlie Gray,5.0
+Music,TP2,Dana Cyan,5.3
+Music,TP2,Eve Blue,4.7
+Music,TP2,Eve Orange,4.5
+Music,TP2,Frank Cyan,5.0
+Music,TP2,Grace Azure,4.6
+Music,TP2,Grace Black,5.8
+Music,TP2,Hank Indigo,5.0
+Music,TP2,Kelly Azure,4.1
+Music,TP2,Kelly White,5.2
+Music,TP2,Liam Davis,4.4
+Music,TP2,Nick Beige,4.4
+Music,TP2,Olivia Azure,5.4
+Music,TP2,Olivia Cyan,4.7
+Music,TP2,Rita Gray,6.2
+Music,TP3,Alice Red,5.0
+Music,TP3,Bob Azure,6.1
+Music,TP3,Charlie Pink,4.6
+Music,TP3,Eve Teal,6.5
+Music,TP3,Grace Azure,4.5
+Music,TP3,Grace Brown,4.9
+Music,TP3,Liam Blue,5.3
+Music,TP3,Mona Gray,4.8
+Music,TP3,Mona Orange,5.6
+Music,TP3,Nick Johnson,5.5
+Music,TP3,Olivia Gray,4.1
+Music,TP3,Rita Yellow,4.6
+Music,TP4,Alice White,4.1
+Music,TP4,Bob Black,2.8
+Music,TP4,Bob Cyan,4.4
+Music,TP4,Bob Gray,6.3
+Music,TP4,Charlie Purple,4.3
+Music,TP4,Charlie Red,4.3
+Music,TP4,Charlie Yellow,4.0
+Music,TP4,Dana Blue,6.0
+Music,TP4,Dana Davis,5.0
+Music,TP4,Dana Green,5.4
+Music,TP4,Dana Johnson,5.6
+Music,TP4,Dana Orange,3.6
+Music,TP4,Dana Teal,4.1
+Music,TP4,Dana Yellow,6.8
+Music,TP4,Eve Blue,3.6
+Music,TP4,Eve Magenta,4.0
+Music,TP4,Eve Pink,5.5
+Music,TP4,Eve Red,4.4
+Music,TP4,Eve Teal,5.3
+Music,TP4,Frank Gray,4.1
+Music,TP4,Frank Orange,4.6
+Music,TP4,Frank Red,4.1
+Music,TP4,Frank Violet,4.9
+Music,TP4,Frank White,6.5
+Music,TP4,Grace Blue,4.8
+Music,TP4,Grace Cyan,5.6
+Music,TP4,Grace Gray,4.9
+Music,TP4,Ivy Purple,4.1
+Music,TP4,Ivy Teal,4.1
+Music,TP4,Jack Teal,5.8
+Music,TP4,Kelly Johnson,5.4
+Music,TP4,Liam Cyan,5.9
+Music,TP4,Liam Purple,6.8
+Music,TP4,Liam Violet,5.5
+Music,TP4,Mona Davis,4.8
+Music,TP4,Mona Green,7.8
+Music,TP4,Mona Red,6.3
+Music,TP4,Nick Azure,5.1
+Music,TP4,Nick Purple,3.8
+Music,TP4,Olivia Davis,5.5
+Music,TP4,Olivia Pink,4.1
+Music,TP4,Paul Green,4.8
+Music,TP4,Paul Magenta,5.6
+Music,TP4,Paul Purple,6.3
+Music,TP4,Paul Yellow,3.9
+Music,TP4,Quincy Green,5.8
+Music,TP4,Quincy Indigo,4.8
+Music,TP4,Quincy Orange,5.5
+Music,TP4,Quincy Teal,4.5
+Music,TP4,Rita Azure,6.4
+Music,TP4,Rita Cyan,3.4
+Music,TP4,Rita Johnson,4.8
+Music,TP4,Rita White,5.4
+Music,TP4,Sam Indigo,3.9
+Music,TP5,Alice Blue,3.7
+Music,TP5,Alice Gray,5.0
+Music,TP5,Alice Purple,2.7
+Music,TP5,Alice Violet,6.7
+Music,TP5,Alice White,5.3
+Music,TP5,Bob Black,3.7
+Music,TP5,Bob Gray,5.7
+Music,TP5,Bob Indigo,4.3
+Music,TP5,Charlie Blue,7.7
+Music,TP5,Charlie Gray,6.3
+Music,TP5,Charlie Green,4.7
+Music,TP5,Charlie Magenta,4.7
+Music,TP5,Charlie Pink,4.7
+Music,TP5,Charlie Purple,2.0
+Music,TP5,Charlie Yellow,5.7
+Music,TP5,Dana Azure,7.7
+Music,TP5,Dana Beige,3.0
+Music,TP5,Dana Brown,5.7
+Music,TP5,Dana Gray,6.0
+Music,TP5,Dana Orange,6.7
+Music,TP5,Dana Violet,6.7
+Music,TP5,Dana Yellow,6.7
+Music,TP5,Eve Johnson,5.3
+Music,TP5,Eve Magenta,4.7
+Music,TP5,Eve Pink,3.7
+Music,TP5,Eve Teal,3.0
+Music,TP5,Eve Violet,3.7
+Music,TP5,Eve Yellow,3.3
+Music,TP5,Frank Beige,5.7
+Music,TP5,Frank Black,4.7
+Music,TP5,Frank Blue,5.3
+Music,TP5,Frank Gray,6.0
+Music,TP5,Frank Indigo,4.0
+Music,TP5,Frank Johnson,5.7
+Music,TP5,Frank Magenta,4.7
+Music,TP5,Frank Pink,4.3
+Music,TP5,Frank Purple,6.3
+Music,TP5,Frank Teal,7.3
+Music,TP5,Frank White,6.7
+Music,TP5,Grace Blue,5.0
+Music,TP5,Grace Brown,7.7
+Music,TP5,Grace Magenta,6.7
+Music,TP5,Grace Orange,2.7
+Music,TP5,Grace Red,3.0
+Music,TP5,Grace Violet,6.7
+Music,TP5,Grace Yellow,5.3
+Music,TP5,Hank Azure,4.7
+Music,TP5,Hank Davis,3.7
+Music,TP5,Hank Johnson,5.7
+Music,TP5,Hank Orange,7.0
+Music,TP5,Hank Pink,6.7
+Music,TP5,Hank Teal,4.3
+Music,TP5,Hank Yellow,5.7
+Music,TP5,Ivy Azure,5.0
+Music,TP5,Ivy Black,6.3
+Music,TP5,Ivy Brown,7.0
+Music,TP5,Ivy Gray,7.0
+Music,TP5,Ivy Green,6.3
+Music,TP5,Ivy Indigo,6.0
+Music,TP5,Ivy Pink,6.0
+Music,TP5,Jack Black,4.0
+Music,TP5,Jack Brown,5.3
+Music,TP5,Jack Gray,1.3
+Music,TP5,Jack Violet,5.7
+Music,TP5,Jack Yellow,5.0
+Music,TP5,Kelly Azure,5.0
+Music,TP5,Kelly Black,5.0
+Music,TP5,Kelly Indigo,3.7
+Music,TP5,Kelly Johnson,2.3
+Music,TP5,Kelly Purple,5.3
+Music,TP5,Kelly Red,5.3
+Music,TP5,Kelly Teal,5.3
+Music,TP5,Kelly Violet,3.7
+Music,TP5,Kelly Yellow,4.3
+Music,TP5,Liam Blue,6.3
+Music,TP5,Liam Cyan,4.0
+Music,TP5,Liam Davis,6.3
+Music,TP5,Liam Gray,3.3
+Music,TP5,Liam Green,2.3
+Music,TP5,Liam Indigo,5.0
+Music,TP5,Liam Johnson,5.7
+Music,TP5,Liam Orange,6.0
+Music,TP5,Liam Purple,5.0
+Music,TP5,Liam Violet,2.3
+Music,TP5,Mona Black,4.3
+Music,TP5,Mona Cyan,7.3
+Music,TP5,Mona Green,5.0
+Music,TP5,Mona Indigo,5.3
+Music,TP5,Mona Pink,6.7
+Music,TP5,Mona Purple,4.0
+Music,TP5,Mona Yellow,3.3
+Music,TP5,Nick Green,7.3
+Music,TP5,Nick Johnson,4.7
+Music,TP5,Nick Magenta,3.7
+Music,TP5,Nick Pink,4.3
+Music,TP5,Olivia Cyan,5.3
+Music,TP5,Olivia Green,5.3
+Music,TP5,Olivia Indigo,5.0
+Music,TP5,Olivia Orange,5.3
+Music,TP5,Olivia Pink,4.7
+Music,TP5,Olivia Red,4.0
+Music,TP5,Olivia Teal,7.7
+Music,TP5,Olivia White,4.7
+Music,TP5,Paul Beige,5.0
+Music,TP5,Paul Cyan,6.0
+Music,TP5,Paul Gray,7.7
+Music,TP5,Paul Indigo,4.3
+Music,TP5,Paul Purple,7.3
+Music,TP5,Paul Red,4.3
+Music,TP5,Paul Yellow,2.3
+Music,TP5,Quincy Black,4.7
+Music,TP5,Quincy Blue,2.7
+Music,TP5,Quincy Cyan,4.7
+Music,TP5,Quincy Davis,7.7
+Music,TP5,Quincy Indigo,5.3
+Music,TP5,Quincy Magenta,4.7
+Music,TP5,Rita Brown,7.7
+Music,TP5,Rita Davis,1.3
+Music,TP5,Rita Indigo,2.7
+Music,TP5,Rita Orange,4.3
+Music,TP5,Rita Pink,3.7
+Music,TP5,Rita Purple,4.0
+Music,TP5,Rita Violet,2.7
+Music,TP5,Rita Yellow,6.7
+Music,TP5,Sam Gray,3.0
+Music,TP5,Sam Purple,7.0
+Music,TP5,Sam Teal,3.7
+Music,TP5,Sam Violet,1.7
+Music,TP5,Sam White,5.7
+Music,TP6,Alice Azure,1.7
+Music,TP6,Alice Blue,7.7
+Music,TP6,Alice Gray,3.7
+Music,TP6,Alice Magenta,1.0
+Music,TP6,Alice Pink,5.3
+Music,TP6,Alice Red,2.3
+Music,TP6,Alice Teal,7.0
+Music,TP6,Alice White,4.3
+Music,TP6,Bob Beige,4.0
+Music,TP6,Bob Black,6.7
+Music,TP6,Bob Cyan,4.3
+Music,TP6,Bob Gray,5.7
+Music,TP6,Bob Indigo,7.0
+Music,TP6,Bob Pink,3.3
+Music,TP6,Bob Purple,6.3
+Music,TP6,Bob Red,3.3
+Music,TP6,Bob White,7.3
+Music,TP6,Bob Yellow,8.3
+Music,TP6,Charlie Cyan,4.3
+Music,TP6,Charlie Johnson,3.0
+Music,TP6,Charlie Orange,6.3
+Music,TP6,Charlie Purple,1.3
+Music,TP6,Dana Davis,3.7
+Music,TP6,Dana Gray,8.3
+Music,TP6,Dana Magenta,5.3
+Music,TP6,Dana Orange,6.0
+Music,TP6,Dana Red,6.0
+Music,TP6,Eve Black,5.0
+Music,TP6,Eve Blue,2.7
+Music,TP6,Eve Cyan,4.0
+Music,TP6,Eve Davis,5.3
+Music,TP6,Eve Green,1.7
+Music,TP6,Eve Magenta,4.7
+Music,TP6,Eve Pink,6.7
+Music,TP6,Eve White,4.7
+Music,TP6,Eve Yellow,7.0
+Music,TP6,Frank Beige,6.0
+Music,TP6,Frank Cyan,4.7
+Music,TP6,Frank Red,6.3
+Music,TP6,Frank Teal,3.0
+Music,TP6,Frank Violet,6.7
+Music,TP6,Grace Blue,4.0
+Music,TP6,Grace Johnson,5.7
+Music,TP6,Grace Red,4.0
+Music,TP6,Grace Violet,2.3
+Music,TP6,Grace Yellow,5.7
+Music,TP6,Hank Black,6.3
+Music,TP6,Hank Blue,4.3
+Music,TP6,Hank Cyan,9.0
+Music,TP6,Hank Gray,4.0
+Music,TP6,Hank Johnson,7.7
+Music,TP6,Hank Purple,4.3
+Music,TP6,Hank Red,4.0
+Music,TP6,Hank Violet,4.7
+Music,TP6,Ivy Davis,2.3
+Music,TP6,Ivy Johnson,3.3
+Music,TP6,Ivy Red,4.3
+Music,TP6,Ivy White,6.7
+Music,TP6,Ivy Yellow,3.7
+Music,TP6,Jack Gray,6.0
+Music,TP6,Jack Johnson,9.3
+Music,TP6,Jack Pink,7.3
+Music,TP6,Jack Teal,1.7
+Music,TP6,Jack White,2.3
+Music,TP6,Kelly Beige,4.7
+Music,TP6,Kelly Blue,6.0
+Music,TP6,Kelly Davis,2.0
+Music,TP6,Kelly Johnson,2.7
+Music,TP6,Kelly Violet,4.3
+Music,TP6,Kelly Yellow,3.0
+Music,TP6,Liam Black,1.0
+Music,TP6,Liam Red,6.3
+Music,TP6,Liam White,5.0
+Music,TP6,Liam Yellow,6.7
+Music,TP6,Mona Gray,6.0
+Music,TP6,Mona Green,6.3
+Music,TP6,Mona Magenta,6.0
+Music,TP6,Mona Red,4.0
+Music,TP6,Mona Violet,4.3
+Music,TP6,Mona White,1.7
+Music,TP6,Mona Yellow,4.0
+Music,TP6,Nick Beige,5.3
+Music,TP6,Nick Black,4.7
+Music,TP6,Nick Brown,3.0
+Music,TP6,Nick Cyan,5.3
+Music,TP6,Nick Davis,4.7
+Music,TP6,Nick Gray,7.3
+Music,TP6,Nick Johnson,2.7
+Music,TP6,Nick Orange,2.3
+Music,TP6,Nick Red,4.0
+Music,TP6,Nick Teal,5.0
+Music,TP6,Nick Violet,8.0
+Music,TP6,Nick White,5.0
+Music,TP6,Olivia Beige,5.0
+Music,TP6,Olivia Blue,3.7
+Music,TP6,Olivia Cyan,7.3
+Music,TP6,Olivia Green,4.3
+Music,TP6,Olivia Pink,6.3
+Music,TP6,Olivia Teal,3.3
+Music,TP6,Paul Beige,6.0
+Music,TP6,Paul Brown,4.0
+Music,TP6,Paul Cyan,4.7
+Music,TP6,Paul Davis,4.3
+Music,TP6,Paul Gray,3.3
+Music,TP6,Paul Green,4.3
+Music,TP6,Paul Indigo,6.3
+Music,TP6,Paul Orange,4.0
+Music,TP6,Paul Teal,6.7
+Music,TP6,Paul Violet,6.0
+Music,TP6,Quincy Beige,7.0
+Music,TP6,Quincy Cyan,6.7
+Music,TP6,Quincy Green,3.7
+Music,TP6,Quincy Yellow,4.3
+Music,TP6,Rita Brown,3.0
+Music,TP6,Rita Cyan,7.3
+Music,TP6,Rita Davis,5.3
+Music,TP6,Rita Gray,3.7
+Music,TP6,Rita Green,3.3
+Music,TP6,Rita Indigo,5.0
+Music,TP6,Rita Pink,4.0
+Music,TP6,Rita Teal,5.0
+Music,TP6,Rita Violet,5.7
+Music,TP6,Sam Blue,4.0
+Music,TP6,Sam Brown,4.3
+Music,TP6,Sam Green,8.0
+Music,TP6,Sam Purple,6.7
+Music,TP6,Sam Teal,5.3
+Music,TP7,Alice Brown,8.0
+Music,TP7,Alice Davis,3.7
+Music,TP7,Alice Indigo,3.0
+Music,TP7,Alice Johnson,6.3
+Music,TP7,Alice Magenta,4.3
+Music,TP7,Alice Purple,5.3
+Music,TP7,Alice White,8.3
+Music,TP7,Bob Azure,5.0
+Music,TP7,Bob Black,4.7
+Music,TP7,Bob Cyan,2.7
+Music,TP7,Bob Gray,2.0
+Music,TP7,Bob Magenta,6.0
+Music,TP7,Bob Yellow,4.0
+Music,TP7,Charlie Brown,5.0
+Music,TP7,Charlie Indigo,4.7
+Music,TP7,Charlie Johnson,4.7
+Music,TP7,Charlie Orange,3.0
+Music,TP7,Charlie Purple,6.7
+Music,TP7,Charlie Red,7.0
+Music,TP7,Charlie Yellow,3.3
+Music,TP7,Dana Azure,3.0
+Music,TP7,Dana Black,6.3
+Music,TP7,Dana Blue,6.0
+Music,TP7,Dana Green,4.7
+Music,TP7,Dana Johnson,3.7
+Music,TP7,Dana Violet,6.0
+Music,TP7,Dana White,5.7
+Music,TP7,Eve Blue,7.0
+Music,TP7,Eve Pink,4.7
+Music,TP7,Eve Purple,5.7
+Music,TP7,Eve Red,5.7
+Music,TP7,Eve Teal,6.0
+Music,TP7,Eve Violet,6.3
+Music,TP7,Eve White,7.0
+Music,TP7,Frank Azure,3.0
+Music,TP7,Frank Black,6.7
+Music,TP7,Frank Indigo,5.0
+Music,TP7,Frank Orange,6.3
+Music,TP7,Frank Red,6.7
+Music,TP7,Grace Gray,7.0
+Music,TP7,Grace Orange,5.7
+Music,TP7,Grace Purple,4.7
+Music,TP7,Grace Red,4.7
+Music,TP7,Hank Azure,4.0
+Music,TP7,Hank Beige,3.7
+Music,TP7,Hank Blue,4.3
+Music,TP7,Hank Brown,4.3
+Music,TP7,Hank Indigo,1.7
+Music,TP7,Hank Johnson,4.7
+Music,TP7,Hank Magenta,2.3
+Music,TP7,Hank Orange,5.0
+Music,TP7,Hank Pink,5.7
+Music,TP7,Hank Red,6.7
+Music,TP7,Hank Yellow,2.3
+Music,TP7,Ivy Beige,1.3
+Music,TP7,Ivy Davis,4.3
+Music,TP7,Ivy Gray,5.7
+Music,TP7,Ivy Indigo,1.7
+Music,TP7,Ivy Orange,4.3
+Music,TP7,Ivy Red,6.3
+Music,TP7,Ivy Teal,4.3
+Music,TP7,Ivy White,9.3
+Music,TP7,Ivy Yellow,6.3
+Music,TP7,Jack Gray,7.7
+Music,TP7,Jack Green,6.0
+Music,TP7,Jack Magenta,7.7
+Music,TP7,Jack Orange,5.0
+Music,TP7,Jack Pink,7.7
+Music,TP7,Jack Red,5.7
+Music,TP7,Jack White,6.7
+Music,TP7,Jack Yellow,3.0
+Music,TP7,Kelly Azure,4.0
+Music,TP7,Kelly Beige,6.0
+Music,TP7,Kelly Brown,5.3
+Music,TP7,Kelly Davis,5.3
+Music,TP7,Kelly Johnson,6.3
+Music,TP7,Kelly Magenta,6.0
+Music,TP7,Kelly Orange,5.0
+Music,TP7,Kelly Red,5.7
+Music,TP7,Liam Davis,5.0
+Music,TP7,Liam Green,2.7
+Music,TP7,Liam Johnson,5.3
+Music,TP7,Liam Magenta,2.0
+Music,TP7,Liam Pink,7.7
+Music,TP7,Liam Violet,5.7
+Music,TP7,Liam White,7.0
+Music,TP7,Liam Yellow,6.7
+Music,TP7,Mona Azure,7.7
+Music,TP7,Mona Blue,4.3
+Music,TP7,Mona Brown,8.7
+Music,TP7,Mona Davis,2.7
+Music,TP7,Mona Gray,5.0
+Music,TP7,Mona Green,4.3
+Music,TP7,Mona Indigo,6.3
+Music,TP7,Mona Orange,6.0
+Music,TP7,Mona Yellow,5.0
+Music,TP7,Nick Azure,7.0
+Music,TP7,Nick Beige,5.0
+Music,TP7,Nick Black,3.0
+Music,TP7,Nick Gray,4.3
+Music,TP7,Nick Green,6.3
+Music,TP7,Nick Orange,5.0
+Music,TP7,Olivia Blue,6.0
+Music,TP7,Olivia Brown,7.0
+Music,TP7,Olivia Cyan,3.0
+Music,TP7,Olivia Johnson,4.3
+Music,TP7,Olivia Orange,3.3
+Music,TP7,Olivia Pink,4.0
+Music,TP7,Olivia Purple,4.7
+Music,TP7,Olivia White,6.0
+Music,TP7,Paul Brown,5.7
+Music,TP7,Paul Gray,3.0
+Music,TP7,Paul Green,4.3
+Music,TP7,Paul Johnson,2.7
+Music,TP7,Paul Violet,5.7
+Music,TP7,Paul Yellow,7.3
+Music,TP7,Quincy Davis,4.3
+Music,TP7,Quincy Indigo,5.3
+Music,TP7,Quincy Orange,4.7
+Music,TP7,Quincy Teal,4.0
+Music,TP7,Quincy Violet,6.7
+Music,TP7,Rita Azure,8.7
+Music,TP7,Rita Cyan,5.7
+Music,TP7,Rita Indigo,3.3
+Music,TP7,Rita Pink,7.0
+Music,TP7,Rita Violet,6.0
+Music,TP7,Rita White,6.7
+Music,TP7,Sam Black,4.7
+Music,TP7,Sam Blue,4.3
+Music,TP7,Sam Johnson,5.7
+Music,TP7,Sam Teal,3.7
+Music,TP8,Alice Azure,3.3
+Music,TP8,Alice Gray,5.0
+Music,TP8,Alice Indigo,4.7
+Music,TP8,Alice Purple,7.3
+Music,TP8,Bob Blue,6.3
+Music,TP8,Bob Indigo,7.0
+Music,TP8,Bob Purple,5.7
+Music,TP8,Bob Red,6.7
+Music,TP8,Bob White,5.3
+Music,TP8,Charlie Black,3.0
+Music,TP8,Charlie Blue,3.7
+Music,TP8,Charlie Brown,3.3
+Music,TP8,Charlie Green,3.3
+Music,TP8,Charlie Pink,7.0
+Music,TP8,Charlie Purple,6.3
+Music,TP8,Charlie Red,4.3
+Music,TP8,Dana Azure,1.3
+Music,TP8,Dana Brown,4.3
+Music,TP8,Dana Gray,3.3
+Music,TP8,Dana Johnson,4.7
+Music,TP8,Dana Magenta,5.3
+Music,TP8,Dana Orange,3.3
+Music,TP8,Dana Red,7.0
+Music,TP8,Dana Teal,1.3
+Music,TP8,Eve Azure,6.0
+Music,TP8,Eve Davis,6.0
+Music,TP8,Eve Indigo,5.7
+Music,TP8,Eve Violet,2.0
+Music,TP8,Eve White,6.0
+Music,TP8,Eve Yellow,5.7
+Music,TP8,Frank Black,6.0
+Music,TP8,Frank Gray,6.0
+Music,TP8,Frank Johnson,4.0
+Music,TP8,Frank Orange,7.0
+Music,TP8,Frank Purple,2.7
+Music,TP8,Frank Red,3.0
+Music,TP8,Frank Yellow,5.3
+Music,TP8,Grace Brown,3.0
+Music,TP8,Grace Davis,6.3
+Music,TP8,Grace Green,5.3
+Music,TP8,Grace Indigo,3.0
+Music,TP8,Grace Magenta,5.7
+Music,TP8,Grace Pink,5.3
+Music,TP8,Grace Purple,4.3
+Music,TP8,Grace Red,6.0
+Music,TP8,Grace Violet,6.7
+Music,TP8,Hank Black,4.0
+Music,TP8,Hank Cyan,5.0
+Music,TP8,Hank Gray,4.3
+Music,TP8,Hank Johnson,8.0
+Music,TP8,Hank Orange,5.3
+Music,TP8,Hank Purple,4.3
+Music,TP8,Hank Violet,8.3
+Music,TP8,Hank Yellow,5.0
+Music,TP8,Ivy Azure,3.7
+Music,TP8,Ivy Cyan,3.7
+Music,TP8,Ivy Davis,3.7
+Music,TP8,Ivy Gray,3.3
+Music,TP8,Ivy Johnson,4.3
+Music,TP8,Ivy Orange,4.7
+Music,TP8,Ivy Violet,5.3
+Music,TP8,Jack Azure,5.7
+Music,TP8,Jack Black,7.3
+Music,TP8,Jack Blue,3.7
+Music,TP8,Jack Cyan,8.0
+Music,TP8,Jack Davis,2.3
+Music,TP8,Jack Magenta,6.3
+Music,TP8,Jack Red,2.7
+Music,TP8,Kelly Azure,7.7
+Music,TP8,Kelly Cyan,7.0
+Music,TP8,Kelly Davis,5.3
+Music,TP8,Kelly Indigo,5.0
+Music,TP8,Kelly Pink,2.0
+Music,TP8,Kelly Violet,7.0
+Music,TP8,Liam Beige,6.0
+Music,TP8,Liam Cyan,6.0
+Music,TP8,Liam Gray,3.3
+Music,TP8,Liam Orange,6.3
+Music,TP8,Liam Red,5.7
+Music,TP8,Liam Teal,8.0
+Music,TP8,Liam Violet,2.0
+Music,TP8,Mona Johnson,4.3
+Music,TP8,Mona Teal,4.0
+Music,TP8,Mona Yellow,5.7
+Music,TP8,Nick Black,5.3
+Music,TP8,Nick Davis,1.3
+Music,TP8,Nick Green,6.3
+Music,TP8,Nick Indigo,6.0
+Music,TP8,Nick Red,5.3
+Music,TP8,Nick Teal,4.0
+Music,TP8,Olivia Beige,6.0
+Music,TP8,Olivia Black,6.7
+Music,TP8,Olivia Brown,4.0
+Music,TP8,Olivia Cyan,6.0
+Music,TP8,Olivia Davis,4.3
+Music,TP8,Olivia Magenta,2.7
+Music,TP8,Olivia Pink,3.0
+Music,TP8,Olivia Yellow,6.3
+Music,TP8,Paul Johnson,6.3
+Music,TP8,Paul Pink,5.7
+Music,TP8,Paul Purple,5.0
+Music,TP8,Paul Red,3.7
+Music,TP8,Paul Yellow,3.7
+Music,TP8,Quincy Gray,4.7
+Music,TP8,Quincy Pink,3.3
+Music,TP8,Quincy Purple,2.7
+Music,TP8,Quincy Red,5.0
+Music,TP8,Quincy Teal,6.7
+Music,TP8,Quincy Yellow,3.7
+Music,TP8,Rita Black,4.7
+Music,TP8,Rita Orange,4.3
+Music,TP8,Rita Pink,2.3
+Music,TP8,Rita Purple,3.7
+Music,TP8,Rita Red,4.7
+Music,TP8,Sam Azure,7.0
+Music,TP8,Sam Beige,6.3
+Music,TP8,Sam Black,4.3
+Music,TP8,Sam Brown,8.0
+Music,TP8,Sam Johnson,5.3
+Music,TP8,Sam Red,3.7
+Music,TP8,Sam Teal,6.3
+Music,TP8,Sam Violet,6.0
+Music,TP8,Sam White,4.0
+Music,TP9,Alice Azure,4.0
+Music,TP9,Alice Gray,5.7
+Music,TP9,Alice Green,6.3
+Music,TP9,Alice Indigo,2.0
+Music,TP9,Alice Orange,5.0
+Music,TP9,Bob Azure,5.7
+Music,TP9,Bob Black,7.3
+Music,TP9,Bob Davis,3.0
+Music,TP9,Bob Gray,3.7
+Music,TP9,Bob Green,7.0
+Music,TP9,Bob Indigo,1.7
+Music,TP9,Bob Red,3.7
+Music,TP9,Bob Teal,6.7
+Music,TP9,Charlie Azure,4.7
+Music,TP9,Charlie Black,8.7
+Music,TP9,Charlie Blue,2.3
+Music,TP9,Charlie Green,4.0
+Music,TP9,Charlie Indigo,4.3
+Music,TP9,Charlie Johnson,4.0
+Music,TP9,Charlie Magenta,4.3
+Music,TP9,Charlie Orange,5.7
+Music,TP9,Dana Azure,5.3
+Music,TP9,Dana Black,2.0
+Music,TP9,Dana Green,5.0
+Music,TP9,Dana Orange,4.7
+Music,TP9,Dana Pink,5.7
+Music,TP9,Dana Red,5.3
+Music,TP9,Eve Beige,5.7
+Music,TP9,Eve Cyan,4.0
+Music,TP9,Eve Gray,7.0
+Music,TP9,Eve Green,3.3
+Music,TP9,Eve Indigo,3.3
+Music,TP9,Eve Magenta,3.7
+Music,TP9,Eve Purple,3.3
+Music,TP9,Eve Red,8.3
+Music,TP9,Frank Gray,5.7
+Music,TP9,Frank Green,5.0
+Music,TP9,Frank Orange,5.7
+Music,TP9,Frank Purple,4.0
+Music,TP9,Frank Teal,6.0
+Music,TP9,Frank Violet,6.0
+Music,TP9,Grace Beige,5.7
+Music,TP9,Grace Blue,5.0
+Music,TP9,Grace Brown,2.0
+Music,TP9,Grace Magenta,3.7
+Music,TP9,Grace Red,4.0
+Music,TP9,Grace Teal,6.0
+Music,TP9,Hank Black,8.0
+Music,TP9,Hank Cyan,5.7
+Music,TP9,Hank Magenta,4.7
+Music,TP9,Hank Pink,2.0
+Music,TP9,Hank Teal,5.7
+Music,TP9,Hank Yellow,5.0
+Music,TP9,Ivy Beige,2.0
+Music,TP9,Ivy Black,5.7
+Music,TP9,Ivy Cyan,4.7
+Music,TP9,Ivy Johnson,6.7
+Music,TP9,Ivy Purple,3.0
+Music,TP9,Ivy Teal,4.7
+Music,TP9,Ivy Violet,1.0
+Music,TP9,Jack Black,5.7
+Music,TP9,Jack Brown,5.3
+Music,TP9,Jack Gray,1.7
+Music,TP9,Jack Johnson,8.3
+Music,TP9,Jack Pink,3.3
+Music,TP9,Jack Red,7.0
+Music,TP9,Jack Yellow,5.7
+Music,TP9,Kelly Davis,7.0
+Music,TP9,Kelly Indigo,3.3
+Music,TP9,Kelly Johnson,5.0
+Music,TP9,Kelly Orange,2.3
+Music,TP9,Kelly White,3.7
+Music,TP9,Liam Azure,4.7
+Music,TP9,Liam Black,8.3
+Music,TP9,Liam Brown,4.7
+Music,TP9,Liam Davis,7.7
+Music,TP9,Liam Green,4.7
+Music,TP9,Liam Indigo,6.3
+Music,TP9,Liam Johnson,6.3
+Music,TP9,Liam Magenta,9.3
+Music,TP9,Liam Pink,6.7
+Music,TP9,Liam Violet,2.7
+Music,TP9,Mona Beige,4.3
+Music,TP9,Mona Davis,3.7
+Music,TP9,Mona Gray,6.0
+Music,TP9,Mona Magenta,5.3
+Music,TP9,Nick Azure,6.3
+Music,TP9,Nick Blue,4.7
+Music,TP9,Nick Green,4.3
+Music,TP9,Nick Indigo,4.7
+Music,TP9,Nick Magenta,4.7
+Music,TP9,Nick Pink,4.3
+Music,TP9,Olivia Azure,8.3
+Music,TP9,Olivia Blue,6.3
+Music,TP9,Olivia Johnson,4.3
+Music,TP9,Olivia Magenta,7.7
+Music,TP9,Olivia Orange,3.3
+Music,TP9,Olivia Red,5.7
+Music,TP9,Olivia Teal,4.0
+Music,TP9,Olivia Violet,5.0
+Music,TP9,Olivia White,4.7
+Music,TP9,Paul Beige,3.0
+Music,TP9,Paul Black,5.7
+Music,TP9,Paul Brown,5.7
+Music,TP9,Paul Davis,6.3
+Music,TP9,Paul Indigo,5.3
+Music,TP9,Paul Teal,4.0
+Music,TP9,Quincy Blue,5.0
+Music,TP9,Quincy Cyan,5.7
+Music,TP9,Quincy Purple,5.0
+Music,TP9,Quincy White,5.7
+Music,TP9,Quincy Yellow,5.0
+Music,TP9,Rita Beige,6.0
+Music,TP9,Rita Blue,5.3
+Music,TP9,Rita Brown,4.3
+Music,TP9,Rita Davis,4.3
+Music,TP9,Rita Gray,4.3
+Music,TP9,Rita Indigo,2.0
+Music,TP9,Rita Johnson,3.3
+Music,TP9,Rita Pink,7.3
+Music,TP9,Rita Red,5.7
+Music,TP9,Rita Teal,5.3
+Music,TP9,Rita Violet,3.7
+Music,TP9,Sam Black,5.0
+Music,TP9,Sam Brown,5.0
+Music,TP9,Sam Johnson,3.7
+Music,TP9,Sam White,3.0
+Philosophy,Examen Final,Alice Purple,4.6
+Philosophy,Examen Final,Liam Black,5.1
+Philosophy,Examen Final,Olivia Cyan,5.3
+Philosophy,Examen Final,Paul Black,5.1
+Philosophy,Examen Final,Paul Johnson,5.1
+Philosophy,Primer Parcial,Frank Violet,4.7
+Philosophy,Primer Parcial,Ivy Beige,5.3
+Philosophy,Primer Parcial,Mona Azure,5.2
+Philosophy,Primer Parcial,Paul Indigo,4.9
+Philosophy,Primer Parcial,Rita Violet,4.8
+Philosophy,Segundo Parcial,Alice Azure,4.9
+Philosophy,Segundo Parcial,Eve Green,4.9
+Philosophy,Segundo Parcial,Frank Davis,5.0
+Philosophy,Segundo Parcial,Liam Yellow,4.7
+Philosophy,Segundo Parcial,Mona Davis,4.8
+Philosophy,Segundo Parcial,Olivia Red,4.4
+Philosophy,Segundo Parcial,Rita Brown,4.9
+Philosophy,Segundo Parcial,Sam Davis,5.1
+Physics,Examen Final,Alice Gray,4.5
+Physics,Examen Final,Bob Red,5.3
+Physics,Examen Final,Charlie Cyan,4.7
+Physics,Examen Final,Charlie Orange,5.2
+Physics,Examen Final,Charlie Pink,4.7
+Physics,Examen Final,Charlie Violet,5.4
+Physics,Examen Final,Charlie Yellow,5.7
+Physics,Examen Final,Dana Brown,4.5
+Physics,Examen Final,Dana Davis,4.9
+Physics,Examen Final,Dana Purple,5.1
+Physics,Examen Final,Eve Purple,5.1
+Physics,Examen Final,Eve Red,5.6
+Physics,Examen Final,Eve Teal,4.8
+Physics,Examen Final,Eve Yellow,5.0
+Physics,Examen Final,Frank Indigo,4.9
+Physics,Examen Final,Frank Magenta,5.7
+Physics,Examen Final,Frank Red,5.4
+Physics,Examen Final,Frank Violet,5.1
+Physics,Examen Final,Frank White,4.7
+Physics,Examen Final,Hank Teal,5.0
+Physics,Examen Final,Ivy Beige,4.8
+Physics,Examen Final,Ivy Johnson,5.3
+Physics,Examen Final,Ivy Purple,5.4
+Physics,Examen Final,Ivy Teal,4.9
+Physics,Examen Final,Jack Gray,5.3
+Physics,Examen Final,Jack Teal,4.7
+Physics,Examen Final,Jack White,5.0
+Physics,Examen Final,Kelly Blue,4.9
+Physics,Examen Final,Kelly Johnson,5.1
+Physics,Examen Final,Kelly Purple,5.1
+Physics,Examen Final,Kelly Red,5.0
+Physics,Examen Final,Liam White,5.3
+Physics,Examen Final,Mona Azure,5.4
+Physics,Examen Final,Mona Black,4.9
+Physics,Examen Final,Mona Davis,5.4
+Physics,Examen Final,Mona Green,5.0
+Physics,Examen Final,Mona Violet,4.3
+Physics,Examen Final,Mona Yellow,4.9
+Physics,Examen Final,Nick Davis,4.8
+Physics,Examen Final,Nick Green,4.4
+Physics,Examen Final,Olivia Blue,5.2
+Physics,Examen Final,Paul Purple,4.6
+Physics,Examen Final,Quincy Johnson,5.2
+Physics,Examen Final,Quincy Purple,4.8
+Physics,Examen Final,Rita Azure,4.8
+Physics,Examen Final,Rita Cyan,4.9
+Physics,Examen Final,Rita Purple,4.3
+Physics,Examen Final,Rita White,5.7
+Physics,Examen Final,Rita Yellow,5.1
+Physics,Examen Final,Sam Indigo,5.4
+Physics,Primer Parcial,Alice Pink,5.1
+Physics,Primer Parcial,Bob Davis,4.8
+Physics,Primer Parcial,Charlie Gray,4.9
+Physics,Primer Parcial,Dana Gray,4.8
+Physics,Primer Parcial,Dana White,5.2
+Physics,Primer Parcial,Eve Indigo,5.0
+Physics,Primer Parcial,Eve Red,4.9
+Physics,Primer Parcial,Eve Yellow,5.1
+Physics,Primer Parcial,Frank Azure,4.8
+Physics,Primer Parcial,Frank Beige,5.5
+Physics,Primer Parcial,Frank Indigo,5.5
+Physics,Primer Parcial,Grace Blue,5.2
+Physics,Primer Parcial,Grace Brown,4.8
+Physics,Primer Parcial,Grace Cyan,4.5
+Physics,Primer Parcial,Grace Magenta,4.5
+Physics,Primer Parcial,Ivy Blue,4.6
+Physics,Primer Parcial,Ivy Indigo,5.1
+Physics,Primer Parcial,Jack Purple,5.2
+Physics,Primer Parcial,Kelly Black,5.1
+Physics,Primer Parcial,Kelly Purple,5.3
+Physics,Primer Parcial,Kelly Yellow,5.0
+Physics,Primer Parcial,Liam Cyan,4.9
+Physics,Primer Parcial,Liam Davis,5.0
+Physics,Primer Parcial,Liam Green,4.9
+Physics,Primer Parcial,Liam Yellow,4.8
+Physics,Primer Parcial,Mona Davis,4.9
+Physics,Primer Parcial,Mona Johnson,5.0
+Physics,Primer Parcial,Nick Yellow,5.3
+Physics,Primer Parcial,Olivia Blue,5.2
+Physics,Primer Parcial,Olivia Davis,4.6
+Physics,Primer Parcial,Olivia Gray,5.1
+Physics,Primer Parcial,Olivia White,5.3
+Physics,Primer Parcial,Paul Blue,5.3
+Physics,Primer Parcial,Quincy Beige,5.0
+Physics,Primer Parcial,Quincy Blue,4.8
+Physics,Primer Parcial,Quincy Brown,5.1
+Physics,Primer Parcial,Quincy Red,5.3
+Physics,Primer Parcial,Rita Green,4.7
+Physics,Primer Parcial,Rita Red,5.3
+Physics,Primer Parcial,Rita Yellow,5.0
+Physics,Primer Parcial,Sam Beige,5.0
+Physics,Primer Parcial,Sam Davis,4.8
+Physics,Primer Parcial,Sam Indigo,4.9
+Physics,Segundo Parcial,Alice Cyan,5.2
+Physics,Segundo Parcial,Alice Orange,4.6
+Physics,Segundo Parcial,Bob Cyan,4.8
+Physics,Segundo Parcial,Bob Pink,4.4
+Physics,Segundo Parcial,Bob Violet,5.3
+Physics,Segundo Parcial,Charlie Black,4.9
+Physics,Segundo Parcial,Charlie Indigo,5.2
+Physics,Segundo Parcial,Dana Gray,5.0
+Physics,Segundo Parcial,Dana Indigo,5.0
+Physics,Segundo Parcial,Dana Orange,4.9
+Physics,Segundo Parcial,Dana Purple,4.9
+Physics,Segundo Parcial,Dana Teal,4.2
+Physics,Segundo Parcial,Dana White,5.6
+Physics,Segundo Parcial,Eve Cyan,4.9
+Physics,Segundo Parcial,Eve Davis,4.3
+Physics,Segundo Parcial,Frank Pink,4.7
+Physics,Segundo Parcial,Frank Violet,5.4
+Physics,Segundo Parcial,Grace Davis,4.9
+Physics,Segundo Parcial,Grace Red,4.9
+Physics,Segundo Parcial,Hank Gray,5.1
+Physics,Segundo Parcial,Ivy Green,5.0
+Physics,Segundo Parcial,Ivy Pink,5.3
+Physics,Segundo Parcial,Jack Cyan,5.2
+Physics,Segundo Parcial,Kelly Azure,4.6
+Physics,Segundo Parcial,Kelly Brown,5.3
+Physics,Segundo Parcial,Kelly Purple,4.8
+Physics,Segundo Parcial,Liam Cyan,5.2
+Physics,Segundo Parcial,Liam White,4.9
+Physics,Segundo Parcial,Mona Pink,5.4
+Physics,Segundo Parcial,Mona Violet,4.8
+Physics,Segundo Parcial,Nick Beige,4.3
+Physics,Segundo Parcial,Olivia Davis,5.4
+Physics,Segundo Parcial,Paul Green,5.0
+Physics,Segundo Parcial,Paul Red,5.1
+Physics,Segundo Parcial,Quincy Azure,5.5
+Physics,Segundo Parcial,Quincy Beige,5.0
+Physics,Segundo Parcial,Quincy Gray,5.2
+Physics,Segundo Parcial,Quincy Indigo,5.0
+Physics,Segundo Parcial,Quincy Red,5.2
+Physics,Segundo Parcial,Quincy Teal,5.3
+Physics,Segundo Parcial,Rita Purple,4.7
+Physics,Segundo Parcial,Rita White,5.3
+Physics,Segundo Parcial,Sam Beige,5.2
+Physics,Segundo Parcial,Sam Green,4.8
+Physics,Segundo Parcial,Sam Johnson,5.2
+Physics,Segundo Parcial,Sam Pink,5.0
+Physics,TP1,Alice Brown,5.6
+Physics,TP1,Alice Davis,4.4
+Physics,TP1,Alice Yellow,5.4
+Physics,TP1,Bob Black,4.9
+Physics,TP1,Bob Davis,5.8
+Physics,TP1,Bob Gray,5.3
+Physics,TP1,Bob Green,5.3
+Physics,TP1,Charlie Black,5.1
+Physics,TP1,Charlie Blue,5.2
+Physics,TP1,Charlie Brown,5.3
+Physics,TP1,Charlie Cyan,5.5
+Physics,TP1,Charlie Indigo,4.9
+Physics,TP1,Charlie Johnson,6.0
+Physics,TP1,Dana Brown,5.8
+Physics,TP1,Dana Green,5.8
+Physics,TP1,Dana Johnson,5.2
+Physics,TP1,Dana Teal,5.5
+Physics,TP1,Eve Beige,5.3
+Physics,TP1,Eve Black,6.0
+Physics,TP1,Eve Brown,5.0
+Physics,TP1,Eve Davis,5.1
+Physics,TP1,Eve Gray,5.7
+Physics,TP1,Eve Johnson,4.5
+Physics,TP1,Eve White,4.0
+Physics,TP1,Frank Azure,5.6
+Physics,TP1,Frank Indigo,4.6
+Physics,TP1,Frank Red,4.9
+Physics,TP1,Frank White,4.8
+Physics,TP1,Grace Blue,4.9
+Physics,TP1,Grace Gray,4.3
+Physics,TP1,Grace Indigo,4.6
+Physics,TP1,Grace Johnson,5.1
+Physics,TP1,Grace Purple,6.9
+Physics,TP1,Grace Red,4.7
+Physics,TP1,Grace Teal,5.2
+Physics,TP1,Grace White,4.6
+Physics,TP1,Grace Yellow,4.5
+Physics,TP1,Hank Azure,4.7
+Physics,TP1,Hank Gray,5.5
+Physics,TP1,Ivy Blue,5.5
+Physics,TP1,Ivy Brown,4.6
+Physics,TP1,Ivy Cyan,4.5
+Physics,TP1,Ivy Gray,5.4
+Physics,TP1,Ivy Indigo,4.9
+Physics,TP1,Ivy Magenta,5.6
+Physics,TP1,Ivy Purple,5.3
+Physics,TP1,Jack Green,5.7
+Physics,TP1,Jack Indigo,4.8
+Physics,TP1,Jack Red,4.3
+Physics,TP1,Kelly Magenta,4.9
+Physics,TP1,Kelly Orange,5.6
+Physics,TP1,Kelly Yellow,4.2
+Physics,TP1,Liam Cyan,4.6
+Physics,TP1,Liam Indigo,5.3
+Physics,TP1,Liam Johnson,4.2
+Physics,TP1,Liam Red,4.1
+Physics,TP1,Liam Violet,5.1
+Physics,TP1,Mona Blue,6.0
+Physics,TP1,Mona Brown,4.5
+Physics,TP1,Mona Indigo,6.2
+Physics,TP1,Nick Beige,5.0
+Physics,TP1,Nick Davis,3.9
+Physics,TP1,Nick Johnson,5.9
+Physics,TP1,Nick Magenta,5.2
+Physics,TP1,Nick White,4.4
+Physics,TP1,Paul Blue,5.4
+Physics,TP1,Paul Brown,5.0
+Physics,TP1,Paul Magenta,5.3
+Physics,TP1,Paul Purple,5.8
+Physics,TP1,Paul Teal,5.2
+Physics,TP1,Quincy Indigo,4.8
+Physics,TP1,Quincy Magenta,5.6
+Physics,TP1,Rita Blue,5.7
+Physics,TP1,Rita Davis,5.3
+Physics,TP1,Rita Orange,4.4
+Physics,TP1,Rita Pink,5.6
+Physics,TP1,Rita Violet,5.8
+Physics,TP1,Rita Yellow,4.5
+Physics,TP1,Sam Black,5.4
+Physics,TP1,Sam Brown,3.8
+Physics,TP1,Sam Gray,3.8
+Physics,TP1,Sam Violet,4.7
+Physics,TP2,Alice Brown,5.1
+Physics,TP2,Alice Johnson,4.4
+Physics,TP2,Alice Purple,5.4
+Physics,TP2,Alice Teal,4.7
+Physics,TP2,Alice White,5.3
+Physics,TP2,Bob Beige,4.0
+Physics,TP2,Bob Gray,5.2
+Physics,TP2,Bob Purple,5.5
+Physics,TP2,Charlie Azure,5.3
+Physics,TP2,Charlie Cyan,4.9
+Physics,TP2,Charlie Davis,5.2
+Physics,TP2,Charlie Johnson,5.5
+Physics,TP2,Charlie Orange,4.0
+Physics,TP2,Charlie Pink,4.3
+Physics,TP2,Charlie Violet,5.0
+Physics,TP2,Dana Azure,5.3
+Physics,TP2,Dana Black,5.4
+Physics,TP2,Dana Brown,4.5
+Physics,TP2,Dana Red,5.2
+Physics,TP2,Dana Yellow,6.3
+Physics,TP2,Eve Black,4.5
+Physics,TP2,Eve Gray,4.6
+Physics,TP2,Eve Green,4.6
+Physics,TP2,Frank Johnson,4.2
+Physics,TP2,Frank Orange,5.0
+Physics,TP2,Grace Davis,4.9
+Physics,TP2,Grace Gray,4.1
+Physics,TP2,Grace Indigo,5.2
+Physics,TP2,Grace Magenta,5.0
+Physics,TP2,Grace Pink,6.1
+Physics,TP2,Grace Violet,5.1
+Physics,TP2,Grace White,5.7
+Physics,TP2,Hank Beige,5.6
+Physics,TP2,Hank Orange,4.3
+Physics,TP2,Hank Teal,5.2
+Physics,TP2,Hank Violet,4.8
+Physics,TP2,Ivy Azure,4.7
+Physics,TP2,Ivy Black,5.5
+Physics,TP2,Ivy Gray,5.0
+Physics,TP2,Ivy Johnson,6.0
+Physics,TP2,Ivy Magenta,5.3
+Physics,TP2,Ivy Orange,5.1
+Physics,TP2,Ivy Teal,4.2
+Physics,TP2,Ivy Violet,5.0
+Physics,TP2,Jack Azure,3.9
+Physics,TP2,Jack Beige,5.3
+Physics,TP2,Jack Davis,4.9
+Physics,TP2,Jack Green,4.9
+Physics,TP2,Jack Orange,5.2
+Physics,TP2,Jack Pink,5.4
+Physics,TP2,Jack Purple,6.3
+Physics,TP2,Jack Violet,4.7
+Physics,TP2,Kelly Beige,5.8
+Physics,TP2,Kelly Black,5.6
+Physics,TP2,Kelly Davis,4.5
+Physics,TP2,Kelly Green,4.5
+Physics,TP2,Kelly Teal,5.7
+Physics,TP2,Kelly Violet,4.3
+Physics,TP2,Liam Beige,6.2
+Physics,TP2,Liam Green,5.3
+Physics,TP2,Liam Pink,5.5
+Physics,TP2,Liam Violet,4.9
+Physics,TP2,Liam Yellow,5.0
+Physics,TP2,Mona Azure,3.9
+Physics,TP2,Mona Black,4.6
+Physics,TP2,Mona Brown,4.4
+Physics,TP2,Mona Indigo,5.2
+Physics,TP2,Mona Johnson,5.5
+Physics,TP2,Mona Orange,4.6
+Physics,TP2,Mona Red,4.4
+Physics,TP2,Nick Cyan,4.8
+Physics,TP2,Nick Johnson,4.9
+Physics,TP2,Nick Pink,5.7
+Physics,TP2,Olivia Davis,5.2
+Physics,TP2,Olivia Magenta,4.2
+Physics,TP2,Olivia Orange,4.3
+Physics,TP2,Olivia Violet,4.7
+Physics,TP2,Olivia White,5.0
+Physics,TP2,Paul Brown,4.0
+Physics,TP2,Paul Cyan,4.9
+Physics,TP2,Paul Davis,5.0
+Physics,TP2,Paul Indigo,5.4
+Physics,TP2,Paul Orange,4.7
+Physics,TP2,Quincy Brown,5.2
+Physics,TP2,Quincy Green,4.4
+Physics,TP2,Quincy Purple,4.4
+Physics,TP2,Quincy Red,3.9
+Physics,TP2,Quincy Violet,4.3
+Physics,TP2,Quincy White,6.0
+Physics,TP2,Rita Azure,3.7
+Physics,TP2,Rita Blue,5.6
+Physics,TP2,Rita Johnson,5.5
+Physics,TP2,Rita Pink,5.5
+Physics,TP2,Rita Teal,4.0
+Physics,TP2,Rita Yellow,4.5
+Physics,TP2,Sam Cyan,6.0
+Physics,TP2,Sam Green,5.0
+Physics,TP2,Sam Magenta,4.6
+Physics,TP2,Sam Pink,3.4
+Physics,TP2,Sam Purple,5.1
+Physics,TP2,Sam Teal,5.0
+Physics,TP3,Bob Davis,5.1
+Physics,TP3,Bob Pink,4.1
+Physics,TP3,Bob Violet,5.1
+Physics,TP3,Charlie Violet,5.2
+Physics,TP3,Dana Indigo,5.3
+Physics,TP3,Dana Pink,5.5
+Physics,TP3,Dana White,6.2
+Physics,TP3,Eve Beige,5.1
+Physics,TP3,Eve Blue,4.6
+Physics,TP3,Eve Brown,4.2
+Physics,TP3,Frank Cyan,4.6
+Physics,TP3,Frank Gray,4.3
+Physics,TP3,Frank Green,5.3
+Physics,TP3,Frank Indigo,4.1
+Physics,TP3,Frank Magenta,5.9
+Physics,TP3,Frank Orange,5.6
+Physics,TP3,Frank Violet,4.4
+Physics,TP3,Grace Beige,5.3
+Physics,TP3,Grace Black,5.5
+Physics,TP3,Grace Davis,5.3
+Physics,TP3,Grace Purple,6.1
+Physics,TP3,Grace Violet,5.4
+Physics,TP3,Grace White,5.5
+Physics,TP3,Hank Azure,5.2
+Physics,TP3,Hank Beige,4.7
+Physics,TP3,Hank Blue,4.0
+Physics,TP3,Hank Magenta,4.2
+Physics,TP3,Hank Orange,5.3
+Physics,TP3,Hank Purple,5.2
+Physics,TP3,Hank Red,4.6
+Physics,TP3,Ivy Magenta,5.4
+Physics,TP3,Ivy Orange,4.9
+Physics,TP3,Jack Beige,5.0
+Physics,TP3,Jack Black,4.4
+Physics,TP3,Jack Magenta,3.2
+Physics,TP3,Jack Purple,4.8
+Physics,TP3,Jack Red,4.3
+Physics,TP3,Jack Yellow,4.5
+Physics,TP3,Kelly Azure,4.2
+Physics,TP3,Kelly Orange,4.5
+Physics,TP3,Kelly Teal,5.3
+Physics,TP3,Kelly Violet,5.2
+Physics,TP3,Liam Brown,5.6
+Physics,TP3,Liam Violet,6.2
+Physics,TP3,Liam White,3.8
+Physics,TP3,Mona Azure,4.3
+Physics,TP3,Mona Black,5.0
+Physics,TP3,Mona Green,4.6
+Physics,TP3,Mona Johnson,5.5
+Physics,TP3,Mona Yellow,6.0
+Physics,TP3,Nick Beige,4.5
+Physics,TP3,Nick Brown,5.3
+Physics,TP3,Nick Cyan,4.4
+Physics,TP3,Nick Red,4.5
+Physics,TP3,Nick Teal,4.4
+Physics,TP3,Nick Violet,4.6
+Physics,TP3,Olivia Beige,4.4
+Physics,TP3,Olivia White,4.7
+Physics,TP3,Paul Black,4.5
+Physics,TP3,Paul Gray,5.8
+Physics,TP3,Paul Violet,5.5
+Physics,TP3,Paul White,5.5
+Physics,TP3,Quincy Beige,4.5
+Physics,TP3,Quincy Orange,5.1
+Physics,TP3,Quincy Purple,5.1
+Physics,TP3,Rita Brown,5.1
+Physics,TP3,Rita Gray,4.9
+Physics,TP3,Rita Magenta,4.8
+Physics,TP3,Rita Orange,4.2
+Physics,TP3,Rita Violet,4.0
+Physics,TP3,Sam Gray,4.6
+Physics,TP3,Sam Johnson,4.4
+Physics,TP3,Sam Pink,5.2
+Physics,TP3,Sam Red,5.7
+Physics,TP3,Sam Violet,5.0
+Psychology,Examen Final,Dana Indigo,4.6
+Psychology,Examen Final,Dana Johnson,5.1
+Psychology,Examen Final,Eve Brown,5.4
+Psychology,Examen Final,Grace Gray,5.0
+Psychology,Examen Final,Hank Yellow,4.8
+Psychology,Examen Final,Nick Magenta,4.6
+Psychology,Primer Parcial,Bob Azure,5.4
+Psychology,Primer Parcial,Charlie Brown,4.9
+Psychology,Primer Parcial,Charlie Orange,4.6
+Psychology,Primer Parcial,Grace Yellow,5.2
+Psychology,Primer Parcial,Jack Green,4.4
+Psychology,Primer Parcial,Kelly Green,4.9
+Psychology,Primer Parcial,Kelly Red,5.0
+Psychology,Primer Parcial,Mona Brown,4.8
+Psychology,Primer Parcial,Olivia Red,4.8
+Psychology,Primer Parcial,Rita Black,5.4
+Psychology,Primer Parcial,Rita Blue,5.3
+Psychology,Primer Parcial,Rita Johnson,4.9
+Psychology,Segundo Parcial,Bob Teal,5.5
+Psychology,Segundo Parcial,Dana Pink,5.0
+Psychology,Segundo Parcial,Eve Teal,4.8
+Psychology,Segundo Parcial,Paul Indigo,5.4
+Sociology,Examen Final,Frank Azure,5.2
+Sociology,Examen Final,Mona Beige,5.3
+Sociology,Examen Final,Mona Magenta,4.6
+Sociology,Examen Final,Paul Brown,5.1
+Sociology,Examen Final,Sam Brown,5.0
+Sociology,Primer Parcial,Alice Johnson,5.2
+Sociology,Primer Parcial,Charlie Davis,5.2
+Sociology,Primer Parcial,Dana Davis,5.0
+Sociology,Primer Parcial,Hank Beige,5.2
+Sociology,Primer Parcial,Ivy Brown,4.6
+Sociology,Primer Parcial,Olivia Yellow,5.3
+Sociology,Primer Parcial,Paul Pink,4.9
+Sociology,Segundo Parcial,Eve Red,4.8
+Sociology,Segundo Parcial,Nick Red,4.9
+Sociology,Segundo Parcial,Nick White,5.0
+Sociology,Segundo Parcial,Nick Yellow,4.9
+Sociology,Segundo Parcial,Sam Azure,5.3
+Sociology,Segundo Parcial,Sam Brown,4.8
+Statistics,Examen Final,Alice Cyan,5.0
+Statistics,Examen Final,Alice Green,5.3
+Statistics,Examen Final,Alice Indigo,5.3
+Statistics,Examen Final,Alice Red,5.4
+Statistics,Examen Final,Bob Azure,5.2
+Statistics,Examen Final,Bob Blue,4.7
+Statistics,Examen Final,Bob Cyan,4.9
+Statistics,Examen Final,Charlie Magenta,4.9
+Statistics,Examen Final,Dana Gray,4.8
+Statistics,Examen Final,Dana Pink,5.3
+Statistics,Examen Final,Dana White,5.0
+Statistics,Examen Final,Eve Violet,5.3
+Statistics,Examen Final,Frank Teal,5.6
+Statistics,Examen Final,Grace Brown,5.4
+Statistics,Examen Final,Grace Cyan,5.6
+Statistics,Examen Final,Hank Black,4.9
+Statistics,Examen Final,Hank Magenta,5.4
+Statistics,Examen Final,Hank Pink,5.0
+Statistics,Examen Final,Hank Purple,4.5
+Statistics,Examen Final,Hank Red,4.8
+Statistics,Examen Final,Ivy Violet,4.9
+Statistics,Examen Final,Jack Blue,4.8
+Statistics,Examen Final,Jack Brown,5.2
+Statistics,Examen Final,Jack Johnson,5.2
+Statistics,Examen Final,Jack Magenta,5.5
+Statistics,Examen Final,Kelly Brown,4.8
+Statistics,Examen Final,Kelly Gray,5.3
+Statistics,Examen Final,Kelly Magenta,5.6
+Statistics,Examen Final,Liam Blue,4.9
+Statistics,Examen Final,Liam Indigo,4.3
+Statistics,Examen Final,Liam Teal,5.6
+Statistics,Examen Final,Mona Gray,5.3
+Statistics,Examen Final,Mona Johnson,4.8
+Statistics,Examen Final,Mona Orange,5.1
+Statistics,Examen Final,Mona Teal,5.1
+Statistics,Examen Final,Mona White,5.3
+Statistics,Examen Final,Nick Red,4.9
+Statistics,Examen Final,Nick Teal,5.0
+Statistics,Examen Final,Olivia Azure,5.1
+Statistics,Examen Final,Olivia Black,5.0
+Statistics,Examen Final,Olivia Green,5.1
+Statistics,Examen Final,Olivia Johnson,4.8
+Statistics,Examen Final,Olivia Orange,4.2
+Statistics,Examen Final,Olivia Pink,4.7
+Statistics,Examen Final,Olivia Red,4.9
+Statistics,Examen Final,Olivia White,4.7
+Statistics,Examen Final,Paul Blue,4.6
+Statistics,Examen Final,Paul Cyan,5.2
+Statistics,Examen Final,Quincy Azure,5.1
+Statistics,Examen Final,Quincy Davis,5.1
+Statistics,Examen Final,Quincy Indigo,5.7
+Statistics,Examen Final,Rita Davis,4.9
+Statistics,Examen Final,Sam Davis,5.0
+Statistics,Examen Final,Sam Gray,5.1
+Statistics,Examen Final,Sam Green,5.1
+Statistics,Examen Final,Sam Red,5.0
+Statistics,Examen Final,Sam Teal,5.4
+Statistics,Examen Final,Sam Violet,4.8
+Statistics,Primer Parcial,Bob Black,4.9
+Statistics,Primer Parcial,Bob Gray,5.3
+Statistics,Primer Parcial,Bob Pink,5.0
+Statistics,Primer Parcial,Bob White,5.7
+Statistics,Primer Parcial,Charlie Beige,5.0
+Statistics,Primer Parcial,Charlie Indigo,5.1
+Statistics,Primer Parcial,Charlie Purple,5.1
+Statistics,Primer Parcial,Charlie Red,4.9
+Statistics,Primer Parcial,Charlie Teal,4.9
+Statistics,Primer Parcial,Charlie White,4.9
+Statistics,Primer Parcial,Dana Blue,5.2
+Statistics,Primer Parcial,Dana Indigo,4.9
+Statistics,Primer Parcial,Dana Johnson,5.2
+Statistics,Primer Parcial,Eve Azure,5.6
+Statistics,Primer Parcial,Eve Blue,4.8
+Statistics,Primer Parcial,Eve Brown,4.9
+Statistics,Primer Parcial,Frank Gray,5.2
+Statistics,Primer Parcial,Grace Black,5.5
+Statistics,Primer Parcial,Grace Johnson,5.0
+Statistics,Primer Parcial,Grace White,4.7
+Statistics,Primer Parcial,Hank Yellow,5.3
+Statistics,Primer Parcial,Ivy Azure,4.5
+Statistics,Primer Parcial,Ivy Green,5.2
+Statistics,Primer Parcial,Ivy Purple,4.8
+Statistics,Primer Parcial,Jack Azure,4.7
+Statistics,Primer Parcial,Jack Blue,5.4
+Statistics,Primer Parcial,Jack Davis,4.5
+Statistics,Primer Parcial,Jack Teal,4.6
+Statistics,Primer Parcial,Kelly Gray,4.8
+Statistics,Primer Parcial,Liam Blue,5.0
+Statistics,Primer Parcial,Mona Gray,4.7
+Statistics,Primer Parcial,Mona Indigo,5.1
+Statistics,Primer Parcial,Mona Pink,5.0
+Statistics,Primer Parcial,Mona Red,4.9
+Statistics,Primer Parcial,Nick Black,4.9
+Statistics,Primer Parcial,Nick Red,5.3
+Statistics,Primer Parcial,Nick White,4.9
+Statistics,Primer Parcial,Olivia Brown,5.5
+Statistics,Primer Parcial,Olivia Green,4.9
+Statistics,Primer Parcial,Paul Beige,4.6
+Statistics,Primer Parcial,Paul Cyan,5.3
+Statistics,Primer Parcial,Paul Green,4.9
+Statistics,Primer Parcial,Quincy Davis,5.1
+Statistics,Primer Parcial,Quincy Green,4.6
+Statistics,Primer Parcial,Quincy Magenta,5.1
+Statistics,Primer Parcial,Rita Orange,5.1
+Statistics,Primer Parcial,Sam Brown,5.3
+Statistics,Primer Parcial,Sam Purple,5.2
+Statistics,Segundo Parcial,Alice Black,4.5
+Statistics,Segundo Parcial,Charlie Purple,5.1
+Statistics,Segundo Parcial,Charlie Violet,5.0
+Statistics,Segundo Parcial,Charlie Yellow,5.4
+Statistics,Segundo Parcial,Eve Gray,4.7
+Statistics,Segundo Parcial,Eve Pink,5.0
+Statistics,Segundo Parcial,Eve White,5.1
+Statistics,Segundo Parcial,Eve Yellow,5.2
+Statistics,Segundo Parcial,Frank Black,4.8
+Statistics,Segundo Parcial,Frank Cyan,5.6
+Statistics,Segundo Parcial,Frank Orange,4.9
+Statistics,Segundo Parcial,Frank Teal,4.8
+Statistics,Segundo Parcial,Grace Azure,5.0
+Statistics,Segundo Parcial,Hank White,5.1
+Statistics,Segundo Parcial,Ivy Violet,4.8
+Statistics,Segundo Parcial,Jack Beige,4.8
+Statistics,Segundo Parcial,Jack Black,5.1
+Statistics,Segundo Parcial,Jack Brown,4.8
+Statistics,Segundo Parcial,Jack Green,5.1
+Statistics,Segundo Parcial,Jack Indigo,5.8
+Statistics,Segundo Parcial,Jack Orange,4.6
+Statistics,Segundo Parcial,Kelly Violet,5.1
+Statistics,Segundo Parcial,Liam Davis,4.6
+Statistics,Segundo Parcial,Liam Indigo,5.5
+Statistics,Segundo Parcial,Liam Teal,4.5
+Statistics,Segundo Parcial,Mona Indigo,5.4
+Statistics,Segundo Parcial,Mona Orange,5.1
+Statistics,Segundo Parcial,Mona Red,5.3
+Statistics,Segundo Parcial,Olivia Blue,5.0
+Statistics,Segundo Parcial,Paul Purple,5.2
+Statistics,Segundo Parcial,Quincy Davis,5.5
+Statistics,Segundo Parcial,Rita Johnson,4.5
+Statistics,Segundo Parcial,Rita Orange,5.7
+Statistics,Segundo Parcial,Rita Pink,5.3
+Statistics,Segundo Parcial,Rita Red,4.8
