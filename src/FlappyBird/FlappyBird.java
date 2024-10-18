@@ -15,6 +15,7 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
     Image birdImg;
     Image topPipeImg;
     Image bottomPipeImg;
+    Image twinTowersImg;
 
     int birdX = boardWidth/7;
     int birdY = boardHeight/2;
@@ -26,13 +27,15 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
     Timer gameLoop;
     Timer placePipeTimer;
     Bird bird;
-    int velocityX = -3;
+    int velocityX = -5;
     int velocityY = 0;
     int gravity = 1;
     boolean gameOver = false;
     double score = 0;
     int score_1 = 0;
     int score_2 = 0;
+    boolean twinTowersPlaced = false;
+    int pipesPlaced = 0;
 
     //pipes
 
@@ -63,9 +66,19 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
         boolean passed = false;
         public Pipe(Image Img){
             img = Img;
+            pipesPlaced ++;
         }
     }
+/*
+    class TwinTowers{
+        int x = twinX;
+        int y = twinY;
+        int width = twinWidth;
+        int height = twinHeight;
+        Image img;
 
+    }
+*/
     ArrayList<Pipe> pipes;
     Random random = new Random();
 
@@ -75,20 +88,21 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
         setFocusable(true);
         addKeyListener(this);
 
-        backgroundImg = new ImageIcon(getClass().getResource("./flappybirdbg.png")).getImage();
-        birdImg = new ImageIcon(getClass().getResource("./flappybird.png")).getImage();
-        topPipeImg = new ImageIcon(getClass().getResource("./toppipe.png")).getImage();
-        bottomPipeImg = new ImageIcon(getClass().getResource("./bottompipe.png")).getImage();
+        backgroundImg = new ImageIcon(getClass().getResource("./flappy-bird-bg.png")).getImage();
+        birdImg = new ImageIcon(getClass().getResource("./flappy-bird.png")).getImage();
+        topPipeImg = new ImageIcon(getClass().getResource("./top-pipe.png")).getImage();
+        bottomPipeImg = new ImageIcon(getClass().getResource("./bottom-pipe.png")).getImage();
+        twinTowersImg = new ImageIcon(getClass().getResource("./twin-tower.png")).getImage();
 
         //bird
         bird = new Bird(birdImg);
         //pipes
-        pipes = new ArrayList<Pipe>();
+        pipes = new ArrayList<>();
         //game timer
         gameLoop = new Timer(1000/60, this);
         gameLoop.start();
         //pipes timer
-        placePipeTimer = new Timer(2000, new ActionListener() {
+        placePipeTimer = new Timer(1700, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 placePipes();
@@ -98,6 +112,10 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
     }
 
     public void placePipes(){
+        if (pipesPlaced == 40){
+            //placeTwinTowers();
+            return;
+        }
         int randomPipeY = (int) (pipeY - pipeHeight/4 - Math.random()*(pipeHeight/2));
         Pipe topPipe = new Pipe(topPipeImg);
         topPipe.y = randomPipeY;
@@ -161,12 +179,13 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
             score_2 = (int) (score - 9);
         } else {
             score_1 = (int) score;
+            score_2 = 0;
         }
     }
 
     public boolean collision(Bird bird, Pipe pipe){
-        return bird.x < pipe.x + pipe.width && //esquina superior izq del bird no toca la esquina superior dcha de pipe
-               bird.x + bird.width > pipe.x && //esquina superior dcha del bird no toca la esquina superior izq de pipe
+        return bird.x < pipe.x + pipe.width && //Esquina superior izq. Del bird no toca la esquina superior dcha. De pipe
+               bird.x + bird.width > pipe.x && //Esquina superior dcha. Del bird no toca la esquina superior izq. De pipe
                bird.y < pipe.y + pipe.height && //esquina superior izq del bird no toca la esquina inferior izq de pipe
                bird.y + bird.height > pipe.y; //la esquina inferior izquierda pasa la esquina superior izq de pipe
     }
@@ -180,7 +199,7 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
             gameLoop.stop();
         }
     }
-    @Override // cada vez que se apreta una tecla, se ejecuta la funcion.
+    @Override // cada vez que se aprieta una tecla, se ejecuta la funcion.
     public void keyPressed(KeyEvent e) {
         if (e.getKeyCode() == KeyEvent.VK_SPACE) {
             velocityY = -12;
@@ -192,6 +211,8 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
             pipes.clear();
             score = 0;
             gameOver = false;
+            twinTowersPlaced = false;
+            pipesPlaced = 0;
             gameLoop.start();
             placePipeTimer.start();
         }
