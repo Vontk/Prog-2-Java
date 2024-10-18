@@ -41,9 +41,17 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
 
     int pipeX = boardWidth;
     int pipeY = 0;
-    int pipeWidth = 64;
-    int pipeHeight = 512;
+    int pipeWidth = 64; //384 pixels
+    int pipeHeight = 512; //3072
     int openingSpace = boardHeight/3;
+
+    //twin towers
+
+    int twinWidth = 124; //
+    int twinHeight = 480; //
+    int twinX = boardWidth;
+    int twinY = boardHeight - twinHeight;
+    TwinTowers twinTowers;
 
     class Bird{
         int x = birdX;
@@ -69,16 +77,19 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
             pipesPlaced ++;
         }
     }
-/*
+
     class TwinTowers{
         int x = twinX;
         int y = twinY;
         int width = twinWidth;
         int height = twinHeight;
         Image img;
-
+        public TwinTowers(Image img){
+            this.img = img;
+            twinTowersPlaced = true;
+        }
     }
-*/
+
     ArrayList<Pipe> pipes;
     Random random = new Random();
 
@@ -113,7 +124,9 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
 
     public void placePipes(){
         if (pipesPlaced == 40){
-            //placeTwinTowers();
+            if (!twinTowersPlaced){
+                placeTwinTowers();
+            }
             return;
         }
         int randomPipeY = (int) (pipeY - pipeHeight/4 - Math.random()*(pipeHeight/2));
@@ -124,6 +137,10 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
         Pipe bottomPipe = new Pipe(bottomPipeImg);
         bottomPipe.y = topPipe.y +pipeHeight + openingSpace;
         pipes.add(bottomPipe);
+    }
+
+    public void placeTwinTowers(){
+        TwinTowers twinTowers = new TwinTowers(twinTowersImg);
     }
 
     public void paintComponent(Graphics g) {
@@ -149,6 +166,10 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
         } else {
             g.drawString(String.valueOf(score_1) + "/" + String.valueOf(score_2), 20, 20);
         }
+        // render twin towers
+        if (twinTowersPlaced){
+           g.drawImage(twinTowers.img, twinTowers.x, twinTowers.y, twinWidth, twinHeight, null);
+        }
     }
 
     public void move() {
@@ -169,6 +190,9 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
             if (collision(bird, pipe)){
                 gameOver = true;
             }
+        }
+        if (twinTowersPlaced){
+            twinTowers.x += velocityX;
         }
         // falloff gameOver
         if (bird.y >= boardHeight - birdHeight) {

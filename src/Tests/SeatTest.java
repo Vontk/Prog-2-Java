@@ -3,7 +3,7 @@ package Tests;
 import TP5.Seat;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.testng.AssertJUnit.*;
 
 public class SeatTest {
 
