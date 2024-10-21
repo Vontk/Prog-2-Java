@@ -11,7 +11,7 @@ import java.io.FileReader;
 class Student {
     HashSet<String> courses;
     String name;
-    ArrayList<EvaluationLOL> evaluations;
+    ArrayList<Evaluation> evaluations;
 
     public Student(String name) {
         this.courses = new HashSet<>();
@@ -27,11 +27,11 @@ class Student {
         courses.add(course);
     }
     
-    void addEvaluation(EvaluationLOL evaluation) {
+    void addEvaluation(Evaluation evaluation) {
     evaluations.add(evaluation);
     }
 
-    ArrayList<EvaluationLOL> getEvaluations(){
+    ArrayList<Evaluation> getEvaluations(){
         return this.evaluations;
     }
 
@@ -46,7 +46,7 @@ class Student {
     public boolean equals(Object obj) {
         if (this == obj) return true;
         if (obj == null || getClass() != obj.getClass()) return false;
-        StudentLOL student = (StudentLOL) obj;
+        Student student = (Student) obj;
         return name.equals(student.name);
     }
     @Override
@@ -94,7 +94,7 @@ class Evaluation {
     public boolean equals(Object obj) {
         if (this == obj) return true;
         if (obj == null || getClass() != obj.getClass()) return false;
-        EvaluationLOL evaluation = (EvaluationLOL) obj;
+        Evaluation evaluation = (Evaluation) obj;
         return evaluationName.equals(evaluation.evaluationName);
     }
     @Override
@@ -106,12 +106,12 @@ class Evaluation {
         public static void main(String[] args) {
             String readFilePath = "src/TpUniversity/input.csv";
             String line;
-            HashSet<StudentLOL> students = new HashSet<>();
+            HashSet<Student> students = new HashSet<>();
             try (BufferedReader br = new BufferedReader(new FileReader(readFilePath))) {
                 while ((line = br.readLine()) != null) {
                     String[] values = line.split(",");  // Splitting by comma
                     boolean studentFound = false;
-                    for (StudentLOL student : students) {
+                    for (Student student : students) {
                         if (student.getName().equals(values[2])) {
                             student.addCourse(values[1]);
                             studentFound = true;
@@ -119,7 +119,7 @@ class Evaluation {
                         }
                     }
                     if (!studentFound) {
-                        StudentLOL student = new StudentLOL(values[2]);
+                        Student student = new Student(values[2]);
                         student.addCourse(values[1]);
                         students.add(student);
                     }
@@ -129,14 +129,14 @@ class Evaluation {
             }
 
             String writeFilePath = "src/TpUniversity/solution.csv";
-            ArrayList<StudentLOL> studentsList = new ArrayList<>(students);
-            studentsList.sort(Comparator.comparing(StudentLOL::getName));
+            ArrayList<Student> studentsList = new ArrayList<>(students);
+            studentsList.sort(Comparator.comparing(Student::getName));
 
             try (BufferedWriter bw = new BufferedWriter(new FileWriter(writeFilePath))) {
                 String[] header = {"Student_Name", "Course_Count"};
                 bw.write(String.join(",", header));
                 bw.newLine();
-                for (StudentLOL student : studentsList) {
+                for (Student student : studentsList) {
                     String[] data = student.getData();
                     if (!data[0].equals("Student_Name")) {
                         bw.write(String.join(",", student.getData()));
@@ -149,7 +149,7 @@ class Evaluation {
             }
             // segunda parte del tp, basicamente repito lo mismo, le agrego un 2 a cada variable para distinguir
             String readFilePath2 = "src/TpUniversity/input_2.csv";
-            HashSet<StudentLOL> students2 = new HashSet<>();
+            HashSet<Student> students2 = new HashSet<>();
             try (BufferedReader br = new BufferedReader(new FileReader(readFilePath2))) {
                 boolean firstLine = true; // Flag para la primera línea (encabezado)
                 while ((line = br.readLine()) != null) {
@@ -159,11 +159,11 @@ class Evaluation {
                     }
                     String[] values = line.split(",");  // Splitting by comma
                     boolean studentFound = false;
-                    for (StudentLOL student : students2) {
+                    for (Student student : students2) {
                         if (student.getName().equals(values[0])) {
                             studentFound = true;
                             boolean evaluationExists = false;
-                            for (EvaluationLOL evaluation : student.getEvaluations()){
+                            for (Evaluation evaluation : student.getEvaluations()){
                                 if (evaluation.getEvaluationName().equals(values[3])){
                                     evaluation.addGrade(Integer.parseInt(values[5]));
                                     evaluationExists = true;
@@ -171,15 +171,15 @@ class Evaluation {
                                 }
                             }
                             if (!evaluationExists){
-                                EvaluationLOL evaluation = new EvaluationLOL(values[3], values[1], values[0]);
+                                Evaluation evaluation = new Evaluation(values[3], values[1], values[0]);
                                 evaluation.addGrade(Integer.parseInt(values[5]));
                                 student.addEvaluation(evaluation);
                             }
                         }
                     }
                     if (!studentFound){
-                        StudentLOL student = new StudentLOL(values[0]);
-                        EvaluationLOL evaluation = new EvaluationLOL(values[3], values[1], values[0]);
+                        Student student = new Student(values[0]);
+                        Evaluation evaluation = new Evaluation(values[3], values[1], values[0]);
                         evaluation.addGrade(Integer.parseInt(values[5]));
                         student.addEvaluation(evaluation);
                         students2.add(student);
@@ -189,22 +189,22 @@ class Evaluation {
                 e.printStackTrace();
             }
             String writeFilePath2 = "src/TpUniversity/solution_2.csv";
-            ArrayList<EvaluationLOL> evaluationList = new ArrayList<>();
-            for (StudentLOL student : students2){
+            ArrayList<Evaluation> evaluationList = new ArrayList<>();
+            for (Student student : students2){
                 evaluationList.addAll(student.getEvaluations());
             }
 
             evaluationList.sort(Comparator
-                    .comparing(EvaluationLOL::getSubject)
-                    .thenComparing(EvaluationLOL::getEvaluationName)
-                    .thenComparing(EvaluationLOL::getStudentName));
+                    .comparing(Evaluation::getSubject)
+                    .thenComparing(Evaluation::getEvaluationName)
+                    .thenComparing(Evaluation::getStudentName));
 
 
             try (BufferedWriter bw = new BufferedWriter(new FileWriter(writeFilePath2))) {
                 String[] header = {"Subject_Name", "Evaluation_Name", "Student_Name", "Grade"};
                 bw.write(String.join(",", header));
                 bw.newLine();
-                for (EvaluationLOL evaluation : evaluationList) {
+                for (Evaluation evaluation : evaluationList) {
                     String[] data = evaluation.getData();
                     if (!data[0].equals("Subject_Name") && evaluationList.indexOf(evaluation)!= (evaluationList.size()-1) ) {
                         bw.write(String.join(",", data));

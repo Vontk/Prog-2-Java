@@ -1,7 +1,7 @@
 package TpUniversityPlus.app;
 
 import TpUniversityPlus.inOut.*;
-import TpUniversityPlus.service.StudentManager;
+import TpUniversityPlus.service.UniversityManager;
 
 import java.util.List;
 
@@ -15,24 +15,20 @@ public class App {
     public void task1() {
         CSVReader reader = new CSVReader();
         CSVWriter writer = new CSVWriter();
-        StudentManager manager = new StudentManager();
+        UniversityManager manager = new UniversityManager();
 
         List<String[]> inputData = reader.readCSV("src/TpUniversity/input.csv");
-        manager.processCourses(inputData);
-
-        List<String[]> outputData = manager.getCourseCountData();
+        List<String[]> outputData = manager.firstTaskLogic(inputData);
         writer.writeCSV("src/TpUniversity/solution.csv", outputData);
     }
 
     public void task2() {
         CSVReader reader = new CSVReader();
         CSVWriter writer = new CSVWriter();
-        StudentManager manager = new StudentManager();
+        UniversityManager manager = new UniversityManager();
 
         List<String[]> inputData = reader.readCSV("src/TpUniversity/input_2.csv");
-        manager.processEvaluations(inputData);
-
-        List<String[]> outputData = manager.getEvaluationsData();
+        List<String[]> outputData = manager.secondTaskLogic(inputData);
         writer.writeCSV("src/TpUniversity/solution_2.csv", outputData);
     }
 }
