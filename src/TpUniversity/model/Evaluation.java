@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Evaluation {
 
-    ArrayList<Integer> grades;
+    ArrayList<Double> grades;
     String evaluationName;
     String subject;
     String studentName;
@@ -16,16 +16,16 @@ public class Evaluation {
         this.studentName = studentName;
     }
 
-    public void addGrade(int grade){
+    public void addGrade(double grade){
         grades.add(grade);
     }
 
-    public float getAverage(){
-        int sum = 0;
-        for (Integer num : grades){
+    public double getAverage(){
+        double sum = 0;
+        for (Double num : grades){
             sum += num;
         }
-        return (float) sum / grades.size();
+        return sum / grades.size();
     }
 
     public String getName(){
@@ -42,7 +42,7 @@ public class Evaluation {
 
     public String[] getData(){
         //Subject_Name,Evaluation_Name,Student_Name,Grade (rounded to 1 decimal place)
-        return new String[]{this.subject, this.evaluationName, this.studentName, String.format("%.1f",this.getAverage())};
+        return new String[]{this.subject, this.evaluationName, this.studentName, String.valueOf(getAverage())};
     }
 
     @Override

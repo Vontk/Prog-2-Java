@@ -64,14 +64,14 @@ public class UniversityManager {
                 if (evaluation.getName().equals(evaluationName)
                 && evaluation.getSubject().equals(subject)
                 && evaluation.getStudentName().equals(studentName)) { // Si encuentra la evaluacion, agrega la nota
-                    evaluation.addGrade(Integer.parseInt(grade));
+                    evaluation.addGrade(Double.parseDouble(grade));
                     evaluationFound = true;
                     break;
                 }
             }
             if (!evaluationFound) {
                 Evaluation newEvaluation = new Evaluation(evaluationName, subject, studentName);
-                newEvaluation.addGrade(Integer.parseInt(grade));
+                newEvaluation.addGrade(Double.parseDouble(grade));
                 evaluations.add(newEvaluation);
             }
 
