@@ -4,20 +4,29 @@ import java.util.ArrayList;
 
 public class Evaluation {
 
-    ArrayList<Double> grades;
+    private ArrayList<Double> grades;
+    ArrayList<String> exercises;
     String evaluationName;
     String subject;
     String studentName;
+    String evaluationType;
 
-    public Evaluation(String evaluationName, String subject, String studentName){
+
+    public Evaluation(String evaluationName, String subject, String studentName, String evaluationType) {
         this.grades = new ArrayList<>();
+        this.exercises = new ArrayList<>();
         this.evaluationName = evaluationName;
         this.subject = subject;
         this.studentName = studentName;
+        this.evaluationType = evaluationType;
     }
 
     public void addGrade(double grade){
         grades.add(grade);
+    }
+
+    public void addExercise(String exercise){
+        exercises.add(exercise);
     }
 
     public double getAverage(){
@@ -40,9 +49,13 @@ public class Evaluation {
         return this.subject;
     }
 
+    public String getEvaluationType(){
+        return this.evaluationType;
+    }
+
     public String[] getData(){
         //Subject_Name,Evaluation_Name,Student_Name,Grade (rounded to 1 decimal place)
-        return new String[]{this.subject, this.evaluationName, this.studentName, String.valueOf(getAverage())};
+        return new String[]{this.subject, this.evaluationName, this.studentName, String.format("%.1f", getAverage())};
     }
 
     @Override

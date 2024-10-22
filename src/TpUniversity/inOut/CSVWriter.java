@@ -12,10 +12,14 @@ public class CSVWriter {
 
     public void writeCSV(String filePath, List<String[]> writeData) {
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(filePath))) {
+            int index = 1;
             for (String[] lineData : writeData) {
                 // Recorre los arrays y los escribe en el CSV, uniendo con ","
                 bw.write(String.join(",", lineData));
-                bw.newLine();
+                if (index < writeData.size()) {
+                    bw.newLine();
+                }
+                index++;
             }
         } catch (IOException e) {
             e.printStackTrace();  // Imprime el error en caso de que ocurra alguno

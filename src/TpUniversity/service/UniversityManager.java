@@ -57,21 +57,26 @@ public class UniversityManager {
             }
             String studentName = strings[0];
             String subject = strings[1];
+            String evaluationType = strings[2];
             String evaluationName = strings[3];
+            String exerciseName = strings[4];
             String grade = strings[5];
             boolean evaluationFound = false;
             for (Evaluation evaluation : evaluations) {
                 if (evaluation.getName().equals(evaluationName)
                 && evaluation.getSubject().equals(subject)
-                && evaluation.getStudentName().equals(studentName)) { // Si encuentra la evaluacion, agrega la nota
+                && evaluation.getStudentName().equals(studentName)
+                && evaluation.getEvaluationType().equals(evaluationType)) { // Si encuentra la evaluacion, agrega la nota
                     evaluation.addGrade(Double.parseDouble(grade));
+                    evaluation.addExercise(exerciseName);
                     evaluationFound = true;
                     break;
                 }
             }
             if (!evaluationFound) {
-                Evaluation newEvaluation = new Evaluation(evaluationName, subject, studentName);
+                Evaluation newEvaluation = new Evaluation(evaluationName, subject, studentName, evaluationType);
                 newEvaluation.addGrade(Double.parseDouble(grade));
+                newEvaluation.addExercise(exerciseName);
                 evaluations.add(newEvaluation);
             }
 
@@ -83,14 +88,19 @@ public class UniversityManager {
             output.add(line);
         }
 
-        // Orden a-z primero student, después eval. Y con mayor prioridad subject
-        output.sort(Comparator.comparing(array -> array[2]));
-        output.sort(Comparator.comparing(array -> array[1]));
-        output.sort(Comparator.comparing(array -> array[0]));
+        // Sort by Student_Name, then Evaluation_Name, and finally Subject_Name
+        output.sort(Comparator.comparing((String[] array) -> array[2])  // Sort by Student_Name
+                .thenComparing(array -> array[1])                       // Then by Evaluation_Name
+                .thenComparing(array -> array[0]));                     // Then by Subject_Name
+
 
         String[] header = {"Subject_Name","Evaluation_Name","Student_Name", "Grade"};
         output.addFirst(header);
 
         return output;
+    }
+    public List<String[]> thirdTaskLogic(List<String[]> inputData) {
+        List<String[]> outputData = new ArrayList<>(inputData);
+        return outputData;
     }
 }
