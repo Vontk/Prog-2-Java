@@ -11,7 +11,6 @@ import java.awt.*;
 import java.awt.event.*;
 import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.Random;
 import javax.swing.*;
 
 public class FlappyBird extends JPanel implements ActionListener, KeyListener {
@@ -101,7 +100,6 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
     }
 
     ArrayList<Pipe> pipes;
-    Random random = new Random();
 
     FlappyBird() {
         setPreferredSize(new Dimension(boardWidth, boardHeight));
@@ -165,17 +163,16 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
         // render bird
         g.drawImage(bird.img, bird.x, bird.y, bird.width, bird.height, this);
         // render pipes
-        for (int i = 0; i < pipes.size(); i++) {
-            Pipe pipe = pipes.get(i);
+        for (Pipe pipe : pipes) {
             g.drawImage(pipe.img, pipe.x, pipe.y, pipe.width, pipe.height, null);
         }
         // render score
         g.setColor(Color.black);
         g.setFont(new Font("Times New Roman", Font.BOLD, 20));
         if (gameOver){
-            g.drawString("SKILL ISSUE, score :" + String.valueOf(score_1) + "/" + String.valueOf(score_2), 20, 20);
+            g.drawString("SKILL ISSUE, score :" + score_1 + "/" + score_2, 20, 20);
         } else {
-            g.drawString(String.valueOf(score_1) + "/" + String.valueOf(score_2), 20, 20);
+            g.drawString(score_1 + "/" + score_2, 20, 20);
         }
         // render twin towers
         if (twinTowersPlaced){
@@ -194,16 +191,15 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
         bird.y = Math.max(bird.y, 0);
         bird.y = Math.min(bird.y, boardHeight - birdHeight);
         // pipe movement
-        for (int i = 0; i < pipes.size(); i++) {
-            Pipe pipe = pipes.get(i);
+        for (Pipe pipe : pipes) {
             pipe.x += velocityX;
-            if (!pipe.passed && pipe.x + pipe.width < bird.x){
+            if (!pipe.passed && pipe.x + pipe.width < bird.x) {
                 pipe.passed = true;
                 score += 0.5;
                 playSound("pipe_passed.wav");
             }
             // crash into pipe game over
-            if (collision(bird, pipe)){
+            if (collision(bird, pipe)) {
                 playSound("explosion.wav");
                 gameOver = true;
             }
@@ -285,7 +281,6 @@ public class FlappyBird extends JPanel implements ActionListener, KeyListener {
             velocityY = 0;
             pipes.clear();
             score = 0;
-            gameOver = false;
             twinTowersPlaced = false;
             pipesPlaced = 0;
             gameLoop.start();
