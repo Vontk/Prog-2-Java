@@ -1,4 +1,4 @@
-package FlappyBird;
+package Misc.FlappyBird;
 
 import javax.swing.*;
 

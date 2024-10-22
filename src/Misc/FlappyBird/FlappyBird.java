@@ -1,9 +1,8 @@
-package FlappyBird;
+package Misc.FlappyBird;
 
 // audio imorts
 
 import javax.sound.sampled.*;
-import java.io.File;
 import java.io.IOException;
 
 // graphics, utils, etc

@@ -1,4 +1,4 @@
-package Parcial;
+package Misc.FlappyBird.Parcial;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package Parcial;
+package Misc.FlappyBird.Parcial;
 
 public class Vuelo {
     private final String trayecto;
