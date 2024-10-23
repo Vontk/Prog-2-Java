@@ -60,7 +60,7 @@ public class UniversityManagerTest {
 
 
         // Run the logic
-        List<String[]> outputData = manager.secondTaskLogic(inputData);
+        List<String[]> outputData = manager.secondTaskLogic(inputData).getFirst();
 
         // Output the results for visual validation
         System.out.println("\nTest SecondTaskLogic:");

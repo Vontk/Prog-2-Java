@@ -47,7 +47,7 @@ public class UniversityManager {
         return outputData;
     }
 
-    public List<String[]> secondTaskLogic(List<String[]> inputData) {
+    public Box<List<String[]>, List<Evaluation>> secondTaskLogic(List<String[]> inputData) {
         ArrayList<Evaluation> evaluations = new ArrayList<>();
         boolean isFirstLine = true; // flag para ignorar la primer linea (header)
         for (String[] strings : inputData) {
@@ -92,15 +92,48 @@ public class UniversityManager {
         output.sort(Comparator.comparing((String[] array) -> array[2])  // Sort by Student_Name
                 .thenComparing(array -> array[1])                       // Then by Evaluation_Name
                 .thenComparing(array -> array[0]));                     // Then by Subject_Name
+        // Sort the list for later use
+        evaluations.sort(Comparator.comparing(Evaluation::getName)
+                .thenComparing(Evaluation::getEvaluationName)
+                .thenComparing(Evaluation::getSubject));
 
 
         String[] header = {"Subject_Name","Evaluation_Name","Student_Name", "Grade"};
         output.addFirst(header);
-
-        return output;
+        // Box is a class to return two variables
+        return new Box<>(output, evaluations);
     }
-    public List<String[]> thirdTaskLogic(List<String[]> inputData) {
-        List<String[]> outputData = new ArrayList<>(inputData);
+    public List<String[]> thirdTaskLogic(List<String[]> inputOf3List, Box<List<String[]>, List<Evaluation>> processedData) {
+
+        List<String[]> outputData = new ArrayList<>(); // objective return
+
+        List<String[]> output2List = processedData.getFirst(); // retriving variables from Box object
+        List<Evaluation> evaluationsList = processedData.getSecond();
+
+        String[] inputOf3Row; // declaration of array variavbles
+        String[] outputOf2Row;
+
+        for (int i = 0; i < inputOf3List.size(); i++) { // i es el index de el input, con los datos para evaluar
+            inputOf3Row = inputOf3List.get(i);
+            for (int j = 0; j < output2List.size(); j++) { // j es el index de las evaluaciones
+                outputOf2Row = output2List.get(j);
+                for (int k = 3; k < inputOf3Row.length; k++) { // k es el index de los tipos de evaluaciones
+                    Evaluation evaluation = evaluationsList.get(j);
+                    if (inputOf3Row[k].equals(evaluation.getEvaluationName())) {
+                        System.out.println("pepe");
+                    }
+                }
+            }
+
+        }
+        for (String[] input3line : inputOf3List) {
+            for (String[] strings2 : output2List) {
+                for (int i = 3; i < input3line.length; i++) {
+                    if (input3line[i].equals(strings2[i])) {}
+                }
+
+            }
+        }
         return outputData;
     }
 }

@@ -10,7 +10,7 @@ public class Evaluation {
     String subject;
     String studentName;
     String evaluationType;
-
+    boolean passed;
 
     public Evaluation(String evaluationName, String subject, String studentName, String evaluationType) {
         this.grades = new ArrayList<>();
@@ -51,6 +51,14 @@ public class Evaluation {
 
     public String getEvaluationType(){
         return this.evaluationType;
+    }
+
+    public  String getEvaluationName(){
+        return this.evaluationName;
+    }
+
+    void setPassed(boolean passed){
+        this.passed = passed;
     }
 
     public String[] getData(){
