@@ -82,21 +82,24 @@ public class UniversityManager {
 
         }
 
+        evaluations.sort(Comparator.comparing(Evaluation::getName)
+                .thenComparing(Evaluation::getEvaluationName)
+                .thenComparing(Evaluation::getSubject));
+
         List<String[]> output = new ArrayList<>();
         for (Evaluation evaluation : evaluations) {
             String[] line = evaluation.getData();
             output.add(line);
         }
 
-        // Sort by Student_Name, then Evaluation_Name, and finally Subject_Name
-        output.sort(Comparator.comparing((String[] array) -> array[2])  // Sort by Student_Name
+// Sort by Subject_Name, then Evaluation_Name, and finally Student_Name
+        output.sort(Comparator.comparing((String[] array) -> array[0])  // Sort by Subject_Name
                 .thenComparing(array -> array[1])                       // Then by Evaluation_Name
-                .thenComparing(array -> array[0]));                     // Then by Subject_Name
+                .thenComparing(array -> array[2]));                     // Then by Student_Name
         // Sort the list for later use
-        evaluations.sort(Comparator.comparing(Evaluation::getName)
+        evaluations.sort(Comparator.comparing(Evaluation::getSubject)
                 .thenComparing(Evaluation::getEvaluationName)
-                .thenComparing(Evaluation::getSubject));
-
+                .thenComparing(Evaluation::getStudentName));
 
         String[] header = {"Subject_Name","Evaluation_Name","Student_Name", "Grade"};
         output.addFirst(header);
@@ -105,35 +108,75 @@ public class UniversityManager {
     }
     public List<String[]> thirdTaskLogic(List<String[]> inputOf3List, Box<List<String[]>, List<Evaluation>> processedData) {
 
-        List<String[]> outputData = new ArrayList<>(); // objective return
+        List<String[]> outputData = new ArrayList<>();                // objective return
+        List<Evaluation> evaluationsList = processedData.getSecond(); // retriving variables from Box object
+        String[] inputOf3Row;                                         // declaration of array variavbles
+        boolean isFirstLine = true;                                   // flag to ignore the first line
 
-        List<String[]> output2List = processedData.getFirst(); // retriving variables from Box object
-        List<Evaluation> evaluationsList = processedData.getSecond();
+        for (String[] strings : inputOf3List) { // i es el index de el input, con los datos para evaluar
 
-        String[] inputOf3Row; // declaration of array variavbles
-        String[] outputOf2Row;
+            if (isFirstLine) {
+                isFirstLine = false;
+                continue;
+            }
 
-        for (int i = 0; i < inputOf3List.size(); i++) { // i es el index de el input, con los datos para evaluar
-            inputOf3Row = inputOf3List.get(i);
-            for (int j = 0; j < output2List.size(); j++) { // j es el index de las evaluaciones
-                outputOf2Row = output2List.get(j);
+            inputOf3Row = strings;
+
+            for (Evaluation evaluation : evaluationsList) { // j es el index de las evaluaciones
+                if (evaluation.isEvaluated()) {
+                    continue;
+                }
                 for (int k = 3; k < inputOf3Row.length; k++) { // k es el index de los tipos de evaluaciones
-                    Evaluation evaluation = evaluationsList.get(j);
+
+                    //Subject_Name,Criteria_Type,Criteria_Value,Evaluation_Name
                     if (inputOf3Row[k].equals(evaluation.getEvaluationName())) {
-                        System.out.println("pepe");
+                        evaluation.setCriteriaValue(Double.parseDouble(inputOf3Row[2]));
+                        if (inputOf3Row[1].equals("AVERAGE_ABOVE_VALUE")) {
+                            AVERAGE_ABOVE_VALUE(evaluation, Double.parseDouble(inputOf3Row[2]));
+                        }
+                        if (inputOf3Row[1].equals("MAX_ABOVE_VALUE")) {
+                            MAX_ABOVE_VALUE(evaluation, Double.parseDouble(inputOf3Row[2]));
+                        }
+                        if (inputOf3Row[1].equals("MIN_ABOVE_VALUE")) {
+                            MIN_ABOVE_VALUE(evaluation, Double.parseDouble(inputOf3Row[2]));
+                        }
                     }
                 }
-            }
-
-        }
-        for (String[] input3line : inputOf3List) {
-            for (String[] strings2 : output2List) {
-                for (int i = 3; i < input3line.length; i++) {
-                    if (input3line[i].equals(strings2[i])) {}
-                }
 
             }
         }
+        for (Evaluation evaluation : evaluationsList) {
+            String[] line = evaluation.getAltData();
+            outputData.add(line);
+        }
+        // Sort by Subject_Name, then Evaluation_Name, and finally Student_Name
+        outputData.sort(Comparator.comparing((String[] array) -> array[0])  // Sort by Subject_Name
+                .thenComparing(array -> array[1])                           // Then by Evaluation_Name
+                .thenComparing(array -> array[2]));                         // Then by Student_Name
+
+        String[] header = {"Subject_Name","Evaluation_Name","Student_Name","Evaluation_Type","Grade","Criteria","Criteria_Value","Passed","Min","Max"};
+        outputData.addFirst(header);
         return outputData;
+    }
+    void AVERAGE_ABOVE_VALUE(Evaluation evaluation, double value) {
+        evaluation.setEvaluated(true);
+        evaluation.setCriteria("AVERAGE_ABOVE_VALUE");
+        if (evaluation.getAverage() > value) {
+            evaluation.setPassed(true);
+        }
+    }
+    void MAX_ABOVE_VALUE(Evaluation evaluation, double value) {
+        evaluation.setEvaluated(true);
+        evaluation.setCriteria("MAX_ABOVE_VALUE");
+        if (evaluation.getMax() > value) {
+            evaluation.setPassed(true);
+        }
+    }
+    void MIN_ABOVE_VALUE(Evaluation evaluation, double value) {
+        evaluation.setEvaluated(true);
+        evaluation.setCriteria("MIN_ABOVE_VALUE");
+        if (evaluation.getMin() > value) {
+            evaluation.setPassed(true);
+        }
     }
 }

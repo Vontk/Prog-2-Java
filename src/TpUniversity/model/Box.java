@@ -1,4 +1,4 @@
-package TpUniversity.service;
+package TpUniversity.model;
 
 public class Box<First, Second> {
 
