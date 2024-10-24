@@ -1,9 +1,11 @@
 package TpUniversity.service;
 import TpUniversity.model.*;
+import TpUniversity.service.EvaluationCriteriaManager.AverageAboveValue;
+import TpUniversity.service.EvaluationCriteriaManager.EvaluationCriteria;
+import TpUniversity.service.EvaluationCriteriaManager.MaxAboveValue;
+import TpUniversity.service.EvaluationCriteriaManager.MinAboveValue;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 public class UniversityManager {
 
@@ -111,7 +113,12 @@ public class UniversityManager {
         List<String[]> outputData = new ArrayList<>();                // objective return
         List<Evaluation> evaluationsList = processedData.getSecond(); // retriving variables from Box object
         String[] inputOf3Row;                                         // declaration of array variavbles
-        boolean isFirstLine = true;                                   // flag to ignore the first line
+        boolean isFirstLine = true;
+
+        Map<String, EvaluationCriteria> criteriaMap = new HashMap<>();
+        criteriaMap.put("AVERAGE_ABOVE_VALUE", new AverageAboveValue());
+        criteriaMap.put("MAX_ABOVE_VALUE", new MaxAboveValue());
+        criteriaMap.put("MIN_ABOVE_VALUE", new MinAboveValue());// flag to ignore the first line
 
         for (String[] strings : inputOf3List) { // i es el index de el input, con los datos para evaluar
 
@@ -128,18 +135,16 @@ public class UniversityManager {
                 }
                 for (int k = 3; k < inputOf3Row.length; k++) { // k es el index de los tipos de evaluaciones
 
-                    //Subject_Name,Criteria_Type,Criteria_Value,Evaluation_Name
-                    if (inputOf3Row[k].equals(evaluation.getEvaluationName())) {
-                        evaluation.setCriteriaValue(Double.parseDouble(inputOf3Row[2]));
-                        if (inputOf3Row[1].equals("AVERAGE_ABOVE_VALUE")) {
-                            AVERAGE_ABOVE_VALUE(evaluation, Double.parseDouble(inputOf3Row[2]));
-                        }
-                        if (inputOf3Row[1].equals("MAX_ABOVE_VALUE")) {
-                            MAX_ABOVE_VALUE(evaluation, Double.parseDouble(inputOf3Row[2]));
-                        }
-                        if (inputOf3Row[1].equals("MIN_ABOVE_VALUE")) {
-                            MIN_ABOVE_VALUE(evaluation, Double.parseDouble(inputOf3Row[2]));
-                        }
+                    //items in array; Subject_Name,Criteria_Type,Criteria_Value,Evaluation_Name
+
+                    if (inputOf3Row[k].equals(evaluation.getEvaluationName())) { // found evaluation
+
+                        String criteriaType = inputOf3Row[1];
+                        String criteriaValue = inputOf3Row[2];
+
+                        EvaluationCriteria criteria = criteriaMap.get(criteriaType);
+
+                        criteria.apply(evaluation, Double.parseDouble(criteriaValue), criteriaType);
                     }
                 }
 

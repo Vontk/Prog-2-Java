@@ -1,5 +1,6 @@
-package TpUniversity.service;
+package TpUniversity.Tests;
 
+import TpUniversity.service.UniversityManager;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
