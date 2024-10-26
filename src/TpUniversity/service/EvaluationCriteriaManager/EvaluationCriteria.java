@@ -1,8 +1,8 @@
 // File: src/TpUniversity/service/EvaluationCriteria.java
 package TpUniversity.service.EvaluationCriteriaManager;
 
-import TpUniversity.model.Evaluation;
+import TpUniversity.model.Evaluations.Evaluation;
 
 public interface EvaluationCriteria {
-    void apply(Evaluation evaluation, double value, String criteria);
+    public void apply(Evaluation evaluation, double value, String criteria);
 }

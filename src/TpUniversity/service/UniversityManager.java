@@ -1,5 +1,6 @@
 package TpUniversity.service;
 import TpUniversity.model.*;
+import TpUniversity.model.Evaluations.Evaluation;
 import TpUniversity.service.EvaluationCriteriaManager.AverageAboveValue;
 import TpUniversity.service.EvaluationCriteriaManager.EvaluationCriteria;
 import TpUniversity.service.EvaluationCriteriaManager.MaxAboveValue;
@@ -113,12 +114,12 @@ public class UniversityManager {
         List<String[]> outputData = new ArrayList<>();                // objective return
         List<Evaluation> evaluationsList = processedData.getSecond(); // retriving variables from Box object
         String[] inputOf3Row;                                         // declaration of array variavbles
-        boolean isFirstLine = true;
+        boolean isFirstLine = true;                                   // flag to ignore the first line
 
         Map<String, EvaluationCriteria> criteriaMap = new HashMap<>();
         criteriaMap.put("AVERAGE_ABOVE_VALUE", new AverageAboveValue());
         criteriaMap.put("MAX_ABOVE_VALUE", new MaxAboveValue());
-        criteriaMap.put("MIN_ABOVE_VALUE", new MinAboveValue());// flag to ignore the first line
+        criteriaMap.put("MIN_ABOVE_VALUE", new MinAboveValue());
 
         for (String[] strings : inputOf3List) { // i es el index de el input, con los datos para evaluar
 
@@ -163,25 +164,5 @@ public class UniversityManager {
         outputData.addFirst(header);
         return outputData;
     }
-    void AVERAGE_ABOVE_VALUE(Evaluation evaluation, double value) {
-        evaluation.setEvaluated(true);
-        evaluation.setCriteria("AVERAGE_ABOVE_VALUE");
-        if (evaluation.getAverage() > value) {
-            evaluation.setPassed(true);
-        }
-    }
-    void MAX_ABOVE_VALUE(Evaluation evaluation, double value) {
-        evaluation.setEvaluated(true);
-        evaluation.setCriteria("MAX_ABOVE_VALUE");
-        if (evaluation.getMax() > value) {
-            evaluation.setPassed(true);
-        }
-    }
-    void MIN_ABOVE_VALUE(Evaluation evaluation, double value) {
-        evaluation.setEvaluated(true);
-        evaluation.setCriteria("MIN_ABOVE_VALUE");
-        if (evaluation.getMin() > value) {
-            evaluation.setPassed(true);
-        }
-    }
 }
+

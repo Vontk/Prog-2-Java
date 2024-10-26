@@ -1,4 +1,4 @@
-package TpUniversity.model;
+package TpUniversity.model.Evaluations;
 
 import java.util.ArrayList;
 

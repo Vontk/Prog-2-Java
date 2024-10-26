@@ -1,4 +1,4 @@
-package TpUniversity.Tests;
+package TpUniversity.tests;
 
 import TpUniversity.service.UniversityManager;
 import org.junit.jupiter.api.BeforeEach;

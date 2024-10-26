@@ -1,7 +1,7 @@
 package TpUniversity.app;
 
 import TpUniversity.inOut.*;
-import TpUniversity.model.Evaluation;
+import TpUniversity.model.Evaluations.Evaluation;
 import TpUniversity.model.Box;
 import TpUniversity.service.UniversityManager;
 
@@ -19,33 +19,30 @@ public class App {
     }
 
     public void task1() {
-        CSVReader reader = new CSVReader();
-        CSVWriter writer = new CSVWriter();
+        CSVManager csvManager = new CSVManager();
         UniversityManager manager = new UniversityManager();
 
-        List<String[]> inputData = reader.readCSV("src/TpUniversity/input.csv");
+        List<String[]> inputData = csvManager.read("src/TpUniversity/csvFiles/input.csv");
         List<String[]> outputData = manager.firstTaskLogic(inputData);
-        writer.writeCSV("src/TpUniversity/solution.csv", outputData);
+        csvManager.write("src/TpUniversity/csvFiles/solution.csv", outputData);
     }
 
     public void task2() {
-        CSVReader reader = new CSVReader();
-        CSVWriter writer = new CSVWriter();
+        CSVManager csvManager = new CSVManager();
         UniversityManager manager = new UniversityManager();
 
-        List<String[]> inputData = reader.readCSV("src/TpUniversity/input_2.csv");
+        List<String[]> inputData = csvManager.read("src/TpUniversity/csvFiles/input_2.csv");
         this.processedData = manager.secondTaskLogic(inputData);
-        writer.writeCSV("src/TpUniversity/solution_2.csv", processedData.getFirst());
+        csvManager.write("src/TpUniversity/csvFiles/solution_2.csv", processedData.getFirst());
 
     }
 
     public void task3() {
-        CSVReader reader = new CSVReader();
-        CSVWriter writer = new CSVWriter();
+        CSVManager csvManager = new CSVManager();
         UniversityManager manager = new UniversityManager();
 
-        List<String[]> inputData = reader.readCSV("src/TpUniversity/input_3.csv");
+        List<String[]> inputData = csvManager.read("src/TpUniversity/csvFiles/input_3.csv");
         List<String[]> outputData = manager.thirdTaskLogic(inputData, processedData);
-        writer.writeCSV("src/TpUniversity/solution_3.csv", outputData);
+        csvManager.write("src/TpUniversity/csvFiles/solution_3.csv", outputData);
     }
 }

@@ -1,6 +1,6 @@
 package TpUniversity.service.EvaluationCriteriaManager;
 
-import TpUniversity.model.Evaluation;
+import TpUniversity.model.Evaluations.Evaluation;
 
 public class MaxAboveValue implements EvaluationCriteria {
     @Override

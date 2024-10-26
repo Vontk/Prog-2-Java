@@ -1,8 +1,8 @@
 package TpUniversity.service.EvaluationCriteriaManager;
 
-import TpUniversity.model.Evaluation;
+import TpUniversity.model.Evaluations.Evaluation;
 
-public class MinAboveValue implements EvaluationCriteria {
+public class MinAboveValue extends EvaluationCriteria {
     @Override
     public void apply(Evaluation evaluation, double value, String criteria) {
         evaluation.setEvaluated(true);
