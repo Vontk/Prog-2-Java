@@ -2,7 +2,7 @@ package TpUniversity.app;
 
 import TpUniversity.inOut.*;
 import TpUniversity.model.Evaluations.Evaluation;
-import TpUniversity.model.Box;
+import TpUniversity.inOut.Box;
 import TpUniversity.service.UniversityManager;
 
 import java.util.List;

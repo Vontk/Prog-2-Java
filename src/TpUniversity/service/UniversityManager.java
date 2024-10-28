@@ -1,6 +1,7 @@
 package TpUniversity.service;
+import TpUniversity.inOut.Box;
 import TpUniversity.model.*;
-import TpUniversity.model.Evaluations.Evaluation;
+import TpUniversity.model.Evaluations.*;
 import TpUniversity.service.EvaluationCriteriaManager.AverageAboveValue;
 import TpUniversity.service.EvaluationCriteriaManager.EvaluationCriteria;
 import TpUniversity.service.EvaluationCriteriaManager.MaxAboveValue;
@@ -70,17 +71,40 @@ public class UniversityManager {
                 && evaluation.getSubject().equals(subject)
                 && evaluation.getStudentName().equals(studentName)
                 && evaluation.getEvaluationType().equals(evaluationType)) { // Si encuentra la evaluacion, agrega la nota
-                    evaluation.addGrade(Double.parseDouble(grade));
-                    evaluation.addExercise(exerciseName);
+                    evaluation.addExercise(new Exercise(exerciseName, Double.parseDouble(grade), evaluation));
                     evaluationFound = true;
                     break;
                 }
             }
             if (!evaluationFound) {
-                Evaluation newEvaluation = new Evaluation(evaluationName, subject, studentName, evaluationType);
+                switch (evaluationType) {
+                    case "WRITTEN_EXAM" -> {
+                        Evaluation newEvaluation = new WrittenExam(evaluationName, subject, studentName);
+                        newEvaluation.addExercise(new Exercise(exerciseName, Double.parseDouble(grade), newEvaluation));
+                        evaluations.add(newEvaluation);
+                    }
+                    case "PRACTICAL_WORK" -> {
+                        Evaluation newEvaluation = new PracticalWork(evaluationName, subject, studentName);
+                        newEvaluation.addExercise(new Exercise(exerciseName, Double.parseDouble(grade), newEvaluation));
+                        evaluations.add(newEvaluation);
+                    }
+                    case "FINAL_PRACTICAL_WORK" -> {
+                        Evaluation newEvaluation = new FinalPracticalWork(evaluationName, subject, studentName);
+                        newEvaluation.addExercise(new Exercise(exerciseName, Double.parseDouble(grade), newEvaluation));
+                        evaluations.add(newEvaluation);
+                    }
+                    case "ORAL_EXAM" -> {
+                        Evaluation newEvaluation = new OralExam(evaluationName, subject, studentName);
+                        newEvaluation.addExercise(new Exercise(exerciseName, Double.parseDouble(grade), newEvaluation));
+                        evaluations.add(newEvaluation);
+                    }
+                }
+                /*
+                Evaluation newEvaluation = new Evaluation(evaluationName, subject, studentName);
                 newEvaluation.addGrade(Double.parseDouble(grade));
-                newEvaluation.addExercise(exerciseName);
+                newEvaluation.addExercise(new Exercise(exerciseName, Double.parseDouble(grade), newEvaluation));
                 evaluations.add(newEvaluation);
+                 */
             }
 
         }

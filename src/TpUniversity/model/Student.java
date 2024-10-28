@@ -2,10 +2,11 @@ package TpUniversity.model;
 
 import java.util.HashSet;
 
-public class Student {
+public class Student extends Entity  {
 
     HashSet<String> courses;
     String name;
+    String  email; //todo: add email
 
     public Student(String name) {
         this.courses = new HashSet<>();

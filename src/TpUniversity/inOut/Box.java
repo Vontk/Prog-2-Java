@@ -1,4 +1,4 @@
-package TpUniversity.model;
+package TpUniversity.inOut;
 
 public class Box<First, Second> {
 
