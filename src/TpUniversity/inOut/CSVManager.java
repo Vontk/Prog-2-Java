@@ -9,7 +9,7 @@ public class CSVManager {
     // Lee un archivo CSV y retorna una lista de arrays de Strings, cada elemento de la lista es una línea del CSV
     // y cada elemento del array de strings es una de las columnas del CSV
 
-    public List<String[]> read(String filePath) {
+    public List<String[]> read(String filePath, boolean ignoreHeader) {
         List<String[]> data = new ArrayList<>();  // Lista para almacenar los datos del archivo CSV
         String line;  // Variable para almacenar cada línea entera sin separar
 
@@ -20,6 +20,10 @@ public class CSVManager {
             }
         } catch (Exception e) {
             e.printStackTrace();  // Imprime cualquier error que ocurra
+        }
+
+        if (ignoreHeader) {
+            data.remove(0);  // Elimina el header si se le pasa true como argumento
         }
 
         return data;  // Retorna la lista con los datos del CSV

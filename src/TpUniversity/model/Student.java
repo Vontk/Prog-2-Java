@@ -4,12 +4,12 @@ import java.util.HashSet;
 
 public class Student extends Entity  {
 
-    HashSet<String> courses;
+    HashSet<Subject> subjects;
     String name;
-    String  email; //todo: add email
+    String  email;
 
     public Student(String name) {
-        this.courses = new HashSet<>();
+        this.subjects = new HashSet<>();
         this.name = name;
     }
 
@@ -17,12 +17,24 @@ public class Student extends Entity  {
         return name;
     }
 
-    public void addCourse(String course) {
-        courses.add(course);
+    public String getEmail() {
+        return email;
     }
 
-    public int getCourseAmount() {
-        return courses.size();
+    public HashSet<Subject> getSubjects() {
+        return subjects;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void addSubject(Subject subject) {
+        subjects.add(subject);
+    }
+
+    public int getSubjectAmount() {
+        return subjects.size();
     }
 
     @Override
@@ -30,12 +42,13 @@ public class Student extends Entity  {
         if (this == obj) return true;
         if (obj == null || getClass() != obj.getClass()) return false;
         Student student = (Student) obj;
-        return name.equals(student.name);
+        return name.equals(student.name)
+                && getId() == student.getId()
+                && email.equals(student.email);
     }
 
     @Override
     public int hashCode() {
-        return name.hashCode();
+        return name.hashCode() + Integer.hashCode(this.getId()) + email.hashCode();
     }
-
 }

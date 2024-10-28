@@ -1,55 +1,188 @@
 package TpUniversity.service;
 
 import TpUniversity.model.*;
-import TpUniversity.model.Evaluations.Evaluation;
+import TpUniversity.model.Evaluations.*;
 
+import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
+
 
 public class EntityManager {
 
     public static Map<Integer, Entity> entities = new HashMap<>();
 
-    public static List<Student> students;
-    public static List<Evaluation> evaluations;
-    public static List<Exercise> exercises;
-    public static List<Subject> subjects;
-    public static List<Teacher> teachers;
-    public static List<Classroom> classes;
+    public static ArrayList<Student> students = new ArrayList<>();
+    public static ArrayList<Evaluation> evaluations = new ArrayList<>();
+    public static ArrayList<Exercise> exercises = new ArrayList<>();
+    public static ArrayList<Subject> subjects = new ArrayList<>();
+    public static ArrayList<Teacher> teachers = new ArrayList<>();
+    public static ArrayList<Classroom> classes = new ArrayList<>();
 
     public static void addEntity(Entity entity) {
         entities.put(entity.getId(), entity);
     }
 
-    public static void addStudent(Student student) {
-        students.add(student);
-        addEntity(student);
+    public static int newId() {
+        int newId = (int) (Math.random() * 1000000);
+        while (entities.containsKey(newId)) {
+            newId = (int) (Math.random() * 1000000);
+        }
+        return newId;
     }
 
-    public static void addEvaluation(Evaluation evaluation) {
-        evaluations.add(evaluation);
-        addEntity(evaluation);
+    public static Student newStudent(String studentName) {
+
+        for (Student student : students) {
+            if (student.getName().equals(studentName)) {
+                return student;
+            }
+        }
+
+        Student newStudent = new Student(studentName);
+        students.add(newStudent);
+        newStudent.setId(newId());
+        addEntity(newStudent);
+        return newStudent;
+
     }
 
-    public static void addExercise(Exercise exercise) {
-        exercises.add(exercise);
-        addEntity(exercise);
+    public static Evaluation newEvaluation(String evaluationName, String subjectName, String studentName, String evaluationType) {
+
+        for (Evaluation evaluation : evaluations) {
+            if (evaluation.getName().equals(evaluationName) && evaluation.getSubject().equals(subjectName) && evaluation.getStudentName().equals(studentName)) {
+                return evaluation;
+            }
+        }
+
+        Evaluation newEvaluation;
+
+        switch (evaluationType) {
+            case "WRITTEN_EXAM" -> {
+                newEvaluation = new WrittenExam(evaluationName, subjectName, studentName);
+            }
+            case "PRACTICAL_WORK" -> {
+                    newEvaluation = new PracticalWork(evaluationName, subjectName, studentName);
+            }
+            case "FINAL_PRACTICAL_WORK" -> {
+                    newEvaluation = new FinalPracticalWork(evaluationName, subjectName, studentName);
+            }
+            case "ORAL_EXAM" -> {
+                    newEvaluation = new OralExam(evaluationName, subjectName, studentName);
+            }
+            default -> throw new IllegalStateException("Unexpected value: " + evaluationType);
+        }
+
+        evaluations.add(newEvaluation);
+        newEvaluation.setId(newId());
+        addEntity(newEvaluation);
+        return newEvaluation;
+
     }
 
-    public static void addSubject(Subject subject) {
-        subjects.add(subject);
-        addEntity(subject);
+    public static Exercise newExercise(String name, double grade, Evaluation evaluation) {
+
+        for (Exercise exercise : exercises) {
+            if (exercise.getName().equals(name) && exercise.getGrade() == grade && exercise.getEvaluation().equals(evaluation)) {
+                return exercise;
+            }
+        }
+
+        Exercise newExercise = new Exercise(name, grade, evaluation);
+        exercises.add(newExercise);
+        newExercise.setId(newId());
+        addEntity(newExercise);
+        return newExercise;
     }
 
-    public static void addTeacher(Teacher teacher) {
-        teachers.add(teacher);
-        addEntity(teacher);
+    public static Subject newSubject(String subjectName) {
+
+        for (Subject subject : subjects) {
+            if (subject.getName().equals(subjectName)) {
+                return subject;
+            }
+        }
+
+        Subject newSubject = new Subject(subjectName);
+        subjects.add(newSubject);
+        newSubject.setId(newId());
+        addEntity(newSubject);
+        return newSubject;
     }
 
-    public static void addClass(Classroom classroom) {
-        classes.add(classroom);
-        addEntity(classroom);
+    public static Teacher newTeacher(String teacherName) {
+
+        for (Teacher teacher : teachers) {
+            if (teacher.getName().equals(teacherName)) {
+                return teacher;
+            }
+        }
+
+        Teacher newTeacher = new Teacher(teacherName);
+        teachers.add(newTeacher);
+        newTeacher.setId(newId());
+        addEntity(newTeacher);
+        return newTeacher;
     }
+
+    public static Classroom newClassroom(String classroomId) {
+
+        for (Classroom classroom : classes) {
+            if (classroom.getClassroomId() == Integer.parseInt(classroomId)) {
+                return classroom;
+            }
+        }
+
+        Classroom newClassroom = new Classroom(Integer.parseInt(classroomId));
+        classes.add(newClassroom);
+        newClassroom.setId(newId());
+        addEntity(newClassroom);
+        return newClassroom;
+    }
+
+    public static void firstDataPoint(String classroomID,String subjectName, String studentName,
+                                      String studentEmail, String subjectTeacher){
+        // instance or get model objects
+
+        Teacher teacher = newTeacher(subjectTeacher);
+        Student student = newStudent(studentName);
+        Classroom classroom = newClassroom(classroomID);
+        Subject subject = newSubject(subjectName);
+
+        // associate possible links between objects
+
+        teacher.addClassroom(classroom);
+        teacher.addSubject(subject);
+        teacher.addStudent(student);
+
+        student.addSubject(subject);
+        student.setEmail(studentEmail);
+
+        classroom.addTeacher(teacher);
+        classroom.addStudent(student);
+        classroom.addSubject(subject);
+
+        subject.addTeacher(teacher);
+        subject.addStudent(student);
+        subject.addClassroom(classroom);
+
+    }
+
+    public static void secondDataPoint(String studentName, String subjectName, String evaluationType,
+                                      String evaluationName, String exerciseName, String grade){
+
+        Student student = newStudent(studentName);
+        Subject subject = newSubject(subjectName);
+        Evaluation evaluation = newEvaluation(evaluationName, subjectName, studentName, evaluationType);
+        Exercise exercise = newExercise(exerciseName, Double.parseDouble(grade), evaluation);
+
+        student.addSubject(subject);
+
+        subject.addStudent(student);
+
+
+
+    }
+
 
 }

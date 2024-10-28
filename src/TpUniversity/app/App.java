@@ -8,6 +8,7 @@ import TpUniversity.service.UniversityManager;
 import java.util.List;
 
 public class App {
+
     // Object used on task2 to return multiple return variables
     Box<List<String[]>, List<Evaluation>> processedData;
 
@@ -22,7 +23,7 @@ public class App {
         CSVManager csvManager = new CSVManager();
         UniversityManager manager = new UniversityManager();
 
-        List<String[]> inputData = csvManager.read("src/TpUniversity/csvFiles/input.csv");
+        List<String[]> inputData = csvManager.read("src/TpUniversity/csvFiles/input.csv", true);
         List<String[]> outputData = manager.firstTaskLogic(inputData);
         csvManager.write("src/TpUniversity/csvFiles/solution.csv", outputData);
     }
@@ -31,7 +32,7 @@ public class App {
         CSVManager csvManager = new CSVManager();
         UniversityManager manager = new UniversityManager();
 
-        List<String[]> inputData = csvManager.read("src/TpUniversity/csvFiles/input_2.csv");
+        List<String[]> inputData = csvManager.read("src/TpUniversity/csvFiles/input_2.csv", true);
         this.processedData = manager.secondTaskLogic(inputData);
         csvManager.write("src/TpUniversity/csvFiles/solution_2.csv", processedData.getFirst());
 
@@ -41,7 +42,7 @@ public class App {
         CSVManager csvManager = new CSVManager();
         UniversityManager manager = new UniversityManager();
 
-        List<String[]> inputData = csvManager.read("src/TpUniversity/csvFiles/input_3.csv");
+        List<String[]> inputData = csvManager.read("src/TpUniversity/csvFiles/input_3.csv", true);
         List<String[]> outputData = manager.thirdTaskLogic(inputData, processedData);
         csvManager.write("src/TpUniversity/csvFiles/solution_3.csv", outputData);
     }

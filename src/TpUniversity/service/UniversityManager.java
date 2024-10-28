@@ -2,35 +2,26 @@ package TpUniversity.service;
 import TpUniversity.inOut.Box;
 import TpUniversity.model.*;
 import TpUniversity.model.Evaluations.*;
-import TpUniversity.service.EvaluationCriteriaManager.AverageAboveValue;
-import TpUniversity.service.EvaluationCriteriaManager.EvaluationCriteria;
-import TpUniversity.service.EvaluationCriteriaManager.MaxAboveValue;
-import TpUniversity.service.EvaluationCriteriaManager.MinAboveValue;
+import TpUniversity.service.EvaluationCriteriaManager.*;
 
 import java.util.*;
 
 public class UniversityManager {
 
     public List<String[]> firstTaskLogic(List<String[]> inputData) {
-        // se crea una lista de students
-        ArrayList<Student> students = new ArrayList<>();
+
+        ArrayList<Student> students = EntityManager.students;
+
         // se recorre el csv y se agregan todos los estudiantes con sus cursos
         for (String[] strings : inputData) {
+
+            String subjectTeacher = strings[4];
+            String studentEmail = strings[3];
             String studentName = strings[2];
-            String course = strings[1];
-            boolean studentFound = false;
-            for (Student student : students) {
-                if (student.getName().equals(studentName)) {
-                    student.addCourse(course);
-                    studentFound = true;
-                    break;
-                }
-            }
-            if (!studentFound) {
-                Student newStudent = new Student(studentName);
-                newStudent.addCourse(course);
-                students.add(newStudent);
-            }
+            String subject = strings[1];
+            String classroom = strings[0];
+
+            EntityManager.firstDataPoint(classroom, subject, studentName, studentEmail, subjectTeacher);
         }
 
         List<String[]> outputData = new ArrayList<>();
@@ -39,7 +30,7 @@ public class UniversityManager {
         // cada par de datos tiene nombre y cantidad de cursos
 
         for (Student student : students) {
-            String[] line = {student.getName(), String.valueOf(student.getCourseAmount())};
+            String[] line = {student.getName(), String.valueOf(student.getSubjectAmount())};
             outputData.add(line);
         }
 
@@ -53,59 +44,17 @@ public class UniversityManager {
 
     public Box<List<String[]>, List<Evaluation>> secondTaskLogic(List<String[]> inputData) {
         ArrayList<Evaluation> evaluations = new ArrayList<>();
-        boolean isFirstLine = true; // flag para ignorar la primer linea (header)
         for (String[] strings : inputData) {
-            if (isFirstLine) {
-                isFirstLine = false;
-                continue;
-            }
+
             String studentName = strings[0];
             String subject = strings[1];
             String evaluationType = strings[2];
             String evaluationName = strings[3];
             String exerciseName = strings[4];
             String grade = strings[5];
-            boolean evaluationFound = false;
-            for (Evaluation evaluation : evaluations) {
-                if (evaluation.getName().equals(evaluationName)
-                && evaluation.getSubject().equals(subject)
-                && evaluation.getStudentName().equals(studentName)
-                && evaluation.getEvaluationType().equals(evaluationType)) { // Si encuentra la evaluacion, agrega la nota
-                    evaluation.addExercise(new Exercise(exerciseName, Double.parseDouble(grade), evaluation));
-                    evaluationFound = true;
-                    break;
-                }
-            }
-            if (!evaluationFound) {
-                switch (evaluationType) {
-                    case "WRITTEN_EXAM" -> {
-                        Evaluation newEvaluation = new WrittenExam(evaluationName, subject, studentName);
-                        newEvaluation.addExercise(new Exercise(exerciseName, Double.parseDouble(grade), newEvaluation));
-                        evaluations.add(newEvaluation);
-                    }
-                    case "PRACTICAL_WORK" -> {
-                        Evaluation newEvaluation = new PracticalWork(evaluationName, subject, studentName);
-                        newEvaluation.addExercise(new Exercise(exerciseName, Double.parseDouble(grade), newEvaluation));
-                        evaluations.add(newEvaluation);
-                    }
-                    case "FINAL_PRACTICAL_WORK" -> {
-                        Evaluation newEvaluation = new FinalPracticalWork(evaluationName, subject, studentName);
-                        newEvaluation.addExercise(new Exercise(exerciseName, Double.parseDouble(grade), newEvaluation));
-                        evaluations.add(newEvaluation);
-                    }
-                    case "ORAL_EXAM" -> {
-                        Evaluation newEvaluation = new OralExam(evaluationName, subject, studentName);
-                        newEvaluation.addExercise(new Exercise(exerciseName, Double.parseDouble(grade), newEvaluation));
-                        evaluations.add(newEvaluation);
-                    }
-                }
-                /*
-                Evaluation newEvaluation = new Evaluation(evaluationName, subject, studentName);
-                newEvaluation.addGrade(Double.parseDouble(grade));
-                newEvaluation.addExercise(new Exercise(exerciseName, Double.parseDouble(grade), newEvaluation));
-                evaluations.add(newEvaluation);
-                 */
-            }
+
+            EntityManager.secondDataPoint(studentName, subject, evaluationType, evaluationName, exerciseName, grade);
+
 
         }
 
@@ -138,19 +87,13 @@ public class UniversityManager {
         List<String[]> outputData = new ArrayList<>();                // objective return
         List<Evaluation> evaluationsList = processedData.getSecond(); // retriving variables from Box object
         String[] inputOf3Row;                                         // declaration of array variavbles
-        boolean isFirstLine = true;                                   // flag to ignore the first line
 
-        Map<String, EvaluationCriteria> criteriaMap = new HashMap<>();
+        Map<String, EvaluationCriteria> criteriaMap = new HashMap<>();// map to sort criteria
         criteriaMap.put("AVERAGE_ABOVE_VALUE", new AverageAboveValue());
         criteriaMap.put("MAX_ABOVE_VALUE", new MaxAboveValue());
         criteriaMap.put("MIN_ABOVE_VALUE", new MinAboveValue());
 
         for (String[] strings : inputOf3List) { // i es el index de el input, con los datos para evaluar
-
-            if (isFirstLine) {
-                isFirstLine = false;
-                continue;
-            }
 
             inputOf3Row = strings;
 
