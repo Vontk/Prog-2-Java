@@ -9,9 +9,8 @@ import java.util.*;
 public class UniversityManager {
 
     public List<String[]> firstTaskLogic(List<String[]> inputData) {
-
+        // se obtiene la lista de estudiantes
         ArrayList<Student> students = EntityManager.students;
-
         // se recorre el csv y se agregan todos los estudiantes con sus cursos
         for (String[] strings : inputData) {
 
@@ -21,17 +20,19 @@ public class UniversityManager {
             String subject = strings[1];
             String classroom = strings[0];
 
+            // EntityManager es una clase que se encarga de manejar las entidades, en este caso estudiantes
+            // clase, materia y profesor. Se encarga de asignarles id, evitar duplicados y manejar las relaciones.
+
             EntityManager.firstDataPoint(classroom, subject, studentName, studentEmail, subjectTeacher);
         }
 
         List<String[]> outputData = new ArrayList<>();
 
         // se recorre la lista de estudiantes y se construye un arreglo para cada elemento de la lista
-        // cada par de datos tiene nombre y cantidad de cursos
+        // cada par de datos tiene nombre y cantidad de cursos, como indica el haeader.
 
         for (Student student : students) {
-            String[] line = {student.getName(), String.valueOf(student.getSubjectAmount())};
-            outputData.add(line);
+            outputData.add(student.getFirstTaskPrintData());
         }
 
         // se ordena en orden aflabetico, compara el elemento 0 de los arreglos de la lista
@@ -39,11 +40,17 @@ public class UniversityManager {
         // se agrega el header
         String[] header = {"Student_Name","Course_Count"};
         outputData.addFirst(header);
+
         return outputData;
     }
 
     public Box<List<String[]>, List<Evaluation>> secondTaskLogic(List<String[]> inputData) {
-        ArrayList<Evaluation> evaluations = new ArrayList<>();
+
+        // se obtiene la lista de evaluaciones
+        ArrayList<Evaluation> evaluations = EntityManager.evaluations;
+
+        // se recorre el csv y se agregan todas las evaluaciones con sus notas, tipo de evaluacion, y los objetos
+        // relacionados; la materia, ejercicio y estudiante asociados(as).
         for (String[] strings : inputData) {
 
             String studentName = strings[0];
@@ -53,82 +60,70 @@ public class UniversityManager {
             String exerciseName = strings[4];
             String grade = strings[5];
 
+            // EntityManager se encarga de manejar las entidades, en este caso estudiantes, materias, ejercicios, evaluaciones y profesores
+            // Se encarga de asignarles id, evitar duplicados y manejar las relaciones entre ellos.
             EntityManager.secondDataPoint(studentName, subject, evaluationType, evaluationName, exerciseName, grade);
 
-
         }
-
-        evaluations.sort(Comparator.comparing(Evaluation::getName)
-                .thenComparing(Evaluation::getEvaluationName)
-                .thenComparing(Evaluation::getSubject));
 
         List<String[]> output = new ArrayList<>();
         for (Evaluation evaluation : evaluations) {
-            String[] line = evaluation.getData();
+            // getPrintData es un metodo que retorna un String[] con los datos de la evaluacion, ordenados como exige el expected
+            String[] line = evaluation.getSecondTaskPrintData();
             output.add(line);
         }
 
-// Sort by Subject_Name, then Evaluation_Name, and finally Student_Name
+        // Sort by Subject_Name, then Evaluation_Name, and finally Student_Name
         output.sort(Comparator.comparing((String[] array) -> array[0])  // Sort by Subject_Name
                 .thenComparing(array -> array[1])                       // Then by Evaluation_Name
                 .thenComparing(array -> array[2]));                     // Then by Student_Name
-        // Sort the list for later use
-        evaluations.sort(Comparator.comparing(Evaluation::getSubject)
-                .thenComparing(Evaluation::getEvaluationName)
-                .thenComparing(Evaluation::getStudentName));
 
         String[] header = {"Subject_Name","Evaluation_Name","Student_Name", "Grade"};
         output.addFirst(header);
         // Box is a class to return two variables
         return new Box<>(output, evaluations);
     }
-    public List<String[]> thirdTaskLogic(List<String[]> inputOf3List, Box<List<String[]>, List<Evaluation>> processedData) {
+    public List<String[]> thirdTaskLogic(List<String[]> input_3csv, Box<List<String[]>, List<Evaluation>> processedData) {
 
         List<String[]> outputData = new ArrayList<>();                // objective return
-        List<Evaluation> evaluationsList = processedData.getSecond(); // retriving variables from Box object
-        String[] inputOf3Row;                                         // declaration of array variavbles
+        List<Evaluation> evaluations = processedData.getSecond(); // retriving variables from Box object
 
-        Map<String, EvaluationCriteria> criteriaMap = new HashMap<>();// map to sort criteria
-        criteriaMap.put("AVERAGE_ABOVE_VALUE", new AverageAboveValue());
-        criteriaMap.put("MAX_ABOVE_VALUE", new MaxAboveValue());
-        criteriaMap.put("MIN_ABOVE_VALUE", new MinAboveValue());
+        for (String[] EvaluationCriteriaAndSubject : input_3csv) {
 
-        for (String[] strings : inputOf3List) { // i es el index de el input, con los datos para evaluar
+            for (Evaluation evaluation : evaluations) {
+                if (evaluation.isEvaluated()) {continue;}
 
-            inputOf3Row = strings;
+                //EvaluationCriteriaAndSubject; {Subject_Name,Criteria_Type,Criteria_Value,Evaluation_Name_1, Evaluation_Name_2, ...}
+                for (int k = 3; k < EvaluationCriteriaAndSubject.length; k++) { // index 3 to end are evaluation
 
-            for (Evaluation evaluation : evaluationsList) { // j es el index de las evaluaciones
-                if (evaluation.isEvaluated()) {
-                    continue;
-                }
-                for (int k = 3; k < inputOf3Row.length; k++) { // k es el index de los tipos de evaluaciones
+                    String evaluationName = EvaluationCriteriaAndSubject[k];
+                    String subjectName = EvaluationCriteriaAndSubject[0];
 
-                    //items in array; Subject_Name,Criteria_Type,Criteria_Value,Evaluation_Name
+                    if (evaluationName.equals(evaluation.getEvaluationName())
+                        && subjectName.equals(evaluation.getSubject())) { // evaluation match condition
 
-                    if (inputOf3Row[k].equals(evaluation.getEvaluationName())) { // found evaluation
+                        String criteriaType = EvaluationCriteriaAndSubject[1];
+                        String criteriaValue = EvaluationCriteriaAndSubject[2];
 
-                        String criteriaType = inputOf3Row[1];
-                        String criteriaValue = inputOf3Row[2];
-
-                        EvaluationCriteria criteria = criteriaMap.get(criteriaType);
-
+                        EvaluationCriteria criteria = switch (criteriaType) {
+                            case "AVERAGE_ABOVE_VALUE" -> new AverageAboveValue();
+                            case "MIN_ABOVE_VALUE" -> new MinAboveValue();
+                            case "MAX_ABOVE_VALUE" -> new MaxAboveValue();
+                            default -> throw new IllegalStateException("Unexpected value: " + criteriaType);
+                        };
                         criteria.apply(evaluation, Double.parseDouble(criteriaValue), criteriaType);
                     }
                 }
-
             }
         }
-        for (Evaluation evaluation : evaluationsList) {
-            String[] line = evaluation.getAltData();
-            outputData.add(line);
-        }
-        // Sort by Subject_Name, then Evaluation_Name, and finally Student_Name
-        outputData.sort(Comparator.comparing((String[] array) -> array[0])  // Sort by Subject_Name
-                .thenComparing(array -> array[1])                           // Then by Evaluation_Name
-                .thenComparing(array -> array[2]));                         // Then by Student_Name
 
-        String[] header = {"Subject_Name","Evaluation_Name","Student_Name","Evaluation_Type","Grade","Criteria","Criteria_Value","Passed","Min","Max"};
+        for (Evaluation evaluation : evaluations) {
+            outputData.add(evaluation.getThirdTaskPrintData());
+        }
+
+        String[] header = {"Evaluation_Name","Student_Name","Evaluation_Type","Criteria","Criteria_Value","Grade","Passed","Min","Max","Average","Subject_Name"};
         outputData.addFirst(header);
+
         return outputData;
     }
 }

@@ -73,15 +73,15 @@ public abstract class Evaluation extends Entity {
         this.evaluationType = evaluationType;
     }
 
-    public String[] getData(){
+    public String[] getSecondTaskPrintData(){
         //Subject_Name,Evaluation_Name,Student_Name,Grade (rounded to 1 decimal place)
         return new String[]{this.subject, this.evaluationName, this.studentName, String.format("%.1f", getAverage())};
     }
-    public String[] getAltData() {
-        //Subject_Name,Evaluation_Name,Student_Name,Evaluation_Type,Grade (rounded to 1 decimal place),Criteria,Criteria_Value,Passed,Min,Max
-        return new String[]{this.subject, this.evaluationName, this.studentName, this.evaluationType,
-                String.format("%.1f", getAverage()), this.criteria, String.valueOf(this.criteriaValue), String.valueOf(this.passed),
-                String.format("%.1f", getMin()), String.format("%.1f", getMax())};
+    public String[] getThirdTaskPrintData() {
+        // Evaluation_Name,Student_Name,Evaluation_Type,Criteria,Criteria_Value,Grade,Passed,Min,Max,Average,Subject_Name
+        return new String[]{this.evaluationName, this.studentName, this.evaluationType,
+                this.criteria, String.valueOf(getRelevantGrade()), String.valueOf(this.criteriaValue), String.valueOf(this.passed),
+                String.format("%.1f", getMin()), String.format("%.1f", getMax()),String.format("%.1f", getAverage()), this.subject};
     }
 
     public double getAverage() {
@@ -144,6 +144,5 @@ public abstract class Evaluation extends Entity {
     public int hashCode() {
         return Objects.hash(evaluationName, subject, studentName, evaluationType, getId());
     }
-
 
 }

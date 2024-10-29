@@ -58,18 +58,18 @@ public class EntityManager {
         Evaluation newEvaluation;
 
         switch (evaluationType) {
-            case "WRITTEN_EXAM" -> {
+            case "WRITTEN_EXAM" ->
                 newEvaluation = new WrittenExam(evaluationName, subjectName, studentName);
-            }
-            case "PRACTICAL_WORK" -> {
+
+            case "PRACTICAL_WORK" ->
                     newEvaluation = new PracticalWork(evaluationName, subjectName, studentName);
-            }
-            case "FINAL_PRACTICAL_WORK" -> {
+
+            case "FINAL_PRACTICAL_WORK" ->
                     newEvaluation = new FinalPracticalWork(evaluationName, subjectName, studentName);
-            }
-            case "ORAL_EXAM" -> {
+
+            case "ORAL_EXAM" ->
                     newEvaluation = new OralExam(evaluationName, subjectName, studentName);
-            }
+
             default -> throw new IllegalStateException("Unexpected value: " + evaluationType);
         }
 
@@ -180,8 +180,8 @@ public class EntityManager {
 
         subject.addStudent(student);
 
-
-
+        evaluation.addExercise(exercise);
+        evaluation.setEvaluationType(evaluationType);
     }
 
 
