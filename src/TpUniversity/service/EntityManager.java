@@ -7,6 +7,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+// This class is responsible for managing the entities of the system,
+// it provides methods to create new instances of these entities, ensure they are unique,
+// and store them in collections for easy access. Each entity has a unique ID.
+
 
 public class EntityManager {
 
@@ -19,14 +23,22 @@ public class EntityManager {
     public static ArrayList<Teacher> teachers = new ArrayList<>();
     public static ArrayList<Classroom> classes = new ArrayList<>();
 
+    // Alternative ID method (mas prolijo):
+
+    // private int newId() {
+    //     return entities.size() + 1;
+    // }
+
+    // Map<Int; uniqueID, Entity; Entity>
     public static void addEntity(Entity entity) {
         entities.put(entity.getId(), entity);
     }
 
+    // generates a unique ID for each entity
     public static int newId() {
-        int newId = (int) (Math.random() * 1000000);
+        int newId = (int) (Math.random() * 100000000);
         while (entities.containsKey(newId)) {
-            newId = (int) (Math.random() * 1000000);
+            newId = (int) (Math.random() * 100000000);
         }
         return newId;
     }
@@ -55,29 +67,18 @@ public class EntityManager {
             }
         }
 
-        Evaluation newEvaluation;
-
-        switch (evaluationType) {
-            case "WRITTEN_EXAM" ->
-                newEvaluation = new WrittenExam(evaluationName, subjectName, studentName);
-
-            case "PRACTICAL_WORK" ->
-                    newEvaluation = new PracticalWork(evaluationName, subjectName, studentName);
-
-            case "FINAL_PRACTICAL_WORK" ->
-                    newEvaluation = new FinalPracticalWork(evaluationName, subjectName, studentName);
-
-            case "ORAL_EXAM" ->
-                    newEvaluation = new OralExam(evaluationName, subjectName, studentName);
-
+        Evaluation newEvaluation = switch (evaluationType) {
+            case "WRITTEN_EXAM" -> new WrittenExam(evaluationName, subjectName, studentName);
+            case "PRACTICAL_WORK" ->  new PracticalWork(evaluationName, subjectName, studentName);
+            case "FINAL_PRACTICAL_WORK" -> new FinalPracticalWork(evaluationName, subjectName, studentName);
+            case "ORAL_EXAM" -> new OralExam(evaluationName, subjectName, studentName);
             default -> throw new IllegalStateException("Unexpected value: " + evaluationType);
-        }
+        };
 
         evaluations.add(newEvaluation);
         newEvaluation.setId(newId());
         addEntity(newEvaluation);
         return newEvaluation;
-
     }
 
     public static Exercise newExercise(String name, double grade, Evaluation evaluation) {
@@ -149,7 +150,7 @@ public class EntityManager {
         Classroom classroom = newClassroom(classroomID);
         Subject subject = newSubject(subjectName);
 
-        // associate possible links between objects
+        // Associate all possible relationships with given data
 
         teacher.addClassroom(classroom);
         teacher.addSubject(subject);
@@ -183,6 +184,4 @@ public class EntityManager {
         evaluation.addExercise(exercise);
         evaluation.setEvaluationType(evaluationType);
     }
-
-
 }

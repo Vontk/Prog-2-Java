@@ -12,66 +12,42 @@ public abstract class Evaluation extends Entity {
     private final String evaluationName;
     private final String subject;
     private final String studentName;
-    String evaluationType;
+    private String evaluationType;
     private boolean passed;
     private boolean evaluated = false;
     private String criteria;
     private double criteriaValue;
 
-    public Evaluation(String evaluationName, String subject, String studentName) {
+    protected Evaluation(String evaluationName, String subject, String studentName) {
         this.exercises = new ArrayList<>();
         this.evaluationName = evaluationName;
         this.subject = subject;
         this.studentName = studentName;
     }
 
-    public void addExercise(Exercise exercise){
-        exercises.add(exercise);
-    }
+    public String getName(){return this.evaluationName;}
 
-    public String getName(){
-        return this.evaluationName;
-    }
-
-    public String getStudentName(){
-        return this.studentName;
-    }
+    public String getStudentName(){return this.studentName;}
 
     public String getSubject(){
         return this.subject;
     }
 
-    public String getEvaluationType(){
-        return this.evaluationType;
-    }
+    public  String getEvaluationName(){return this.evaluationName;}
 
-    public  String getEvaluationName(){
-        return this.evaluationName;
-    }
+    public boolean isEvaluated() {return this.evaluated;}
 
-    public boolean isEvaluated() {
-        return this.evaluated;
-    }
+    public void addExercise(Exercise exercise){exercises.add(exercise);}
 
-    public void setEvaluated(boolean evaluated) {
-        this.evaluated = evaluated;
-    }
+    public void setEvaluated(boolean evaluated) {this.evaluated = evaluated;}
 
-    public void setCriteria(String criteria) {
-        this.criteria = criteria;
-    }
+    public void setCriteria(String criteria) {this.criteria = criteria;}
 
-    public void setPassed(boolean passed){
-        this.passed = passed;
-    }
+    public void setPassed(boolean passed){this.passed = passed;}
 
-    public void setCriteriaValue(double criteriaValue) {
-        this.criteriaValue = criteriaValue;
-    }
+    public void setCriteriaValue(double criteriaValue) {this.criteriaValue = criteriaValue;}
 
-    public void setEvaluationType(String evaluationType) {
-        this.evaluationType = evaluationType;
-    }
+    public void setEvaluationType(String evaluationType) {this.evaluationType = evaluationType;}
 
     public String[] getSecondTaskPrintData(){
         //Subject_Name,Evaluation_Name,Student_Name,Grade (rounded to 1 decimal place)
