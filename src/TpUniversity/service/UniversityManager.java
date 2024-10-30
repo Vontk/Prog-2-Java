@@ -9,8 +9,7 @@ import java.util.*;
 public class UniversityManager {
 
     public List<String[]> firstTaskLogic(List<String[]> inputData) {
-        // se obtiene la lista de estudiantes
-        ArrayList<Student> students = EntityManager.students;
+
         // se recorre el csv y se agregan todos los estudiantes con sus cursos
         for (String[] strings : inputData) {
 
@@ -20,16 +19,15 @@ public class UniversityManager {
             String subject = strings[1];
             String classroom = strings[0];
 
-            // EntityManager es una clase que se encarga de manejar las entidades, en este caso estudiantes
-            // clase, materia y profesor. Se encarga de asignarles id, evitar duplicados y manejar las relaciones.
-
-            EntityManager.firstDataPoint(classroom, subject, studentName, studentEmail, subjectTeacher);
+            DataReciver.firstDataPoint(classroom, subject, studentName, studentEmail, subjectTeacher);
         }
 
         List<String[]> outputData = new ArrayList<>();
 
         // se recorre la lista de estudiantes y se construye un arreglo para cada elemento de la lista
         // cada par de datos tiene nombre y cantidad de cursos, como indica el haeader.
+
+        ArrayList<Student> students = EntityManager.students;
 
         for (Student student : students) {
             outputData.add(student.getFirstTaskPrintData());
@@ -40,7 +38,6 @@ public class UniversityManager {
         // se agrega el header
         String[] header = {"Student_Name","Course_Count"};
         outputData.addFirst(header);
-
         return outputData;
     }
 
@@ -60,9 +57,7 @@ public class UniversityManager {
             String exerciseName = strings[4];
             String grade = strings[5];
 
-            // EntityManager se encarga de manejar las entidades, en este caso estudiantes, materias, ejercicios, evaluaciones y profesores
-            // Se encarga de asignarles id, evitar duplicados y manejar las relaciones entre ellos.
-            EntityManager.secondDataPoint(studentName, subject, evaluationType, evaluationName, exerciseName, grade);
+            DataReciver.secondDataPoint(studentName, subject, evaluationType, evaluationName, exerciseName, grade);
 
         }
 
