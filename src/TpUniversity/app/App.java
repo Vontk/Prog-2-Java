@@ -1,16 +1,11 @@
 package TpUniversity.app;
 
 import TpUniversity.inOut.*;
-import TpUniversity.model.Evaluations.Evaluation;
-import TpUniversity.inOut.Box;
 import TpUniversity.service.ReportGenerator;
 
 import java.util.List;
 
 public class App {
-
-    // Object used on task2 to return multiple return variables
-    Box<List<String[]>, List<Evaluation>> processedData;
 
     public static void main(String[] args) {
         App app = new App();
