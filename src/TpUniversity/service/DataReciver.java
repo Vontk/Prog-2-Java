@@ -2,6 +2,7 @@ package TpUniversity.service;
 
 import TpUniversity.model.*;
 import TpUniversity.model.Evaluations.Evaluation;
+import TpUniversity.service.CriteriaAnalyzer.CriteriaSorter;
 
 import static TpUniversity.service.EntityManager.*;
 
@@ -47,5 +48,26 @@ public class DataReciver {
 
         subject.addStudent(student);
 
+        evaluation.addExercise(exercise);
     }
+
+    public static void thirdDataPoint(String[] thirdInputLine) {
+
+        for (Evaluation evaluation : evaluations) {
+            if (evaluation.isEvaluated()) {continue;}
+            //thirdInputLine; {Subject_Name,Criteria_Type,Criteria_Value,Evaluation_Name_1, Evaluation_Name_2, ...}
+            for (int k = 3; k < thirdInputLine.length; k++) { // index 3 to end are evaluation
+
+                String evaluationName = thirdInputLine[k];
+                String subjectName = thirdInputLine[0];
+
+                if (evaluationName.equals(evaluation.getEvaluationName())
+                        && subjectName.equals(evaluation.getSubject())) { // evaluation match condition
+                    CriteriaSorter.evaluate(evaluation, thirdInputLine[1], thirdInputLine[2]);
+                }
+            }
+
+        }
+    }
+
 }
